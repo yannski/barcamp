@@ -1,0 +1,14 @@
+.DS_Store
+config/database.yml
+db/dump.sql.bz2
+db/assets.tar.gz
+assets.tar.gz
+log
+public/cache
+public/system/
+coverage/
+doc
+metrics/
+*swp
+*~
+tmp
