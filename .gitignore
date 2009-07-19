@@ -3,7 +3,7 @@ config/database.yml
 db/dump.sql.bz2
 db/assets.tar.gz
 assets.tar.gz
-log
+log/*
 public/cache
 public/system/
 coverage/

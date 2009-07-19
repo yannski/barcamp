@@ -1,0 +1,17 @@
+!!!
+%html{:xmlns => 'http://www.w3.org/1999/xhtml'}
+  %head
+    %title= ["BarCampAlsace6", @page_title].compact.join(" - ")
+    %meta{ 'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8' }
+    %link{ :href => "/images/favicon.ico", :rel => "shortcut icon" }
+  %body
+    %ul
+      %li
+        %h1!= link_to "Accueil", "/"
+      %li
+        %h1!= link_to "Inscription", new_attendee_path
+      %li
+        %h1!= link_to "Participants au BarCamp", attendees_path
+      %li
+        %h1!= link_to "Page BarCamp.org", "http://barcamp.org/BarCampAlsace6"
+    != yield
