@@ -4,14 +4,25 @@
     %title= ["BarCampAlsace6", @page_title].compact.join(" - ")
     %meta{ 'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8' }
     %link{ :href => "/images/favicon.ico", :rel => "shortcut icon" }
+    != stylesheet_link_tag "/lib/css/blueprint/screen.css", :media => "screen, projection"
+    != stylesheet_link_tag "/lib/css/blueprint/plugins/tabs/screen.css", :media => "screen, projection"
+    != stylesheet_link_tag "/lib/css/blueprint/print.css", :media => "print"
+    /[if lt IE 8]
+      != stylesheet_link_tag "/lib/css/blueprint/ie.css", :media => "screen, projection"
+
   %body
-    %ul
-      %li
-        %h1!= link_to "Accueil", "/"
-      %li
-        %h1!= link_to "Inscription", new_attendee_path
-      %li
-        %h1!= link_to "Participants au BarCamp", attendees_path
-      %li
-        %h1!= link_to "Page BarCamp.org", "http://barcamp.org/BarCampAlsace6"
-    != yield
+    .container
+      .span-24.last
+        != image_tag "/lib/images/barcampalsace.jpg"
+      .span-24.last
+        %ul.tabs
+          %li{:class => ("selected" if controller.controller_name == "welcome")}
+            %h1!= link_to "Accueil", "/"
+          %li{:class => ("selected" if controller.controller_name == "attendees" && controller.action_name == "new")}
+            %h1!= link_to "Inscription", new_attendee_path
+          %li{:class => ("selected" if controller.controller_name == "attendees" && controller.action_name == "index")}
+            %h1!= link_to "Participants au BarCamp", attendees_path
+          %li
+            %h1!= link_to "Page BarCamp.org", "http://barcamp.org/BarCampAlsace6"
+      .span-24.last
+        != yield
