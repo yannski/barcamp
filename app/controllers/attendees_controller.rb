@@ -4,19 +4,18 @@ class AttendeesController < ApplicationController
     @attendees = Attendee.all
   end
 
+  def new
+    @attendee = Attendee.new
+    @attendees = Attendee.all
+  end
+
   def create
-    @attendee = Attende.new params[:attendee]
+    @attendee = Attendee.new params[:attendee]
 
     if @attendee.save
-      respond_to do |format|
-        format.json { @attendee.to_json }
-      end
+      redirect_to attendees_path
     else
-      respond_to do |format|
-        format.json {
-          @attendeee.errors.to_json
-        }
-      end
+      render :action => "new"
     end
   end
 end

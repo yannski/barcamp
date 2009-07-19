@@ -1,0 +1,19 @@
+ul.tabs.nicetab {
+  border:none;
+  background:url("/lib/images/tab_bg.gif") repeat-x left bottom; }
+ul.tabs.nicetab li {
+  border:none; padding:0 0 0 9px;
+  background:url("/lib/images/tab_off.png") no-repeat left top; }
+ul.tabs.nicetab a {
+  color:#765; border:none;
+  padding:5px 15px 4px 6px;
+  background:url("/lib/images/tab_off.png") no-repeat right top; }
+ul.tabs.nicetab a:hover { color:#333; }
+ul.tabs.nicetab .selected  {
+  cursor:default;
+  background:url("/lib/images/tab_on.png")  no-repeat left top; }
+ul.tabs.nicetab .selected a {
+  color:#333; padding-bottom:5px; border:none;
+  background:url("/lib/images/tab_on.png") no-repeat right top; }
+h1 {
+  font-size: 2em; }

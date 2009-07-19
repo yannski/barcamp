@@ -1,0 +1,12 @@
+%tr{:class => cycle("even", "odd")}
+  %td!= attendee.position
+  %td
+    - if attendee.avatar_file_name.present?
+      != image_tag attendee.avatar.url(:small)
+    - else
+      != image_tag "/lib/images/BarCampEarthIcon-grey.gif"
+  %td!= attendee.firstname
+  %td!= attendee.lastname
+  %td!= attendee.organization
+  %td!= link_to "lien", attendee.website unless attendee.website.blank?
+  %td!= attendee.tags.join(", ")

@@ -1,17 +1,19 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  firstname: MyString
-  lastname: MyString
-  email: MyString
-  organization: MyString
-  website: MyString
-  tshirt_size: MyString
+  firstname: Pipo
+  lastname: Molo
+  email: pipo@molo.fr
+  organization: Molo Corp
+  website: "http://www.google.fr"
+  tshirt_size: M
+  position: 1
 
 two:
-  firstname: MyString
-  lastname: MyString
-  email: MyString
-  organization: MyString
-  website: MyString
-  tshirt_size: MyString
+  firstname: Yann
+  lastname: Klis
+  email: strass@strasslab.net
+  organization: Novelys
+  website: "http://www.novelys.com"
+  tshirt_size: M
+  position: 2

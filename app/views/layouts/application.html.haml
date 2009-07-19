@@ -9,13 +9,14 @@
     != stylesheet_link_tag "/lib/css/blueprint/print.css", :media => "print"
     /[if lt IE 8]
       != stylesheet_link_tag "/lib/css/blueprint/ie.css", :media => "screen, projection"
+    != stylesheet_link_tag "/lib/css/screen.css", :media => "screen, projection"
 
   %body
     .container
       .span-24.last
         != image_tag "/lib/images/barcampalsace.jpg"
       .span-24.last
-        %ul.tabs
+        %ul.tabs.nicetab
           %li{:class => ("selected" if controller.controller_name == "welcome")}
             %h1!= link_to "Accueil", "/"
           %li{:class => ("selected" if controller.controller_name == "attendees" && controller.action_name == "new")}
@@ -24,5 +25,4 @@
             %h1!= link_to "Participants au BarCamp", attendees_path
           %li
             %h1!= link_to "Page BarCamp.org", "http://barcamp.org/BarCampAlsace6"
-      .span-24.last
-        != yield
+      != yield

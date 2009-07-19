@@ -1,0 +1,15 @@
+.span-24.last
+
+  %table#attendees_table
+    %thead
+      %tr
+        %td -
+        %td Avatar
+        %td Prénom
+        %td Nom
+        %td Organisation
+        %td Site web
+        %td Tags
+    %tbody#attendees
+      != render :partial => "attendee", :collection => @attendees
+
