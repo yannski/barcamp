@@ -12,3 +12,5 @@ metrics/
 *swp
 *~
 tmp
+Capfile
+config/deploy.rb
