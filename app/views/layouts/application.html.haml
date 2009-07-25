@@ -15,14 +15,14 @@
     .container
       .span-24.last
         != image_tag "/lib/images/barcampalsace.jpg"
-      .span-24.last
-        %ul.tabs.nicetab
-          %li{:class => ("selected" if controller.controller_name == "welcome")}
-            %h1!= link_to "Accueil", "/"
-          %li{:class => ("selected" if controller.controller_name == "attendees" && controller.action_name == "new")}
-            %h1!= link_to "Inscription", new_attendee_path
-          %li{:class => ("selected" if controller.controller_name == "attendees" && controller.action_name == "index")}
-            %h1!= link_to "Participants au BarCamp", attendees_path
+      .span-24.last#menu
+        %ul
+          %li.first
+            != link_to "Accueil", "/"
           %li
-            %h1!= link_to "Page BarCamp.org", "http://barcamp.org/BarCampAlsace6"
+            != link_to "Inscription", new_attendee_path
+          %li.counter
+            != link_to "Participants au BarCamp <span class='new'>#{Attendee.count}</span>", attendees_path
+          %li.last
+            != link_to "Page BarCamp.org", "http://barcamp.org/BarCampAlsace6"
       != yield

@@ -1,26 +1,15 @@
-
+- @page_title = "Inscription"
 .span-24.last
-
-  %table#attendees_table
-    %thead
-      %tr
-        %td -
-        %td Avatar
-        %td Prénom
-        %td Nom
-        %td Organisation
-        %td Site web
-        %td Tags
-    %tbody#attendees
-      != render :partial => "attendee", :collection => @attendees
-
-- form_for @attendee, :builder => StandardBuilder, :html => {:multipart => true} do |f|
-  != f.error_messages
-  != f.file_field :avatar, :label_text => "Avatar (48x48)"
-  != f.text_field :firstname, :label_text => "Prénom"
-  != f.text_field :lastname, :label_text => "Nom"
-  != f.text_field :organization, :label_text => "Organisation"
-  != f.text_field :email, :label_text => "Email (n'apparaitra pas sur le site)"
-  != f.text_field :website, :label_text => "Site web"
-  != f.text_field :tag_list, :label_text => "Description en 3 tags (séparés par des virgules)"
-  != f.submit "Envoyer"
+  != "Déjà <span class=\"counter\">#{Attendee.count}</span> inscrits !"
+.span-24.last
+  - form_for @attendee, :builder => StandardBuilder, :html => {:multipart => true} do |f|
+    != f.error_messages
+    != f.file_field :avatar, :label_text => "Avatar (48x48)"
+    != f.text_field :firstname, :label_text => "Prénom"
+    != f.text_field :lastname, :label_text => "Nom"
+    != f.text_field :organization, :label_text => "Organisation"
+    != f.text_field :email, :label_text => "Email (n'apparaitra pas sur le site)"
+    != f.text_field :website, :label_text => "Site web"
+    != f.text_field :tag_list, :label_text => "Description en 3 tags (séparés par des virgules)"
+    != f.select :tshirt_size, %w(XS S M L XL XXL), :label_text => "Taille de T-Shirt"
+    != f.submit "Envoyer"
