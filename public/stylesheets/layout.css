@@ -1,0 +1,311 @@
+/* Filename : Layout.css
+ * Redered form : Layout.sass
+ * Version : 1.0.0 (2008-09-04) YYYY-MM-DD
+ * Author : Novelys
+ * Author's Uri : www.novelys.com
+ * Description : Css file define interface, div bloc and layout structure */
+
+/* Summary by anchor (ALT+F for search in file) :
+ * 1)  _ConstantValues
+ * 2)  _GenColorConstantValues
+ * 3)  _GenSizeConstantValues
+ * 4)  _FontColorConstantValues
+ * 5)  _GeneralHtmlTags
+ * 6)  _LayoutContainers */
+
+
+
+/* _GeneralHtmlTags */
+body {
+  font-family: "Trebuchet MS", tahoma, arial;
+  letter-spacing: 1px;
+  font-color: #000;
+  font-size: 1em;
+  background-image: url(/images/BgPage.jpg);
+  background-repeat: repeat-x;
+  background-color: #eff0f0;
+  background-position: top center; }
+  body a, body a:active, body a:visited, body a:hover, body a:link {
+    color: #1d1a1f;
+    text-decoration: none; }
+
+/* _LayoutContainers */
+#HeaderBannerContainer {
+  z-index: -1;
+  position: absolute;
+  display: block;
+  float: left!important;
+  float: center;
+  left: 50%;
+  top: 0px;
+  width: 1092px;
+  height: 276px;
+  margin-top: 0px;
+  margin-left: -460px;
+  background-image: url(/images/BgHeader.jpg);
+  background-repeat: no-repeat; }
+
+#GlobContainter {
+  z-index: 0;
+  position: absolute;
+  display: block;
+  float: left!important;
+  float: center;
+  left: 50%;
+  top: 244px;
+  width: 780px;
+  margin-top: 0px;
+  margin-left: -390px; }
+
+#Menu {
+  position: relative;
+  display: block;
+  width: 780px;
+  height: 33px; }
+  #Menu ul {
+    width: 780px -22px;
+    padding-left: 22px; }
+    #Menu ul li {
+      display: block;
+      position: relative;
+      float: left;
+      font-height: 16px;
+      line-height: 18px;
+      font-size: 16px;
+      height: 26px;
+      font-weight: bold;
+      padding-top: 6px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      #Menu ul li a {
+        color: #fff; }
+        #Menu ul li a span {
+          color: #ff7729; }
+    #Menu ul li:hover {
+      background-color: #ff7729; }
+      #Menu ul li:hover a {
+        color: #fff; }
+        #Menu ul li:hover a span {
+          color: #fff; }
+    #Menu ul li.Active a {
+      color: #ff7729; }
+    #Menu ul li.Active:hover a {
+      color: #fff; }
+    #Menu ul li.Right {
+      float: right;
+      background-image: url(/images/FlecheMenu.jpg);
+      background-repeat: no-repeat;
+      background-position: top right;
+      padding-left: 8px;
+      padding-right: 43px; }
+
+#Content {
+  position: relative;
+  display: block;
+  width: 780px -74px;
+  padding: 37px;
+  height: 100%;
+  margin-top: 2px;
+  background-color: white; }
+  #Content .ColLeft, #Content .ColRight {
+    position: relative;
+    display: block; }
+  #Content .ColLeft {
+    float: left;
+    width: 420px; }
+    #Content .ColLeft p {
+      text-align: justify; }
+  #Content .ColRight {
+    float: right;
+    width: 250px; }
+    #Content .ColRight ul li {
+      display: block;
+      position: relative;
+      float: left;
+      width: 120px;
+      height: 80px;
+      padding: 1px;
+      font-height: 0px;
+      line-height: 0px; }
+      #Content .ColRight ul li img {
+        width: 120px;
+        height: 80px;
+        padding: 0px;
+        margin: 0px; }
+      #Content .ColRight ul li img:hover {
+        width: 112px;
+        height: 72px;
+        border-width: 4px;
+        border-style: solid;
+        border-color: #ff7729; }
+
+#Content a {
+  color: #ff7729; }
+
+#Content form.SubScription {
+  padding-top: 20px; }
+  #Content form.SubScription .ColLeft {
+    width: 350px; }
+  #Content form.SubScription .ColRight {
+    width: 350px; }
+  #Content form.SubScription fieldset {
+    padding-bottom: 10px;
+    margin-bottom: 7px; }
+    #Content form.SubScription fieldset label {
+      display: block;
+      font-size: 12px;
+      font-weight: bolder;
+      padding-bottom: 2px; }
+    #Content form.SubScription fieldset input {
+      width: 200px;
+      padding: 4px; }
+    #Content form.SubScription fieldset input.Long {
+      width: 300px;
+      padding: 6px;
+      font-weight: bold;
+      color: #ff7729; }
+    #Content form.SubScription fieldset input.Black {
+      border: 0px;
+      padding: 6px;
+      font-weight: bold;
+      color: #000;
+      background-color: #eeefef; }
+  #Content form.SubScription fieldset.Separator {
+    border-bottom: 1px;
+    border-style: dotted;
+    border-color: #ccc; }
+  #Content form.SubScription .ColRight p {
+    font-size: 11px;
+    padding-left: 2px;
+    text-align: justify;
+    color: #ccc; }
+
+#Content h1 {
+  font-size: 18px;
+  padding-bottom: 15px; }
+#Content h2 {
+  font-size: 14px;
+  padding-bottom: 15px; }
+#Content p {
+  font-size: 12px;
+  padding-bottom: 15px;
+  line-height: 14px; }
+
+#Content #MemberListContainer {
+  width: 780px -74px; }
+  #Content #MemberListContainer .MemberList {
+    display: block;
+    width: 100%; }
+    #Content #MemberListContainer .MemberList tr {
+      width: 100%;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      background-color: #f7f7f7; }
+      #Content #MemberListContainer .MemberList tr th {
+        height: 24px;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        vertical-align: middle;
+        background-color: #ff7729; }
+      #Content #MemberListContainer .MemberList tr th.Place {
+        width: 24px; }
+      #Content #MemberListContainer .MemberList tr th.TShirtSize {
+        width: 24px; }
+      #Content #MemberListContainer .MemberList tr th.Avatar {
+        width: 48px; }
+      #Content #MemberListContainer .MemberList tr th.FirstName {
+        width: 110px; }
+      #Content #MemberListContainer .MemberList tr th.LastName {
+        width: 110px; }
+      #Content #MemberListContainer .MemberList tr th.Orgnisation {
+        width: 100px; }
+      #Content #MemberListContainer .MemberList tr th.WebSite {
+        width: 40px; }
+      #Content #MemberListContainer .MemberList tr th.TagsList {
+        width: 250px; }
+      #Content #MemberListContainer .MemberList tr td {
+        text-align: center;
+        font-size: 11px;
+        height: 48px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        vertical-align: middle; }
+        #Content #MemberListContainer .MemberList tr td img {
+          display: block;
+          padding: 0px;
+          margin: 0px;
+          height: 48px;
+          weight: 48px; }
+    #Content #MemberListContainer .MemberList tr.Col {
+      background-color: #fff; }
+
+#Footer {
+  position: relative;
+  display: block;
+  width: 780px -37px;
+  padding-left: 37px;
+  height: 68px;
+  background-image: url(/images/FooterBg.gif);
+  background-repeat: no-repeat; }
+  #Footer ul {
+    width: 100%;
+    height: 49px;
+    padding-top: 16px; }
+    #Footer ul li {
+      display: block;
+      position: relative;
+      float: left;
+      left: 0px;
+      font-size: 10px;
+      color: #a5a5a5;
+      font-weight: normal; }
+    #Footer ul li.Logo {
+      width: 160px; }
+    #Footer ul li.Date {
+      padding-top: 4px;
+      width: 550px; }
+      #Footer ul li.Date a {
+        color: #ff7729; }
+
+#Legals {
+  position: relative;
+  display: block;
+  height: 26px;
+  padding-top: 5px;
+  width: 780px -37px;
+  padding-left: 37px; }
+  #Legals a {
+    color: #ff7729; }
+  #Legals ul {
+    width: 100%;
+    height: 26px; }
+    #Legals ul li {
+      display: block;
+      position: relative;
+      float: left; }
+    #Legals ul li.Right {
+      float: right;
+      padding-right: 37px;
+      padding-top: 8px;
+      font-size: 11px;
+      color: #a6a6a6; }
+
+/* _ClearFix */
+html[xmlns] .ClearFix {
+  display: block; }
+
+* html .ClearFix {
+  height: 1%; }
+
+.ClearFix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.ClearFix {
+  display: block; }

@@ -82,18 +82,18 @@ class StandardBuilder < ActionView::Helpers::FormBuilder
         content += @template.content_tag("span", errors, :class => 'error')
       end
       
-      class_ary = %w(input)
-      class_ary << method_name
-      class_ary << container_class if container_class
-      class_ary << "required" if required
-      class_ary << "help" if help
-      class_ary << "readonly" if readonly
-      class_ary << "error" if errors
-      class_ary << "before" if before_text
-      class_ary << "text_field" if method_name == "calendar_date_select" or method_name == "date"
-      class_ary << "radio" if method_name == "radio_button"
-      class_ary << "auto_complete" if auto_complete
-      content = @template.content_tag("p", content, :class => class_ary.join(" "))
+      # class_ary = %w(input)
+      # class_ary << method_name
+      # class_ary << container_class if container_class
+      # class_ary << "required" if required
+      # class_ary << "help" if help
+      # class_ary << "readonly" if readonly
+      # class_ary << "error" if errors
+      # class_ary << "before" if before_text
+      # class_ary << "text_field" if method_name == "calendar_date_select" or method_name == "date"
+      # class_ary << "radio" if method_name == "radio_button"
+      # class_ary << "auto_complete" if auto_complete
+      # content = @template.content_tag("p", content, :class => class_ary.join(" "))
       if help && %w(check_box).include?(method_name)
         content += @template.content_tag('div', help, :class => "help #{method_name}")
       elsif help

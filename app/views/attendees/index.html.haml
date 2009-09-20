@@ -1,16 +1,21 @@
-- @page_title = "Liste des participants"
-.span-24.last
+- @page_title = "Ils participeront et vous ?"
 
-  %table#attendees_table
-    %thead
-      %tr
-        %td -
-        %td Avatar
-        %td Prénom
-        %td Nom
-        %td Organisation
-        %td Site web
-        %td Tags
+%h1 Ils participeront à l'événement le 10 octobre 2009
+%p
+  Joignez-vous à nous en remplissant notre formulaire
+  %a{ :href => 'Form.html'}
+  != link_to "d'inscription", new_attendee_path
+#MemberListContainer
+  %table{ :class => 'MemberList', :cellspacing =>'0', :cellpadding =>'0'}
+    %tr
+      %th{ :class => 'Place'}
+      %th{ :class => 'Avatar'}
+      %th{ :class => 'FirstName'} Nom
+      %th{ :class => 'LastName'} Prénom
+      %th{ :class => 'Orgnisation'} Organisation
+      %th{ :class => 'WebSite'} Site
+      %th{ :class => 'TagsList'} Tags
+      %th{ :class => 'TShirtSize'}
     %tbody#attendees
       != render :partial => "attendee", :collection => @attendees
 
