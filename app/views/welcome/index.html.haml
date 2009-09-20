@@ -1,27 +1,11 @@
 .ColLeft
   %h1!= @page.title
-  != @page.body
+  != textilize @page.body
 .ColRight
-  %h2 Quelques photos (2008)
+  %h2
+    Quelques photos
+    %br
+    des précédents BarCampAlsace
   %ul
-    %li
-      %a{ :href => 'Assets/Bacp6-Ph1g.jpg', :rel => 'lightbox', :title => 'Photo 1'}
-        %img{ :src => 'Assets/Bacp6-Ph1p.jpg'}
-    %li
-      %a{ :href => 'Assets/Bacp6-Ph2g.jpg', :rel => 'lightbox', :title => 'Photo 2'}
-        %img{ :src => 'Assets/Bacp6-Ph2p.jpg'}
-    %li
-      %a{ :href => 'Assets/Bacp6-Ph3g.jpg', :rel => 'lightbox', :title => 'Photo 3'}
-        %img{ :src => 'Assets/Bacp6-Ph3p.jpg'}
-    %li
-      %a{ :href => 'Assets/Bacp6-Ph1g.jpg', :rel => 'lightbox', :title => 'Photo 1'}
-        %img{ :src => 'Assets/Bacp6-Ph1p.jpg'}
-    %li
-      %a{ :href => 'Assets/Bacp6-Ph2g.jpg', :rel => 'lightbox', :title => 'Photo 2'}
-        %img{ :src => 'Assets/Bacp6-Ph2p.jpg'}
-    %li
-      %a{ :href => 'Assets/Bacp6-Ph3g.jpg', :rel => 'lightbox', :title => 'Photo 3'}
-        %img{ :src => 'Assets/Bacp6-Ph3p.jpg'}
-    %li
-      %a{ :href => 'Assets/Bacp6-Ph1g.jpg', :rel => 'lightbox', :title => 'Photo 1'}
-        %img{ :src => 'Assets/Bacp6-Ph1p.jpg'}
+    - 1.upto(7) do |i|
+      %li!= link_to image_tag("photo#{i}t.jpg"), "/images/photo#{i}.jpg", :rel => 'lightbox', :title => "Photo #{i}"

@@ -10,6 +10,7 @@ Rails::Initializer.run do |config|
   config.time_zone = 'UTC'
 
   config.gem 'haml'
+  config.gem 'RedCloth'
   config.gem 'authlogic'
   config.gem 'thoughtbot-paperclip',        :lib => 'paperclip',        :source => "http://gems.github.com"
   config.gem 'thoughtbot-hoptoad_notifier', :lib => 'hoptoad_notifier', :source => 'http://gems.github.com'
