@@ -4,8 +4,9 @@
   %td!= attendee.firstname
   %td!= attendee.lastname
   %td!= attendee.organization
-  - unless attendee.website.blank?
-    - url = attendee.website =~ /http/ ? attendee.website : "http://#{attendee.website}"
-    %td!= link_to "lien", url
+  %td
+    - unless attendee.website.blank?
+      - url = attendee.website =~ /http/ ? attendee.website : "http://#{attendee.website}"
+      != link_to "lien", url
   %td!= attendee.tags.join(", ")
   %td!= attendee.tshirt_size
