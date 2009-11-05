@@ -32,8 +32,9 @@
               Ils participeront
               %span
                 != "(#{Attendee.count})"
-          %li{ :class => 'Right'}
-            != link_to "Vers BarCamp.org", 'http://barcamp.org/BarCampAlsace6'
+          /
+            %li{ :class => 'Right'}
+              != link_to "Vers BarCamp.org", 'http://barcamp.org/BarCampAlsace6'
 
       %div{ :id => 'Content', :class => 'ClearFix'}
         != yield
@@ -41,12 +42,11 @@
       %div{ :id => 'Footer'}
         %ul
           %li{ :class => 'Logo'}
-            != link_to image_tag("LogoBarCampAlsace6.jpg"), 'http://barcamp.org/BarCampAlsace6'
           %li{ :class => 'Date'}
-            La 6ème édition du BarCampAlsace se déroulera dans les locaux de l'
+            Le Forum Ouvert se déroulera dans les locaux de l'
             != link_to "Usine à projets", "https://usineaprojet.wikispaces.com/"
             %br
-            le samedi 10 octobre 2009
+            les vendredi 27 et samedi 28 novembre 2009
             %br
             != link_to "31A rue principale Schiltigheim, France.", "http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=31A+rue+principale+Schiltigheim,+France&sll=46.75984,1.738281&sspn=7.58788,21.09375&ie=UTF8&ll=48.606468,7.751498&spn=0.007151,0.020599&z=16&iwloc=A"
 

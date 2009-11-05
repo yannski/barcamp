@@ -1,6 +1,6 @@
 - @page_title = "Ils participeront et vous ?"
 
-%h1 Ils participeront à l'événement le 10 octobre 2009
+%h1 Ils participeront au Forum Ouvert
 %p
   Joignez-vous à nous en remplissant notre formulaire
   %a{ :href => 'Form.html'}
@@ -15,7 +15,6 @@
       %th{ :class => 'Orgnisation'} Organisation
       %th{ :class => 'WebSite'} Site
       %th{ :class => 'TagsList'} Tags
-      %th{ :class => 'TShirtSize'}
     %tbody#attendees
       != render :partial => "attendee", :collection => @attendees
 
