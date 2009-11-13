@@ -3,5 +3,5 @@ ActionController::Routing::Routes.draw do |map|
 
   map.root :controller => "welcome"
 
-  map.resources :attendees
+  map.resources :attendees, :commodities
 end

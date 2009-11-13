@@ -32,6 +32,8 @@
               Ils participeront
               %span
                 != "(#{Attendee.count})"
+          %li
+            != link_to "Commodités", commodities_path
           /
             %li{ :class => 'Right'}
               != link_to "Vers BarCamp.org", 'http://barcamp.org/BarCampAlsace6'
