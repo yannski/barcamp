@@ -14,3 +14,4 @@ metrics/
 tmp
 Capfile
 config/deploy.rb
+config/deploy*
