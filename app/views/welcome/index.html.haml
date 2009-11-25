@@ -1,12 +1,46 @@
-.ColLeft
-  %h1!= @page.title
-  != textilize @page.body
-  <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=31A+rue+principale+Schiltigheim,+France&amp;sll=46.75984,1.738281&amp;sspn=7.58788,21.09375&amp;ie=UTF8&amp;ll=48.61464,7.755747&amp;spn=0.007151,0.020599&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=31A+rue+principale+Schiltigheim,+France&amp;sll=46.75984,1.738281&amp;sspn=7.58788,21.09375&amp;ie=UTF8&amp;ll=48.61464,7.755747&amp;spn=0.007151,0.020599&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
-.ColRight
-  %h2
-    Quelques photos
-    %br
-    des précédents BarCampAlsace
-  %ul
-    - 1.upto(7) do |i|
-      %li!= link_to image_tag("photo#{i}t.jpg"), "/images/photo#{i}.jpg", :rel => 'lightbox', :title => "Photo #{i}"
+%h1{:align => "center", :style => "font-size:40px;margin: 40px;"}
+  GameCampParis
+
+%p{:style => "font-size:14px;"}
+  La <strong>1ère édition</strong> du <strong>GameCamp</strong> aura lieu le <strong>samedi 5 Decembre 2009</strong>, dans les locaux de PLAY ALL, 8 passage Brûlon 75012 Paris, métro Ledru-Rolin, Bâtiment A – 2ème étage (Après le 1er interphone, tout de suite sous le porche à gauche, puis 2ème interphone et 2ème étage, porte droite).
+ 
+%p{:style => "font-size:14px;"}  
+  Ce BarCamp est sponsorisé par PLAY ALL (merci à toute l'équipe PLAY ALL et en particulier à Anne Devouassoux).
+  %br
+  != image_tag "playall.png"
+
+%p{:style => "font-size:14px;"}
+  Pour tout autre renseignement, envoyez un mail à 
+  != mail_to "whirly.von.elsass@gmail.com"
+
+%div{:style => "margin:40px;"}
+
+%h3 Planning de la journée
+
+%p
+  %table{:cellspacing => "7px;"}
+    %tr
+      %td 9h
+      %td Accueil autour d'un petit déjeuner convivial et remise des t-shirts
+    %tr
+      %td 9h30
+      %td Démarrage des sessions du matin
+    %tr
+      %td 12h
+      %td Pause déjeûner
+    %tr
+      %td 13h30
+      %td Café
+    %tr
+      %td 14h
+      %td Reprise des sessions
+    %tr
+      %td 18h
+      %td Fin des sessions - Cocktail pour décompresser
+    %tr
+      %td 19h
+      %td Départ pour un dîner entre amis (After) pour ceux qui le souhaitent
+
+%div{:style => "margin:40px;"}
+
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=Centre+europ%C3%A9en+de+la+jeunesse+30+rue+Pierre+de+Coubertin+STRASBOURG&amp;sll=46.75984,1.738281&amp;sspn=7.557764,20.302734&amp;ie=UTF8&amp;hq=Centre+europ%C3%A9en+de+la+jeunesse&amp;hnear=30+Rue+Pierre+de+Coubertin,+67000+Strasbourg&amp;ll=48.611462,7.773685&amp;spn=0.007123,0.019827&amp;z=14&amp;iwloc=A&amp;cid=10539833309043377148&amp;output=embed"></iframe><br /><small><a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=Centre+europ%C3%A9en+de+la+jeunesse+30+rue+Pierre+de+Coubertin+STRASBOURG&amp;sll=46.75984,1.738281&amp;sspn=7.557764,20.302734&amp;ie=UTF8&amp;hq=Centre+europ%C3%A9en+de+la+jeunesse&amp;hnear=30+Rue+Pierre+de+Coubertin,+67000+Strasbourg&amp;ll=48.611462,7.773685&amp;spn=0.007123,0.019827&amp;z=14&amp;iwloc=A&amp;cid=10539833309043377148" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
