@@ -13,4 +13,5 @@ Rails::Initializer.run do |config|
   config.gem 'RedCloth'
   config.gem 'authlogic'
   config.gem 'paperclip'
+  config.gem 'fastercsv'
 end
