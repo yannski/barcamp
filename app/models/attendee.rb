@@ -14,4 +14,7 @@ class Attendee < ActiveRecord::Base
   validates_presence_of :lastname
 
   default_scope :order => :position
+
+  cattr_accessor :waiting_list_position
+  @@waiting_list_position = 60
 end

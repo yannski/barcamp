@@ -1,5 +1,5 @@
 %tr{:class => cycle("Col", nil)}
-  %td!= attendee.position
+  %td!= attendee.position > Attendee::waiting_list_position ? attendee.position - Attendee::waiting_list_position : attendee.position
   %td!= image_tag attendee.avatar.url(:small)
   %td!= attendee.firstname
   %td!= attendee.lastname

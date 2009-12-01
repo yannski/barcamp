@@ -17,5 +17,13 @@
       %th{ :class => 'TagsList'} Tags
       %th{ :class => 'TShirtSize'}
     %tbody#attendees
+      - @waiting_list = @attendees[Attendee::waiting_list_position..-1]
+      - @attendees -= @waiting_list
       != render :partial => "attendee", :collection => @attendees
+      %tr
+        %td{:colspan => 7}
+          %br
+          %strong LISTE D'ATTENTE
+          %br
+      != render :partial => "attendee", :collection => @waiting_list
 
