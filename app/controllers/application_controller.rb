@@ -6,12 +6,17 @@ class ApplicationController < ActionController::Base
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
   helper_method :current_user_session, :current_user
   filter_parameter_logging :password, :password_confirmation
-  before_filter :set_locale
+  before_filter :set_locale, :set_gmaps_links
 
 private
  
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
+  end
+
+  def set_gmaps_links
+    @gmaps_link = "http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=17+rue+des+magasins+67000+Strasbourg&amp;sll=48.590958,7.74019&amp;sspn=0.007196,0.017595&amp;ie=UTF8&amp;hq=&amp;hnear=17+Rue+des+Magasins,+67000+Strasbourg,+Bas-Rhin,+Alsace&amp;ll=48.598125,7.744417&amp;spn=0.007196,0.017595&amp;z=14"
+    @embed_gmaps_link = @gmaps_link + "&amp;output=embed"
   end
 
   # Catches special exceptions in all controllers

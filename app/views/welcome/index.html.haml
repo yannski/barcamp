@@ -1,12 +1,17 @@
+- @page_title = t("welcome")
 .ColLeft
-  %h1!= @page.title
-  != textilize @page.body
-  <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=31A+rue+principale+Schiltigheim,+France&amp;sll=46.75984,1.738281&amp;sspn=7.58788,21.09375&amp;ie=UTF8&amp;ll=48.61464,7.755747&amp;spn=0.007151,0.020599&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=31A+rue+principale+Schiltigheim,+France&amp;sll=46.75984,1.738281&amp;sspn=7.58788,21.09375&amp;ie=UTF8&amp;ll=48.61464,7.755747&amp;spn=0.007151,0.020599&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
+  %h1 BarCampAlsace6.5
+  != textilize t("intro_text")
+  %iframe{:width => 425, :height => 350, :frameborder => 0, :scrolling => "no", :marginheight => 0, :marginwidth => 0, :src => @embed_gmaps_link }
+  %br
+  %small
+    %a{:href => @gmaps_link, :style => "color:#0000FF;text-align:left"}
+      = t("zoom_plan")
 .ColRight
   %h2
-    Quelques photos
+    = t("some_photos")
     %br
-    des précédents BarCampAlsace
+    = t("from_prec_barcamp")
   %ul
-    - 1.upto(7) do |i|
+    - 1.upto(8) do |i|
       %li!= link_to image_tag("photo#{i}t.jpg"), "/images/photo#{i}.jpg", :rel => 'lightbox', :title => "Photo #{i}"

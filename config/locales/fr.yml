@@ -136,3 +136,33 @@ fr:
         less_than_or_equal_to: "doit être inférieur ou égal à {{count}}"
         odd: "doit être impair"
         even: "doit être pair"
+
+  intro_text: Bienvenu !
+  zoom_plan: Agrandir le plan
+  home: Accueil
+  subscribe: "S'inscrire maintenant"
+  welcome: Bienvenue !
+  they_will_participate: "Ils participeront"
+  they_will_participate_on: "Ils participeront à l'évènement le {{date}}"
+  to_barcamp_org: "Vers BarCamp.org"
+  label_avatar: "Votre avatar (48x48 pixels)"
+  label_firstname: "Prénom"
+  label_lastname: "Nom"
+  label_organization: "Organisation"
+  label_email: "Email (n'apparaitra pas sur le site)"
+  label_website: "Site web"
+  label_tag_list: "Description en 3 tags (séparés par des virgules)"
+  label_tshirt_size:  "Taille de T-Shirt"
+  label_tshirt_size_prompt: "Sélectionnez votre taille"
+  submit: "Envoyer"
+  they_will_participate_and_you: "Ils participeront et vous ?"
+  lastname: Nom
+  firstname: Prénom
+  organization: Organisation
+  website: Site
+  tags: Tags
+  some_photos: "Quelques photos"
+  from_prec_barcamp: "des précédents BarCampAlsace"
+  already_subscribed: "Il y a actuellement {{count}} inscrits !"
+  come_join_us: Joignez-vous à nous en remplissant notre
+  subscribing_form: "formulaire d'inscription"

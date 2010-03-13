@@ -14,4 +14,5 @@ Rails::Initializer.run do |config|
   config.gem 'authlogic'
   config.gem 'paperclip'
   config.gem 'fastercsv'
+  config.gem 'ya2yaml'
 end
