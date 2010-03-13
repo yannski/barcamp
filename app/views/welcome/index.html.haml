@@ -8,6 +8,39 @@
     %a{:href => @gmaps_link, :style => "color:#0000FF;text-align:left"}
       = t("zoom_plan")
 .ColRight
+  %script{:src => "http://widgets.twimg.com/j/2/widget.js"}
+  :javascript
+    new TWTR.Widget({
+      version: 2,
+      type: 'search',
+      search: '#barcampalsace',
+      interval: 6000,
+      title: 'On air',
+      subject: 'BarCampAlsace',
+      width: 250,
+      height: 300,
+      theme: {
+        shell: {
+          background: '#8ec1da',
+          color: '#ffffff'
+        },
+        tweets: {
+          background: '#ffffff',
+          color: '#444444',
+          links: '#1985b5'
+        }
+      },
+      features: {
+        scrollbar: true,
+        loop: true,
+        live: true,
+        hashtags: true,
+        timestamp: true,
+        avatars: true,
+        behavior: 'default'
+      }
+    }).render().start();
+  %br
   %h2
     = t("some_photos")
     %br
