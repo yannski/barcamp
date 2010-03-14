@@ -9,4 +9,6 @@
       - url = attendee.website =~ /http/ ? attendee.website : "http://#{attendee.website}"
       != link_to "lien", url
   %td!= attendee.tags.join(", ")
+  %td!= attendee.warming.blank? ? "non" : "oui"
   %td!= attendee.tshirt_size
+

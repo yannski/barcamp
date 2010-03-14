@@ -129,8 +129,11 @@ fr:
   firstname: Prénom
   from_prec_barcamp: "des précédents BarCampAlsace"
   home: Accueil
+  i_will_participate_warming: "Je participerai à la Warming Party du vendredi 7 mai à 20h (lieu encore à définir)"
   intro_text: |-
       Le BarCampAlsace6.5, version intermédiaire entre les "BarCampAlsace6":http://www.barcampalsace6.org et BarCampAlsace7, et premier BarCamp organisé par "Alsace Digitale":http://www.alsacedigitale.org (site web en construction), aura lieu le samedi 8 mai 2010 au CPPlex, premier espace de coworking de Strasbourg situé au 17 rue des magasins 67000 Strasbourg, France.
+      
+      Le vendredi 7 mai (la veille du BarCampAlsace6.5 donc) aura lieu une Warming Party (lieu encore à déterminer). Si vous avez des questions ou que vous voulez rencontrer des BarCampeurs expérimentés, cet évènement est fait pour vous ! Les discussions pourront d'ailleurs servir de rampe de lancement aux sujets que nous évoquerons le lendemain !
       
       L’accueil se fera à partir de 9h et la journée devrait se terminer vers 18h.  Pour toutes questions, contactez Yann Klis (yann [point] klis [at] gmail [point] com ou twitter "@yannski":http://twitter.com/yannski) L’accueil se fera à partir de 9h et la journée devrait se terminer vers 18h.
       
@@ -196,6 +199,7 @@ fr:
       time: "%H:%M"
     pm: pm
   to_barcamp_org: "Vers BarCamp.org"
+  warming_party: "Warming Party"
   website: Site
   welcome: "Bienvenue !"
   zoom_plan: "Agrandir le plan"

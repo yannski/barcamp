@@ -22,6 +22,8 @@
       != f.text_field :website, :label_text => t("label_website"), :class => 'Black'
     %fieldset{ :class => 'Separator'}
       != f.text_field :tag_list, :label_text => t("label_tag_list"), :class => 'Black Long'
+    %fieldset{ :class => 'Separator'}
+      != f.check_box :warming, :label_text => t("i_will_participate_warming"), :class => 'Black Long'
     %fieldset
       != f.select :tshirt_size, %w(XS S M L XL XXL), :label_text => t("label_tshirt_size"), :prompt => t("label_tshirt_size_prompt")
     %fieldset
