@@ -1,0 +1,87 @@
+--- 
+concept: Concept
+concept_text: |-
+    Le samedi 8 mai prochain à Strasbourg, aura lieu le BarCampAlsace6.5, organisé par Alsace Digitale. Un BarCamp est une rencontre participative ou «unconference», comme disent les Californiens à l’origine de ces rassemblements. Il est destiné à réunir des professionnels ou passionnés du monde de l’internet et des TIC en général qui partagent leurs idées et leurs expériences.
+    
+    Le BarCampAlsace est un peu différent. Il est ouvert à toute activité et toute forme d’entrepreneuriat (entreprise, association, collectivité, free lance, artiste...).
+    
+    Il est né d’un pari : de la diversité des participants nait des rencontres improbables qui peuvent créer de nouveaux possibles. De leur capacité à dialoguer peut émerger un désir d’entreprendre quelque chose qui change la vie, une inflexion d’un futur annoncé, une idée pour un monde meilleur, ou le début d’une nouvelle chance de créer de la valeur.
+    
+    Six BarCampAlsace ont eu lieu depuis le 26 août 2006. Comme il est temps d’apprendre du chemin qui a été accompli, le petit groupe organisateur a pensé qu’il serait bon d’imaginer un BarCampAlsace qui se donne, en plus de sa mission originelle, la perspective de préparer un BarCampAlsace7 plus mûr et plus utile encore.
+    
+    Le BarCampAlsace6.5 est un BarCampAlsace comme les autres, mais intermédiaire entre un format passé et quelque chose de mieux.
+datetime: 
+  distance_in_words: 
+    x_seconds: 
+      one: 1 seconde
+      other: "{{count}} secondes"
+  prompts: 
+    day: Jour
+    hour: Heure
+    minute: Minute
+    month: Mois
+    second: Seconde
+    year: Année
+firstname: Prénom
+from_prec_barcamp: "des précédents BarCampAlsace"
+home: Accueil
+intro_text: |-
+    Le BarCampAlsace6.5, version intermédiaire entre les "BarCampAlsace6":http://www.barcampalsace6.org et BarCampAlsace7, et premier BarCamp organisé par "Alsace Digitale":http://www.alsacedigitale.org (site web en construction), aura lieu le samedi 8 mai 2010 au CPPlex, premier espace de coworking de Strasbourg situé au 17 rue des magasins 67000 Strasbourg, France.
+    
+    Le vendredi 7 mai (la veille du BarCampAlsace6.5 donc) aura lieu une Warming Party (lieu encore à déterminer). Si vous avez des questions ou que vous voulez rencontrer des BarCampeurs expérimentés, cet évènement est fait pour vous ! Les discussions pourront d'ailleurs servir de rampe de lancement aux sujets que nous évoquerons le lendemain !
+    
+    L’accueil se fera à partir de 9h et la journée devrait se terminer vers 18h.  Pour toutes questions, contactez Yann Klis (yann [point] klis [at] gmail [point] com ou twitter "@yannski":http://twitter.com/yannski) L’accueil se fera à partir de 9h et la journée devrait se terminer vers 18h.
+    
+    Pour ceux qui se demandent ce qu’est un BarCamp, nous les encourageons à lire le très bon article Wikipedia sur les "BarCamp":http://fr.wikipedia.org/wiki/BarCamp.
+label_avatar: "Votre avatar (48x48 pixels)"
+label_email: "Email (n'apparaitra pas sur le site)"
+label_firstname: Prénom
+label_lastname: Nom
+label_organization: Organisation
+label_tag_list: "Description en 3 tags (séparés par des virgules)"
+label_tshirt_size: "Taille de T-Shirt"
+label_tshirt_size_prompt: "Sélectionnez votre taille"
+label_website: "Site web"
+lastname: Nom
+number: 
+  currency: 
+    format: 
+      format: "%n %u"
+      unit: €
+  format: 
+    delimiter:  
+    separator: ","
+  human: 
+    format: 
+      delimiter: ""
+    storage_units: 
+      format: "%n %u"
+      units: 
+        byte: 
+          one: octet
+          other: octets
+        gb: Go
+        kb: ko
+        mb: Mo
+        tb: To
+organization: Organisation
+some_photos: "Quelques photos"
+submit: Envoyer
+subscribe: "S'inscrire maintenant"
+subscribing_form: "formulaire d'inscription"
+support: 
+  array: 
+    last_word_connector: " et "
+    sentence_connector: et
+    two_words_connector: " et "
+    words_connector: ", "
+tags: Tags
+they_will_participate: "Ils participeront"
+they_will_participate_and_you: "Ils participeront et vous ?"
+they_will_participate_on: "Ils participeront à l'évènement le {{date}}"
+time: 
+  am: am
+  formats: 
+    default: "%d %B %Y %H:%M"
+    long: "%A %d %B %Y %H:%M:%S %Z"
+welcome: "Bienvenue !"

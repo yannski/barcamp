@@ -3,6 +3,7 @@ ActionController::Routing::Routes.draw do |map|
   map.filter 'locale'
 
   map.root :controller => "welcome"
+  map.resource :concept
 
   map.resources :attendees
 end

@@ -30,6 +30,8 @@
               != t("they_will_participate")
               %span
                 != "(#{Attendee.count})"
+          %li
+            != link_to t("concept"), concept_path
           %li{ :class => 'Right'}
             != link_to t("to_barcamp_org"), 'http://barcamp.org/BarCampAlsace65'
 

@@ -29,6 +29,17 @@ fr:
           other: "Impossible d'enregistrer {{model}}: {{count}} erreurs."
   already_subscribed: "Il y a actuellement {{count}} inscrits !"
   come_join_us: "Joignez-vous à nous en remplissant notre"
+  concept: Concept
+  concept_text: |-
+      Le samedi 8 mai prochain à Strasbourg, aura lieu le BarCampAlsace6.5, organisé par Alsace Digitale. Un BarCamp est une rencontre participative ou «unconference», comme disent les Californiens à l’origine de ces rassemblements. Il est destiné à réunir des professionnels ou passionnés du monde de l’internet et des TIC en général qui partagent leurs idées et leurs expériences.
+      
+      Le BarCampAlsace est un peu différent. Il est ouvert à toute activité et toute forme d’entrepreneuriat (entreprise, association, collectivité, free lance, artiste...).
+      
+      Il est né d’un pari : de la diversité des participants nait des rencontres improbables qui peuvent créer de nouveaux possibles. De leur capacité à dialoguer peut émerger un désir d’entreprendre quelque chose qui change la vie, une inflexion d’un futur annoncé, une idée pour un monde meilleur, ou le début d’une nouvelle chance de créer de la valeur.
+      
+      Six BarCampAlsace ont eu lieu depuis le 26 août 2006. Comme il est temps d’apprendre du chemin qui a été accompli, le petit groupe organisateur a pensé qu’il serait bon d’imaginer un BarCampAlsace qui se donne, en plus de sa mission originelle, la perspective de préparer un BarCampAlsace7 plus mûr et plus utile encore.
+      
+      Le BarCampAlsace6.5 est un BarCampAlsace comme les autres, mais intermédiaire entre un format passé et quelque chose de mieux.
   date: 
     abbr_day_names: 
       - dim
@@ -175,7 +186,7 @@ fr:
   organization: Organisation
   some_photos: "Quelques photos"
   submit: Envoyer
-  subscribe: "S'inscrire maintenant"
+  subscribe: S'inscrire
   subscribing_form: "formulaire d'inscription"
   support: 
     array: 
