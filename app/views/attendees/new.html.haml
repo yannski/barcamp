@@ -3,34 +3,30 @@
 %h1= t("subscribing_form").capitalize
 %p
   != t("already_subscribed", :count => link_to("(#{Attendee.count})", attendees_path))
-- form_for @attendee, :builder => StandardBuilder, :html => {:multipart => true, :class => "SubScription"} do |f|
-  != f.error_messages
-  .ColLeft
-    %fieldset.Separator
-      != f.file_field :avatar, :label_text => t("label_avatar")
-    %fieldset.Separator
-      != f.text_field :firstname, :label_text => t("label_firstname"), :class => 'Black Long'
-    %fieldset{ :class => 'Separator'}
-      != f.text_field :lastname, :label_text => t("label_lastname"), :class => 'Black Long'
-    %fieldset{ :class => 'Separator'}
-      != f.text_field :organization, :label_text => t("label_organization"), :class => 'Black Long'
-    %fieldset
-      != f.text_field :email, :label_text => t("label_email"), :class => 'Black'
+/
+  - form_for @attendee, :builder => StandardBuilder, :html => {:multipart => true, :class => "SubScription"} do |f|
+    != f.error_messages
+    .ColLeft
+      %fieldset.Separator
+        != f.file_field :avatar, :label_text => t("label_avatar")
+      %fieldset.Separator
+        != f.text_field :firstname, :label_text => t("label_firstname"), :class => 'Black Long'
+      %fieldset{ :class => 'Separator'}
+        != f.text_field :lastname, :label_text => t("label_lastname"), :class => 'Black Long'
+      %fieldset{ :class => 'Separator'}
+        != f.text_field :organization, :label_text => t("label_organization"), :class => 'Black Long'
+      %fieldset
+        != f.text_field :email, :label_text => t("label_email"), :class => 'Black'
 
-  %div{ :class => 'ColRight'}
-    %fieldset{ :class => 'Separator'}
-      != f.text_field :website, :label_text => t("label_website"), :class => 'Black'
-    %fieldset{ :class => 'Separator'}
-      != f.text_field :tag_list, :label_text => t("label_tag_list"), :class => 'Black Long'
-    %fieldset{ :class => 'Separator'}
-      != f.check_box :warming, :label_text => t("i_will_participate_warming"), :class => 'Black Long'
-    %fieldset
-      != f.select :tshirt_size, %w(XS S M L XL XXL), :label_text => t("label_tshirt_size"), :prompt => t("label_tshirt_size_prompt")
-    %fieldset
-      != f.submit t("submit")
-
-      /
-        %p
-          En application des articles 38 à 40 de la loi n° 78-17 du 6 janvier 1978, modifiée par la loi n° 2004-801 du 6 août 2004, relative à l'informatique, 
-          aux fichiers et aux libertés, vous disposez d'un droit d'accès, de rectification, de modification et de suppression des données qui vous concernent.
+    %div{ :class => 'ColRight'}
+      %fieldset{ :class => 'Separator'}
+        != f.text_field :website, :label_text => t("label_website"), :class => 'Black'
+      %fieldset{ :class => 'Separator'}
+        != f.text_field :tag_list, :label_text => t("label_tag_list"), :class => 'Black Long'
+      %fieldset{ :class => 'Separator'}
+        != f.check_box :warming, :label_text => t("i_will_participate_warming"), :class => 'Black Long'
+      %fieldset
+        != f.select :tshirt_size, %w(XS S M L XL XXL), :label_text => t("label_tshirt_size"), :prompt => t("label_tshirt_size_prompt")
+      %fieldset
+        != f.submit t("submit")
 
