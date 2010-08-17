@@ -16,3 +16,7 @@ Capfile
 config/deploy.rb
 config/deploy*
 mkmf.log
+public/fr/
+public/index.html
+db/dump.tar.gz
+dump.sql
