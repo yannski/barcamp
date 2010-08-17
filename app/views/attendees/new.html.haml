@@ -5,31 +5,32 @@
   Il y a actuellement 
   != link_to "(#{Attendee.count})", attendees_path
   inscrits.
-- form_for @attendee, :builder => StandardBuilder, :html => {:multipart => true, :class => "SubScription"} do |f|
-  != f.error_messages
-  .ColLeft
-    %fieldset.Separator
-      != f.file_field :avatar, :label_text => "Votre avatar (48x48 pixels)"
-    %fieldset.Separator
-      != f.text_field :firstname, :label_text => "Prénom", :class => 'Black Long'
-    %fieldset{ :class => 'Separator'}
-      != f.text_field :lastname, :label_text => "Nom", :class => 'Black Long'
-    %fieldset{ :class => 'Separator'}
-      != f.text_field :organization, :label_text => "Organisation", :class => 'Black Long'
-    %fieldset
-      != f.text_field :email, :label_text => "Email (n'apparaitra pas sur le site)", :class => 'Black'
+/
+  - form_for @attendee, :builder => StandardBuilder, :html => {:multipart => true, :class => "SubScription"} do |f|
+    != f.error_messages
+    .ColLeft
+      %fieldset.Separator
+        != f.file_field :avatar, :label_text => "Votre avatar (48x48 pixels)"
+      %fieldset.Separator
+        != f.text_field :firstname, :label_text => "Prénom", :class => 'Black Long'
+      %fieldset{ :class => 'Separator'}
+        != f.text_field :lastname, :label_text => "Nom", :class => 'Black Long'
+      %fieldset{ :class => 'Separator'}
+        != f.text_field :organization, :label_text => "Organisation", :class => 'Black Long'
+      %fieldset
+        != f.text_field :email, :label_text => "Email (n'apparaitra pas sur le site)", :class => 'Black'
 
-  %div{ :class => 'ColRight'}
-    %fieldset{ :class => 'Separator'}
-      != f.text_field :website, :label_text => "Site web", :class => 'Black'
-    %fieldset{ :class => 'Separator'}
-      != f.text_field :tag_list, :label_text => "Description en 3 tags (séparés par des virgules)", :class => 'Black Long'
-    %fieldset
-      != f.select :tshirt_size, %w(XS S M L XL XXL), :label_text => "Taille de T-Shirt", :prompt => "Sélectionnez votre taille"
-    %fieldset
-      != f.submit "Envoyer"
-    
-      %p
-        En application des articles 38 à 40 de la loi n° 78-17 du 6 janvier 1978, modifiée par la loi n° 2004-801 du 6 août 2004, relative à l'informatique, 
-        aux fichiers et aux libertés, vous disposez d'un droit d'accès, de rectification, de modification et de suppression des données qui vous concernent.
+    %div{ :class => 'ColRight'}
+      %fieldset{ :class => 'Separator'}
+        != f.text_field :website, :label_text => "Site web", :class => 'Black'
+      %fieldset{ :class => 'Separator'}
+        != f.text_field :tag_list, :label_text => "Description en 3 tags (séparés par des virgules)", :class => 'Black Long'
+      %fieldset
+        != f.select :tshirt_size, %w(XS S M L XL XXL), :label_text => "Taille de T-Shirt", :prompt => "Sélectionnez votre taille"
+      %fieldset
+        != f.submit "Envoyer"
+      
+        %p
+          En application des articles 38 à 40 de la loi n° 78-17 du 6 janvier 1978, modifiée par la loi n° 2004-801 du 6 août 2004, relative à l'informatique, 
+          aux fichiers et aux libertés, vous disposez d'un droit d'accès, de rectification, de modification et de suppression des données qui vous concernent.
 
