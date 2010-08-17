@@ -15,7 +15,6 @@ gem 'paperclip'
 gem 'unicode'
 gem 'RedCloth'
 gem 'authlogic'
-gem 'acts_as_taggable_on_steroids'
 
 group :test do
   gem 'rspec', '1.3.0'
