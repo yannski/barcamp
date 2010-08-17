@@ -8,6 +8,8 @@ class ApplicationController < ActionController::Base
   filter_parameter_logging :password, :password_confirmation
   before_filter :set_locale
 
+  caches_page :index, :new
+
 private
  
   def set_locale
