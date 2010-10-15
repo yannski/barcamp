@@ -21,7 +21,7 @@ body {
   letter-spacing: 1px;
   font-color: #000;
   font-size: 1em;
-  background-image: url(/images/BgPageEuro.png)!important;
+  background-image: url(/images/bgPageEuro.png)!important;
   background-repeat: repeat-x!important;
   background-position: center 276px !important; 
   background-attachment: fixed;
