@@ -1,28 +1,47 @@
-en:
-  date:
-    formats:
-      default: "%Y-%m-%d"
-      short: "%e %b"
-      long: "%B %e, %Y"
-      only_day: "%e"
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
-    day_names: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
-    abbr_day_names: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
-    month_names: [~, January, February, March, April, May, June, July, August, September, October, November, December]
-    abbr_month_names: [~, Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
-    order: [ :year, :month, :day ]
-  
-  time:
-    formats:
-      default: "%a %b %d %H:%M:%S %Z %Y"
-      time: "%H:%M"
-      short: "%d %b %H:%M"
-      long: "%B %d, %Y %H:%M"
-      only_second: "%S"
-      
-      datetime:
-        formats:
-          default: "%Y-%m-%dT%H:%M:%S%Z"
-          
-      am: 'am'
-      pm: 'pm'
+en:
+  homepage_title: "Welcome to the BarCampEurodistrict 2010 !"
+  homepage_body: "
+    Following the great tradition of <a href=\"http://barcamp.org/BarCampAlsace\">BarCampAlsace</a>, we're now seeting up a new \"venture\": BarCampEurodistrict.
+    <br/>
+    This year, BarCampEurodistrict will happen saturday 20th of november 2010, during the <a href=\"http://www.strasbourg.eu/see\">European entrepreneur week</a>, in coordination with the City of Strasbourg and the WRO.
+    <br/>
+    <br/>
+    That's why this event will be an International BarCamp. It means that the spoken language will be the least common denominator among sessions participants: before beginning a session, ask if everybody in the room can understand you :) It could be french, german, english or maybe klingon!
+    <br/>
+    <br/>
+    Starting at 9AM, we'll welcome you with a warm cup of coffee and some croissants at the CPPlex, the first corworking space in Strasbourg. The sessions will begin at 10AM and end at 7PM.
+    <br/>
+    <br/>
+    If you have any questions, contact Yann Klis (yann [point] klis [at] gmail [point] com or on twitter @yannski) or ping #barcampeurodsitrict on Twitter.
+    <br/>
+    If you don't know what a BarCamp is, we recommend you to read the <a href=\"http://en.wikipedia.org/wiki/BarCamp\">excellent Wikipedia article on BarCamp</a>.
+    "
+  nav_home: "Home"
+  nav_attend_now: "Subscribe now"
+  nav_attending: "They're attending"
+  nav_attending_long: "They're attending the event the 20th of november 2010"
+  nav_to_barcamp: "To BarCamp.org"
+  homepage_some_photos: "Some photos of<br/>past BarCampAlsace"
+  footer_line_1: "The BarCampEurodistrict 2010 will happen at the"
+  footer_line_2: "saturday 20th of november 2010"
+  attending_form: "Subscribing form to attend the event"
+  select_size: "Select a size..."
+  form_note: "Your email won't appear anywhere publicly."
+  joins_us: "Joins us by "
+  filling_form: "filling this form"
+  attending_count: "Currently, {{count}} persons are attending the event."
+  attributes:
+    first_name: "First name"
+    last_name: "Last name"
+    avatar: "Your avatar (48x48 pixels)"
+    organization: "Organization"
+    email: "Email (won't appear on the site)"
+    website: "Website"
+    tags: "Description in 3 tags (separated with a comma)"
+    tshirt_size: "Tshirt size"
+  helpers:
+    submit:
+      create: "Send"

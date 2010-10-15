@@ -1,0 +1,489 @@
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 14 23:01:38 +0200 2010
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (19.3ms)
+Completed 200 OK in 28ms (Views: 24.1ms)
+
+
+Started GET "/stylesheets/layout.css?1287070583" for 127.0.0.1 at Thu Oct 14 23:01:38 +0200 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/layout.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/stylesheets/lightbox.css?1287070583" for 127.0.0.1 at Thu Oct 14 23:01:38 +0200 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/lightbox.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/stylesheets/reset.css?1287070583" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/reset.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/jquery.js?1287069571" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/jquery-ui.js?1287069571" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/rails.js?1287069571" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/application.js?1287069571" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/photo1t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo1t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo2t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo2t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo3t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo3t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo4t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo4t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo5t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo5t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo6t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo6t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo7t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo7t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/application.js?1287069571" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo1t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo1t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo2t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo2t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo3t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo3t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/photo4t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo4t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo5t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo5t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo6t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo6t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo7t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:39 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo7t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (16.1ms)
+Completed 200 OK in 17ms (Views: 16.8ms)
+
+
+Started GET "/stylesheets/layout.css?1287070583" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/layout.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/stylesheets/lightbox.css?1287070583" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/lightbox.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/stylesheets/reset.css?1287070583" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/stylesheets/reset.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/jquery.js?1287069571" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/jquery-ui.js?1287069571" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (100.1ms)
+
+
+Started GET "/javascripts/rails.js?1287069571" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/application.js?1287069571" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/photo1t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo1t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/photo2t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo2t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo3t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo3t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo4t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo4t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo5t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo5t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/photo6t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo6t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/javascripts/application.js?1287069571" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/javascripts/application.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo7t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo7t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo1t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo1t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo2t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo2t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo3t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo3t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/photo4t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo4t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/images/photo5t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo5t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo6t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo6t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/photo7t.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/photo7t.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/images/LogoBarCampAlsace6.jpg?1287070810" for 127.0.0.1 at Thu Oct 14 23:01:43 +0200 2010
+
+ActionController::RoutingError (No route matches "/images/LogoBarCampAlsace6.jpg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 14 23:02:31 +0200 2010
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (18.8ms)
+Completed 200 OK in 27ms (Views: 23.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 14 23:02:31 +0200 2010
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 8ms (Views: 7.9ms)
+
+
+Started GET "/attendees/new" for 127.0.0.1 at Thu Oct 14 23:02:34 +0200 2010
+  Processing by AttendeesController#new as HTML
+Rendered attendees/new.html.haml within layouts/application (32.9ms)
+Completed 200 OK in 38ms (Views: 36.8ms)
+
+
+Started POST "/attendees" for 127.0.0.1 at Thu Oct 14 23:02:36 +0200 2010
+  Processing by AttendeesController#create as HTML
+  Parameters: {"commit"=>"Send", "authenticity_token"=>"vlbU4qSUhwJzWPHqMLWYiXNKqRuA4Z3C3KubWxmUjVI=", "utf8"=>"✓", "attendee"=>{"tags"=>"", "website"=>"", "last_name"=>"", "organization"=>"", "tshirt_size"=>"", "email"=>"", "first_name"=>""}}
+Rendered attendees/new.html.haml within layouts/application (11.9ms)
+Completed 200 OK in 18ms (Views: 12.6ms)
+
+
+Started GET "/attendees" for 127.0.0.1 at Thu Oct 14 23:02:39 +0200 2010
+  Processing by AttendeesController#index as HTML
+Rendered attendees/_attendee.html.haml (90.5ms)
+Rendered attendees/index.html.haml within layouts/application (102.5ms)
+Completed 200 OK in 104ms (Views: 103.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 14 23:02:44 +0200 2010
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms)
+
+
+Started GET "/attendees/new" for 127.0.0.1 at Thu Oct 14 23:02:47 +0200 2010
+  Processing by AttendeesController#new as HTML
+Rendered attendees/new.html.haml within layouts/application (11.8ms)
+Completed 200 OK in 13ms (Views: 12.4ms)
+
+
+Started GET "/fr/attendees/new" for 127.0.0.1 at Thu Oct 14 23:02:52 +0200 2010
+  Processing by AttendeesController#new as HTML
+  Parameters: {"locale"=>"fr"}
+Rendered attendees/new.html.haml within layouts/application (13.1ms)
+Completed 200 OK in 15ms (Views: 14.0ms)
+
+
+Started GET "/fr/attendees/new" for 127.0.0.1 at Thu Oct 14 23:02:59 +0200 2010
+  Processing by AttendeesController#new as HTML
+  Parameters: {"locale"=>"fr"}
+Rendered attendees/new.html.haml within layouts/application (21.6ms)
+Completed 200 OK in 23ms (Views: 22.1ms)
+
+
+Started GET "/fr/attendees" for 127.0.0.1 at Thu Oct 14 23:03:01 +0200 2010
+  Processing by AttendeesController#index as HTML
+  Parameters: {"locale"=>"fr"}
+Rendered attendees/_attendee.html.haml (92.2ms)
+Rendered attendees/index.html.haml within layouts/application (100.0ms)
+Completed 200 OK in 101ms (Views: 100.7ms)
+
+
+Started GET "/fr/attendees/new" for 127.0.0.1 at Thu Oct 14 23:03:10 +0200 2010
+  Processing by AttendeesController#new as HTML
+  Parameters: {"locale"=>"fr"}
+Rendered attendees/new.html.haml within layouts/application (13.3ms)
+Completed 200 OK in 14ms (Views: 13.9ms)
+
+
+Started GET "/fr/attendees" for 127.0.0.1 at Thu Oct 14 23:03:18 +0200 2010
+  Processing by AttendeesController#index as HTML
+  Parameters: {"locale"=>"fr"}
+Rendered attendees/_attendee.html.haml (7.4ms)
+Rendered attendees/index.html.haml within layouts/application (14.7ms)
+Completed 200 OK in 16ms (Views: 15.3ms)
+
+
+Started GET "/?locale=fr" for 127.0.0.1 at Thu Oct 14 23:03:25 +0200 2010
+  Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"fr"}
+Rendered welcome/index.html.haml within layouts/application (6.4ms)
+Completed 200 OK in 7ms (Views: 7.1ms)
+
+
+Started GET "/fr" for 127.0.0.1 at Thu Oct 14 23:03:33 +0200 2010
+  Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"fr"}
+Rendered welcome/index.html.haml within layouts/application (6.8ms)
+Completed 200 OK in 8ms (Views: 7.5ms)
+
+
+Started GET "/fr/attendees/new" for 127.0.0.1 at Thu Oct 14 23:03:51 +0200 2010
+  Processing by AttendeesController#new as HTML
+  Parameters: {"locale"=>"fr"}
+Rendered attendees/new.html.haml within layouts/application (100.4ms)
+Completed 200 OK in 102ms (Views: 101.1ms)
+
+
+Started GET "/fr/attendees" for 127.0.0.1 at Thu Oct 14 23:03:53 +0200 2010
+  Processing by AttendeesController#index as HTML
+  Parameters: {"locale"=>"fr"}
+Rendered attendees/_attendee.html.haml (7.6ms)
+Rendered attendees/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 17ms (Views: 16.3ms)
+
+
+Started GET "/fr/attendees/new" for 127.0.0.1 at Thu Oct 14 23:03:54 +0200 2010
+  Processing by AttendeesController#new as HTML
+  Parameters: {"locale"=>"fr"}
+Rendered attendees/new.html.haml within layouts/application (12.1ms)
+Completed 200 OK in 13ms (Views: 12.7ms)

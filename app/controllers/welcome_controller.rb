@@ -1,6 +1,6 @@
 class WelcomeController < ApplicationController
 
   def index
-    @page = Page.first
+    @page_title = t(:nav_home)
   end
 end

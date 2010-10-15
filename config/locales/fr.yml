@@ -1,138 +1,47 @@
-# French translations for Ruby on Rails 
-# by Christian Lescuyer (christian@flyingcoders.com)
-# contributor: Sebastien Grosjean - ZenCocoon.com
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 fr:
-  date:
-    formats:
-      default: "%d/%m/%Y"
-      short: "%e %b"
-      long: "%e %B %Y"
-      long_ordinal: "%e %B %Y"
-      only_day: "%e"
-
-    day_names: [dimanche, lundi, mardi, mercredi, jeudi, vendredi, samedi]
-    abbr_day_names: [dim, lun, mar, mer, jeu, ven, sam]
-    month_names: [~, janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
-    abbr_month_names: [~, jan., fév., mar., avr., mai, juin, juil., août, sept., oct., nov., déc.]
-    order: [ :day, :month, :year ]
-  
-  time:
-    formats:
-      default: "%d %B %Y %H:%M"
-      time: "%H:%M"
-      short: "%d %b %H:%M"
-      long: "%A %d %B %Y %H:%M:%S %Z"
-      long_ordinal: "%A %d %B %Y %H:%M:%S %Z"
-      only_second: "%S"
-    am: 'am'
-    pm: 'pm'
-
-  datetime:
-    distance_in_words:
-      half_a_minute: "une demi-minute"
-      less_than_x_seconds:
-        zero:  "moins d'une seconde"
-        one:   "moins de 1 seconde"
-        other: "moins de {{count}} secondes"
-      x_seconds:
-        one:   "1 seconde"
-        other: "{{count}} secondes"
-      less_than_x_minutes:
-        zero:  "moins d'une minute"
-        one:   "moins de 1 minute"
-        other: "moins de {{count}} minutes"
-      x_minutes:
-        one:   "1 minute"
-        other: "{{count}} minutes"
-      about_x_hours:
-        one:   "environ une heure"
-        other: "environ {{count}} heures"
-      x_days:
-        one:   "1 jour"
-        other: "{{count}} jours"
-      about_x_months:
-        one:   "environ un mois"
-        other: "environ {{count}} mois"
-      x_months:
-        one:   "1 mois"
-        other: "{{count}} mois"
-      about_x_years:
-        one:   "environ un an"
-        other: "environ {{count}} ans"
-      over_x_years:
-        one:   "plus d'un an"
-        other: "plus de {{count}} ans"
-    prompts:
-      year:   "Année"
-      month:  "Mois"
-      day:    "Jour"
-      hour:   "Heure"
-      minute: "Minute"
-      second: "Seconde"
-  
-  number:
-    format:
-      precision: 3
-      separator: ','
-      delimiter: ' '
-    currency:
-      format:
-        unit: '€'
-        precision: 2
-        format: '%n %u'
-    human:
-      format:
-        # These three are to override number.format and are optional
-        # separator: 
-        delimiter: "" 
-        precision: 2
-      # Rails <= v2.2.2
-      # storage_units: [octet, kb, Mb, Gb, Tb]
-      # Rails >= v2.3
-      storage_units:
-        format: "%n %u"
-        units:
-          byte:
-            one:   "octet"
-            other: "octets"
-          kb: "ko"
-          mb: "Mo"
-          gb: "Go"
-          tb: "To"
-
-  support:
-    array:
-      sentence_connector: 'et'
-      skip_last_comma: true
-      words_connector: ", "
-      two_words_connector: " et "
-      last_word_connector: " et "
-  
-  activerecord:
-    errors:
-      template:
-        header: 
-          one: "Impossible d'enregistrer {{model}}: 1 erreur"
-          other: "Impossible d'enregistrer {{model}}: {{count}} erreurs."
-        body: "Veuillez vérifier les champs suivants :"
-      messages:
-        inclusion: "n'est pas inclus(e) dans la liste"
-        exclusion: "n'est pas disponible"
-        invalid: "n'est pas valide"
-        confirmation: "ne concorde pas avec la confirmation"
-        accepted: "doit être accepté(e)"
-        empty: "doit être rempli(e)"
-        blank: "doit être rempli(e)"
-        too_long: "est trop long (pas plus de {{count}} caractères)"
-        too_short: "est trop court (au moins {{count}} caractères)"
-        wrong_length: "ne fait pas la bonne longueur (doit comporter {{count}} caractères)"
-        taken: "n'est pas disponible"
-        not_a_number: "n'est pas un nombre"
-        greater_than: "doit être supérieur à {{count}}"
-        greater_than_or_equal_to: "doit être supérieur ou égal à {{count}}"
-        equal_to: "doit être égal à {{count}}"
-        less_than: "doit être inférieur à {{count}}"
-        less_than_or_equal_to: "doit être inférieur ou égal à {{count}}"
-        odd: "doit être impair"
-        even: "doit être pair"
+  joins_us: "Rejoignez nous en "
+  filling_form: "remplissant ce formulaire"
+  homepage_title: "Bienvenue BarCampEurodistrict 2010 !"
+  homepage_body: "
+    Poursuivant la grande tradition des <a href=\"http://barcamp.org/BarCampAlsace\">BarCampAlsace</a>, nous commençons une nouvelle aventure avec le BarCampEurodistrict.
+    <br/>
+    Cette année, le BarCampEurodistrict se déroulera le samedi 20 novembre 2010, pendant la <a href=\"http://www.strasbourg.eu/see\">Semaine européenne de l'entrepreneur</a>, en coordination avec la Ville de Strasbourg et le WRO.
+    <br/>
+    <br/>
+    C'est pourquoi cet évènement sera un BarCamp International. Ceci signifie que la langue parlée durant les sessions sera le plus petit dénominateur commun: avant de débuter une session, vous demanderez si tout le monde dans la salle vous comprend :) La langue parlée pourra alors être le français, l'allemand ou l'anglais. Voire même le klingon!
+    <br/>
+    <br/>
+    A partir de 9h du matin, nous vous accueillerons avec du café chaud et des croissants au CPPlex, premier espace de coworking à Strasbourg. Les sessions commenceront à 10h et se termineront à 19h.
+    <br/>
+    <br/>
+    Si vous avez des questions, contactez Yann Klis (yann [point] klis [at] gmail [point] com ou @yannski sur twitter) ou essayez le hashtag #barcampeurodsitrict sur Twitter.
+    <br/>
+    Si vous ne savez pas ce qu'est un BarCamp, nous vous conseillons vivement la lecture de l'excellent <a href=\"http://fr.wikipedia.org/wiki/BarCamp\">article Wikipedia</a> sur la question.
+    "
+  nav_home: "Accueil"
+  nav_attend_now: "S'inscrire maintenant"
+  nav_attending: "Ils y seront"
+  nav_attending_long: "Ils participent au BarCamp le 20 novembre 2010"
+  nav_to_barcamp: "Vers BarCamp.org"
+  homepage_some_photos: "Quelques photos des<br/>précédents BarCampAlsace"
+  footer_line_1: "Le BarCampEurodistrict 2010 aura lieu au"
+  footer_line_2: "samedi 20 novembre 2010"
+  attending_form: "Formulaire d'inscription"
+  select_size: "Sélectionnez une taille..."
+  form_note: "Votre email ne sera en aucune manière divulgué."
+  attending_count: "Actuellement {{count}} personnes participent à l'évènement"
+  attributes:
+    first_name: "Prénom"
+    last_name: "Nom"
+    avatar: "Votre avatar (48x48 pixels)"
+    organization: "Organisation"
+    email: "Email (n'apparaitra nulle part)"
+    website: "Site web"
+    tags: "Description en 3 tags (séparés par des virgules)"
+    tshirt_size: "Taille de Tshirt"
+  helpers:
+    submit:
+      create: "Envoyer"

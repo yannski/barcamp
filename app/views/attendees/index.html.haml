@@ -1,21 +1,20 @@
-- @page_title = "Ils participeront et vous ?"
+- @page_title = t(:nav_attending)
 
-%h1 Ils participeront à l'événement le 10 octobre 2009
+%h1= t(:nav_attending_long)
 %p
-  Joignez-vous à nous en remplissant notre formulaire
-  %a{ :href => 'Form.html'}
-  != link_to "d'inscription", new_attendee_path
+  = t(:joins_us)
+  != link_to t(:filling_form), new_attendee_path
 #MemberListContainer
   %table{ :class => 'MemberList', :cellspacing =>'0', :cellpadding =>'0'}
     %tr
       %th{ :class => 'Place'}
       %th{ :class => 'Avatar'}
-      %th{ :class => 'FirstName'} Nom
-      %th{ :class => 'LastName'} Prénom
-      %th{ :class => 'Orgnisation'} Organisation
-      %th{ :class => 'WebSite'} Site
+      %th{ :class => 'FirstName'}= t("attributes.first_name")
+      %th{ :class => 'LastName'}= t("attributes.last_name")
+      %th{ :class => 'Orgnisation'}= t("attributes.organization")
+      %th{ :class => 'WebSite'}= t("attributes.website")
       %th{ :class => 'TagsList'} Tags
       %th{ :class => 'TShirtSize'}
     %tbody#attendees
-      != render :partial => "attendee", :collection => @attendees
+      != render @attendees
 

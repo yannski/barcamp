@@ -1,12 +1,12 @@
 %tr{:class => cycle("Col", nil)}
-  %td!= attendee.position
+  %td!= attendee_counter+1
   %td!= image_tag attendee.avatar.url(:small)
-  %td!= attendee.firstname
-  %td!= attendee.lastname
+  %td!= attendee.first_name
+  %td!= attendee.last_name
   %td!= attendee.organization
   %td
     - unless attendee.website.blank?
       - url = attendee.website =~ /http/ ? attendee.website : "http://#{attendee.website}"
       != link_to "lien", url
-  %td!= attendee.tags.join(", ")
+  %td!= attendee.tags
   %td!= attendee.tshirt_size

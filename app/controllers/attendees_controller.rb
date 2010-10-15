@@ -1,13 +1,13 @@
 class AttendeesController < ApplicationController
 
   def index
-    @attendees = Attendee.all
+    @attendees = Attendee.all.asc(:created_at)
 
     respond_to do |format|
       format.html
       format.csv {
         csv_string = FasterCSV.generate do |csv|
-          columns = %w(firstname lastname email organization website tshirt_size)
+          columns = %w(first_name last_name email organization website tshirt_size)
           # header row
           csv << columns
           
