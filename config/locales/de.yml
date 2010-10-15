@@ -127,7 +127,7 @@ de:
           other:  "Konnte %{model} nicht speichern: %{count} Fehler."
         body: "Bitte überprüfen Sie die folgenden Felder:"
 
-  activerecord:
+  activemodel:
     errors:
       template:
         header:
