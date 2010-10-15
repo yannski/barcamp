@@ -156,3 +156,48 @@ de:
         odd: "muss ungerade sein"
         even: "muss gerade sein"
         record_invalid: "Gültigkeitsprüfung ist fehlgeschlagen: %{errors}"
+  helpers:
+    submit:
+      create: "Abschicken"
+
+  homepage_title: "Willkommen zum BarCampEurodistrict 2010!"
+  homepage_body: "
+    In der Tradition des <a href=\"http://barcamp.org/BarCampAlsace\">BarCampAlsace</a>, wir starten nun ein neues \"Abenteuer\": BarCampEurodistrict.
+    <br/>
+    Dieses Jahr, der BarCampEurodistrict findet statt am 20 November 2010, wâhrend der <a href=\"http://www.strasbourg.eu/see\">Europäischen Unternehmerwoche</a>, in Zusammenarbeit mit der Stadt Straßburg und der WRO.
+    <br/>
+    <br/>
+    Darum wird dies ein internationales BarCamp sein. Das bedeutet, die gesprochene Sprache einer Sitzung wird der kleinste gemeinsame Nenner der Teilnehmer sein: Bevor Sie eine Sitzung starten, fragen Sie also (auf Englisch!) ob jeder im Raum Sie verstehen kann. :) Das kann Deutsch sein, Französisch, Englisch oder sogar Klingonisch!
+    <br/>
+    <br/>
+    Ab 9 Uhr morgens werden wir Sie mit Kaffee und Croissants im CPPlex willkommen heißen, dem ersten Coworking Space in Straßburg. Die Sitzungen beginnen im 10h (s.t.) und enden um 19h.
+    <br/>
+    <br/>
+    Wenn Sie Fragen haben, wenden Sie Sich an Yann Klis (yann [point] klis [at] gmail [point] com , oder auf Twitter @yannski), oder pingen Sie #barcampeurodsitrict auf Twitter.
+    <br/>
+    Wenn Sie nicht wissen, was ein BarCamp ist, empfehlen wir ihnen den <a href=\"http://de.wikipedia.org/wiki/BarCamp\">Wikipedia-Article über BarCamps</a>.
+    "
+  nav_home: "Start"
+  nav_attend_now: "Jetzt anmelden"
+  nav_attending: "Teilnehmer"
+  nav_attending_long: "teilnehmer am Event am 20. November 2010"
+  nav_to_barcamp: "Zu BarCamp.org"
+  homepage_some_photos: "Einige Fotos vom <br/>letzten BarCampAlsace"
+  footer_line_1: "Das BarCampEurodistrict 2010 findet statt am"
+  footer_line_2: "Samstag, den 20. November 2010"
+  attending_form: "Anmeldeformular für Teilnehmer"
+  select_size: "Größe wählen..."
+  form_note: "Ihre Email wird nirgendwo öffentlich angezeigt."
+  joins_us: "Zum Anmelden füllen Sie "
+  filling_form: "dieses Formular aus."
+  attending_count: "Bis jetzt haben sich {{count}} Personen angemeldet."
+  super_size: "Größere Karte"
+  attributes:
+    first_name: "Vorname"
+    last_name: "Familienname"
+    avatar: "Ihr Avatar (48x48 Pixel)"
+    organization: "Organisation"
+    email: "Email (wird nicht auf der Seite angezeigt)"
+    website: "Webseite"
+    tags: "Beschreibung in drei 'Tags' (durch Kommata getrennt)"
+    tshirt_size: "Tshirtgröße"
