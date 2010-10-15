@@ -46,15 +46,8 @@ body {
   background-repeat: no-repeat; }
 
 
-#HeaderBannerContainer.fr {
-  background-image: url(/images/BgHeader-2fr.png);}
-
-#HeaderBannerContainer.de {
-  background-image: url(/images/BgHeader-2al.png);}
-
-#HeaderBannerContainer.en {
-  background-image: url(/images/BgHeader-2en.png);}
-
+#HeaderBannerContainer {
+  background-image: url(/images/BgHeader.jpg);}
 
 #HeaderBannerContainer ul.lang{
   display: block;
