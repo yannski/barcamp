@@ -6,14 +6,17 @@
     = javascript_include_tag :defaults
     = csrf_meta_tag
   %body
-    #HeaderBannerContainer.de
+    #HeaderBannerContainer{:class => I18n.locale}
       %ul.lang
         %li
-          %a.en{:href => "#"}
+          - url = controller.controller_name == "welcome" ? "/" : request.path.gsub(/\/de|\/fr/, "")
+          %a.en{:href => url}
         %li
-          %a.de{:href => "#"}
+          - url = controller.controller_name == "welcome" ? "/de" : url_for(:locale => "de")
+          %a.de{:href => url}
         %li
-          %a.fr{:href => "#"}
+          - url = controller.controller_name == "welcome" ? "/fr" : url_for(:locale => "fr")
+          %a.fr{:href => url}
     #GlobContainter
       #Menu
         %ul
