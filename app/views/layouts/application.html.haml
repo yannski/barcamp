@@ -6,7 +6,14 @@
     = javascript_include_tag :defaults
     = csrf_meta_tag
   %body
-    #HeaderBannerContainer
+    #HeaderBannerContainer.de
+      %ul.lang
+        %li
+          %a.en{:href => "#"}
+        %li
+          %a.de{:href => "#"}
+        %li
+          %a.fr{:href => "#"}
     #GlobContainter
       #Menu
         %ul

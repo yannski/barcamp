@@ -21,10 +21,11 @@ body {
   letter-spacing: 1px;
   font-color: #000;
   font-size: 1em;
-  background-image: url(/images/BgPage.jpg);
-  background-repeat: repeat-x;
-  background-color: #eff0f0;
-  background-position: top center; }
+  background-image: url(/images/BgPageEuro.png)!important;
+  background-repeat: repeat-x!important;
+  background-position: center 276px !important; 
+  background-attachment: fixed;
+  background-color: #f1f1f1 !important;}
   body a, body a:active, body a:visited, body a:hover, body a:link {
     color: #1d1a1f;
     text-decoration: none; }
@@ -42,8 +43,60 @@ body {
   height: 276px;
   margin-top: 0px;
   margin-left: -460px;
-  background-image: url(/images/BgHeader.jpg);
   background-repeat: no-repeat; }
+
+
+#HeaderBannerContainer.fr {
+  background-image: url(/images/BgHeader-2fr.png);}
+
+#HeaderBannerContainer.de {
+  background-image: url(/images/BgHeader-2al.png);}
+
+#HeaderBannerContainer.en {
+  background-image: url(/images/BgHeader-2en.png);}
+
+
+#HeaderBannerContainer ul.lang{
+  display: block;
+  position: relative;
+  float:right;
+  right: 232px;
+  top: 210px;
+  width: 200px;
+  height:11px;
+}
+
+#HeaderBannerContainer ul.lang li{
+  display: block;
+  position: relative;
+  float:right;
+  width: 16px;
+  height:11px;
+  margin-right: 10px;
+  background-color: green;
+}
+
+
+#HeaderBannerContainer ul.lang li a{
+  display: block;
+  position: relative;
+  width: 16px;
+  height: 11px;
+  background-image: url(/images/flags.png);
+  background-position: left 0px;
+}
+
+#HeaderBannerContainer ul.lang li a.fr{
+  background-position: left 0px;
+}
+
+#HeaderBannerContainer ul.lang li a.de{
+  background-position: left -11px;
+}
+
+#HeaderBannerContainer ul.lang li a.en{
+  background-position: left -22px;
+}
 
 #GlobContainter {
   z-index: 0;
