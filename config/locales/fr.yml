@@ -33,6 +33,7 @@ fr:
   select_size: "Sélectionnez une taille..."
   form_note: "Votre email ne sera en aucune manière divulgué."
   attending_count: "Actuellement {{count}} personnes participent à l'évènement"
+  super_size: "Agrandir Le Plan"
   attributes:
     first_name: "Prénom"
     last_name: "Nom"

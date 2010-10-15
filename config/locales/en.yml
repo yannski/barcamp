@@ -33,6 +33,7 @@ en:
   joins_us: "Joins us by "
   filling_form: "filling this form"
   attending_count: "Currently, {{count}} persons are attending the event."
+  super_size: "View Larger Map"
   attributes:
     first_name: "First name"
     last_name: "Last name"
