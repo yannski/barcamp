@@ -17,6 +17,7 @@ gem 'paperclip'
 gem 'mini_magick'
 gem 's3'
 gem 'RedCloth'
+gem 'fastercsv'
 
 group :development do
   gem 'mongrel'
