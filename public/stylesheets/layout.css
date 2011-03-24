@@ -21,9 +21,9 @@ body {
   letter-spacing: 1px;
   font-color: #000;
   font-size: 1em;
-  background-image: url(/images/BgPageEuro.png)!important;
-  background-repeat: repeat-x!important;
-  background-position: center 276px !important; 
+  background-image: url(../images/BgPageEuro.png)!important;
+  background-repeat: repeat!important;
+  background-position: center 0px !important; 
   background-attachment: fixed;
   background-color: #f1f1f1 !important;}
   body a, body a:active, body a:visited, body a:hover, body a:link {
@@ -47,7 +47,7 @@ body {
 
 
 #HeaderBannerContainer {
-  background-image: url(/images/BgHeader.png);}
+  background-image: url(../images/BgHeader.png);}
 
 #HeaderBannerContainer ul.lang{
   display: block;
@@ -75,7 +75,7 @@ body {
   position: relative;
   width: 16px;
   height: 11px;
-  background-image: url(/images/flags.png);
+  background-image: url(../images/flags.png);
   background-position: left 0px;
 }
 
@@ -126,20 +126,20 @@ body {
       #Menu ul li a {
         color: #fff; }
         #Menu ul li a span {
-          color: #ff7729; }
+          color: #cccccc; }
     #Menu ul li:hover {
-      background-color: #ff7729; }
+      background-color: #7a170f; }
       #Menu ul li:hover a {
         color: #fff; }
         #Menu ul li:hover a span {
           color: #fff; }
     #Menu ul li.Active a {
-      color: #ff7729; }
+      color: #cccccc; }
     #Menu ul li.Active:hover a {
       color: #fff; }
     #Menu ul li.Right {
       float: right;
-      background-image: url(/images/FlecheMenu.jpg);
+      background-image: url(../images/FlecheMenu.jpg);
       background-repeat: no-repeat;
       background-position: top right;
       padding-left: 8px;
@@ -183,10 +183,10 @@ body {
         height: 72px;
         border-width: 4px;
         border-style: solid;
-        border-color: #ff7729; }
+        border-color: #bf1719; }
 
 #Content a {
-  color: #ff7729; }
+  color: #bf1719; }
 
 #Content form.SubScription {
   padding-top: 20px; }
@@ -209,7 +209,7 @@ body {
       width: 300px;
       padding: 6px;
       font-weight: bold;
-      color: #ff7729; }
+      color: #bf1719; }
     #Content form.SubScription fieldset input.Black {
       border: 0px;
       padding: 6px;
@@ -254,7 +254,7 @@ body {
         color: #fff;
         font-weight: bold;
         vertical-align: middle;
-        background-color: #ff7729; }
+        background-color: #bf1719; }
       #Content #MemberListContainer .MemberList tr th.Place {
         width: 24px; }
       #Content #MemberListContainer .MemberList tr th.TShirtSize {
@@ -293,7 +293,7 @@ body {
   width: 780px -37px;
   padding-left: 37px;
   height: 68px;
-  background-image: url(/images/FooterBg.gif);
+  background-image: url(../images/FooterBg.gif);
   background-repeat: no-repeat; }
   #Footer ul {
     width: 100%;
@@ -313,7 +313,7 @@ body {
       padding-top: 4px;
       width: 550px; }
       #Footer ul li.Date a {
-        color: #ff7729; }
+        color: #fff; }
 
 #Legals {
   position: relative;
@@ -323,7 +323,7 @@ body {
   width: 780px -37px;
   padding-left: 37px; }
   #Legals a {
-    color: #ff7729; }
+    color: #bf1719; }
   #Legals ul {
     width: 100%;
     height: 26px; }

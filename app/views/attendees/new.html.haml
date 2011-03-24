@@ -2,7 +2,7 @@
 
 %h1 #{t(:attending_form)}
 %p
-  != t(:attending_count, :count => link_to("(#{Attendee.count})", attendees_path))
+  != t(:attending_count, :count => Attendee.count, :link => attendees_path)
 - form_for @attendee, :html => {:multipart => true, :class => "SubScription"} do |f|
   != f.error_messages
   .ColLeft
@@ -32,6 +32,9 @@
     %fieldset
       != f.label :tshirt_size
       != f.select :tshirt_size, %w(XS S M L XL XXL), :prompt => t(:select_size)
+    %fieldset
+      != f.label :is_eating
+      != f.check_box :is_eating
     %fieldset
       != f.submit
     

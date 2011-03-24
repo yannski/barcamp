@@ -1,5 +1,9 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+# French translations for Ruby on Rails
+# by Christian Lescuyer (christian@flyingcoders.com)
+# contributors:
+#  - Sebastien Grosjean - ZenCocoon.com
+#  - Bruno Michel - http://github.com/nono
+#  - Tsutomu Kuroda - http://github.com/kuroda (t-kuroda@oiax.jp)
 
 fr:
   date:
@@ -7,23 +11,17 @@ fr:
       default: "%d/%m/%Y"
       short: "%e %b"
       long: "%e %B %Y"
-      long_ordinal: "%e %B %Y"
-      only_day: "%e"
-
     day_names: [dimanche, lundi, mardi, mercredi, jeudi, vendredi, samedi]
     abbr_day_names: [dim, lun, mar, mer, jeu, ven, sam]
     month_names: [~, janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
     abbr_month_names: [~, jan., fév., mar., avr., mai, juin, juil., août, sept., oct., nov., déc.]
     order: [ :day, :month, :year ]
-  
+
   time:
     formats:
-      default: "%d %B %Y %H:%M"
-      time: "%H:%M"
+      default: "%d %B %Y %H:%M:%S"
       short: "%d %b %H:%M"
-      long: "%A %d %B %Y %H:%M:%S %Z"
-      long_ordinal: "%A %d %B %Y %H:%M:%S %Z"
-      only_second: "%S"
+      long: "%A %d %B %Y %H:%M"
     am: 'am'
     pm: 'pm'
 
@@ -32,36 +30,39 @@ fr:
       half_a_minute: "une demi-minute"
       less_than_x_seconds:
         zero:  "moins d'une seconde"
-        one:   "moins de 1 seconde"
-        other: "moins de {{count}} secondes"
+        one:   "moins d'une seconde"
+        other: "moins de %{count} secondes"
       x_seconds:
         one:   "1 seconde"
-        other: "{{count}} secondes"
+        other: "%{count} secondes"
       less_than_x_minutes:
-        zero:  "moins d'une minute"
-        one:   "moins de 1 minute"
-        other: "moins de {{count}} minutes"
+        zero:  "moins d'une minute"
+        one:   "moins d'une minute"
+        other: "moins de %{count} minutes"
       x_minutes:
         one:   "1 minute"
-        other: "{{count}} minutes"
+        other: "%{count} minutes"
       about_x_hours:
         one:   "environ une heure"
-        other: "environ {{count}} heures"
+        other: "environ %{count} heures"
       x_days:
         one:   "1 jour"
-        other: "{{count}} jours"
+        other: "%{count} jours"
       about_x_months:
         one:   "environ un mois"
-        other: "environ {{count}} mois"
+        other: "environ %{count} mois"
       x_months:
         one:   "1 mois"
-        other: "{{count}} mois"
+        other: "%{count} mois"
       about_x_years:
         one:   "environ un an"
-        other: "environ {{count}} ans"
+        other: "environ %{count} ans"
       over_x_years:
         one:   "plus d'un an"
-        other: "plus de {{count}} ans"
+        other: "plus de %{count} ans"
+      almost_x_years:
+        one:   "presqu'un an"
+        other: "presque %{count} ans"
     prompts:
       year:   "Année"
       month:  "Mois"
@@ -69,26 +70,35 @@ fr:
       hour:   "Heure"
       minute: "Minute"
       second: "Seconde"
-  
+
   number:
     format:
+      separator: ","
+      delimiter: " "
       precision: 3
-      separator: ','
-      delimiter: ' '
+      significant: false
+      strip_insignificant_zeros: false
     currency:
       format:
-        unit: '€'
+        format: "%n %u"
+        unit: "€"
+        separator: ","
+        delimiter: " "
         precision: 2
-        format: '%n %u'
+        significant: false
+        strip_insignificant_zeros: false
+    percentage:
+      format:
+        delimiter: ""
+    precision:
+      format:
+        delimiter: ""
     human:
       format:
-        # These three are to override number.format and are optional
-        # separator: 
-        delimiter: "" 
+        delimiter: ""
         precision: 2
-      # Rails <= v2.2.2
-      # storage_units: [octet, kb, Mb, Gb, Tb]
-      # Rails >= v2.3
+        significant: true
+        strip_insignificant_zeros: true
       storage_units:
         format: "%n %u"
         units:
@@ -99,14 +109,23 @@ fr:
           mb: "Mo"
           gb: "Go"
           tb: "To"
+      decimal_units:
+        format: "%n %u"
+        units:
+          unit: ""
+          thousand: "millier"
+          million: "million"
+          billion: "milliard"
+          trillion: "billion"
+          quadrillion: "million de milliards"
 
   support:
     array:
-      sentence_connector: 'et'
-      skip_last_comma: true
       words_connector: ", "
       two_words_connector: " et "
       last_word_connector: " et "
+    select:
+      prompt: "Veuillez sélectionner"
 
   helpers:
     select:
@@ -115,80 +134,98 @@ fr:
       create: "Créer un %{model}"
       update: "Modifier ce %{model}"
       submit: "Enregistrer ce %{model}"
-
-  errors:
-    template:
-      header:
-        one:   "Impossible d'enregistrer ce %{model} : 1 erreur"
-        other: "Impossible d'enregistrer ce %{model} : %{count} erreurs"
-      body: "Veuillez vérifier les champs suivants : "
+    label:
+      event:
+        name: "Donnez un nom à votre évènement"
 
   attributes:
     created_at: "Créé le"
     updated_at: "Modifié le"
 
-  activemodel:
+  errors:
+    format: "%{attribute} %{message}"
+    messages: &errors_messages
+      inclusion: "n'est pas inclus(e) dans la liste"
+      exclusion: "n'est pas disponible"
+      invalid: "n'est pas valide"
+      confirmation: "ne concorde pas avec la confirmation"
+      accepted: "doit être accepté(e)"
+      empty: "doit être rempli(e)"
+      blank: "doit être rempli(e)"
+      too_long: "est trop long (pas plus de %{count} caractères)"
+      too_short: "est trop court (au moins %{count} caractères)"
+      wrong_length: "ne fait pas la bonne longueur (doit comporter %{count} caractères)"
+      not_a_number: "n'est pas un nombre"
+      not_an_integer: "doit être un nombre entier"
+      greater_than: "doit être supérieur à %{count}"
+      greater_than_or_equal_to: "doit être supérieur ou égal à %{count}"
+      equal_to: "doit être égal à %{count}"
+      less_than: "doit être inférieur à %{count}"
+      less_than_or_equal_to: "doit être inférieur ou égal à %{count}"
+      odd: "doit être impair"
+      even: "doit être pair"
+      taken: "n'est pas disponible"
+    template: &errors_template
+      header:
+        one:   "Impossible d'enregistrer ce %{model} : 1 erreur"
+        other: "Impossible d'enregistrer ce %{model} : %{count} erreurs"
+      body: "Veuillez vérifier les champs suivants : "
+    provider_already_connected: "Ce profil %{provider_name} est déjà associé avec un compte Reunik. Veuillez vous connecter avec un autre compte %{provider_name}."
+
+  activerecord:
     errors:
-      template:
-        header: 
-          one: "Impossible d'enregistrer {{model}}: 1 erreur"
-          other: "Impossible d'enregistrer {{model}}: {{count}} erreurs."
-        body: "Veuillez vérifier les champs suivants :"
       messages:
-        inclusion: "n'est pas inclus(e) dans la liste"
-        exclusion: "n'est pas disponible"
-        invalid: "n'est pas valide"
-        confirmation: "ne concorde pas avec la confirmation"
-        accepted: "doit être accepté(e)"
-        empty: "doit être rempli(e)"
-        blank: "doit être rempli(e)"
-        too_long: "est trop long (pas plus de {{count}} caractères)"
-        too_short: "est trop court (au moins {{count}} caractères)"
-        wrong_length: "ne fait pas la bonne longueur (doit comporter {{count}} caractères)"
         taken: "n'est pas disponible"
-        not_a_number: "n'est pas un nombre"
-        greater_than: "doit être supérieur à {{count}}"
-        greater_than_or_equal_to: "doit être supérieur ou égal à {{count}}"
-        equal_to: "doit être égal à {{count}}"
-        less_than: "doit être inférieur à {{count}}"
-        less_than_or_equal_to: "doit être inférieur ou égal à {{count}}"
-        odd: "doit être impair"
-        even: "doit être pair"
-        record_invalid: "La validation a échoué : {{errors}}"
-        
+        record_invalid: "La validation a échoué : %{errors}"
+        <<: *errors_messages
+      template:
+        <<: *errors_template
+      full_messages:
+        format: "%{attribute} %{message}"
+    attributes:
+      event:
+        title: "Mariage, Vacances, Anniversaire…"
+
+  mongoid:
+    errors:
+      messages:
+        document_not_found: "Ce document n'existe pas"
+
   joins_us: "Rejoignez nous en "
   filling_form: "remplissant ce formulaire"
-  homepage_title: "Bienvenue au BarCampEurodistrict 2010 !"
+  homepage_title: "Bienvenue au RailsCampParis 3 !"
   homepage_body: "
-    Poursuivant la grande tradition des <a href=\"http://barcamp.org/BarCampAlsace\">BarCampAlsace</a>, nous commençons une nouvelle aventure avec le BarCampEurodistrict.
-    <br/>
-    Cette année, le BarCampEurodistrict se déroulera le <strong>samedi 20 novembre 2010</strong>, pendant la <a href=\"http://www.strasbourg.eu/see\">Semaine européenne de l'entrepreneur</a>, en coordination avec la Ville de Strasbourg et le WRO.
-    <br/>
-    <img src=\"/images/logo_see_fr.png\"/>
+    Après la succès des 2 premiers BarCamps dédiés à Ruby et Rails, <a href='http://www.rubyfrance.org/evenements/railscamp-paris-en/'>RailsCampParis</a> et <a href='http://railscampparis2.heroku.com'>RailsCampParis2</a>, voici venu le temps d'une troisième édition.
     <br/>
     <br/>
-    C'est pourquoi cet évènement sera un BarCamp International. Ceci signifie que la langue parlée durant les sessions sera le plus petit dénominateur commun: avant de débuter une session, vous demanderez (en anglais) si tout le monde dans la salle vous comprend :) La langue parlée pourra alors être le français, l'allemand ou l'anglais. Voire même le klingon!
+    Ce RailsCampParis3 aura lieu <strong>samedi 9 avril</strong> à la Maison de l'Alsace, 39 avenue des Champs Elysées 75018 Paris, de 9h à 18h.
     <br/>
     <br/>
-    A partir de 9h du matin, nous vous accueillerons avec du café chaud et des croissants au <b>CPPlex</b>, premier espace de coworking à Strasbourg, <b>17 rue des magasins à Strasbourg, France</b>. Les sessions commenceront à 10h et se termineront à 19h.
+    Attention, la capacité d'accueil étant limitée, seules les <strong>80 premières personnes</strong> inscrites sur le site seront acceptées, les autres seront placées sur liste d'attente. Inscrivez-vous rapidement ! Si vous vous êtes inscrits mais que vous ne pouvez finalement pas venir, merci de nous le signaler afin de laisser la chance à quelqu'un d'autre de venir.
     <br/>
     <br/>
-    Si vous avez des questions, contactez Yann Klis (yann [point] klis [at] gmail [point] com ou @yannski sur twitter) ou essayez le hashtag #bced sur Twitter.
+    A partir de 9h du matin, nous vous accueillerons avec du café chaud et des croissants à la <b>Maison de l'Alsace 39 avenue des Champs Elysées 75018 Paris, France</b>. Les sessions commenceront à 10h et se termineront à 18h.
+    <br/>
+    Un repas <i>sur le pouce</i> sera servi sur place durant la pause déjeûner (jambon cuit à la choucroute, salade de pommes de terre). Si vous ne souhaitez pas manger sur place, merci de le signaler lors de votre inscription.
+    <br/>
+    <br/>
+    Si vous avez des questions, contactez Yann Klis (yann [point] klis [at] gmail [point] com ou @yannski sur twitter) ou essayez le hashtag #railscampparis3 sur Twitter.
+    <br/>
     <br/>
     Si vous ne savez pas ce qu'est un BarCamp, nous vous conseillons vivement la lecture de l'excellent <a href=\"http://fr.wikipedia.org/wiki/BarCamp\">article Wikipedia</a> sur la question.
     "
   nav_home: "Accueil"
   nav_attend_now: "S'inscrire maintenant"
   nav_attending: "Ils y seront"
-  nav_attending_long: "Ils participent au BarCamp le 20 novembre 2010"
+  nav_attending_long: "Ils participent au RailsCamp le 9 avril 2011"
   nav_to_barcamp: "Vers BarCamp.org"
-  homepage_some_photos: "Quelques photos des<br/>précédents BarCampAlsace"
-  footer_line_1: "Le BarCampEurodistrict 2010 aura lieu au"
-  footer_line_2: "samedi 20 novembre 2010"
+  homepage_some_photos: "Quelques photos des<br/>précédents RailsCamp"
+  footer_line_1: "Le RailsCampParis3 aura lieu à la Maison de l'Alsace"
+  footer_line_2: "samedi 9 avril 2011"
   attending_form: "Formulaire d'inscription"
   select_size: "Sélectionnez une taille..."
   form_note: "Votre email ne sera en aucune manière divulgué."
-  attending_count: "Actuellement {{count}} personnes participent à l'évènement"
+  attending_count: "Actuellement <a href='%{link}'>(%{count})</a> personnes participent à l'évènement"
   super_size: "Agrandir Le Plan"
   attributes:
     first_name: "Prénom"
@@ -199,6 +236,7 @@ fr:
     website: "Site web"
     tags: "Description en 3 tags (séparés par des virgules)"
     tshirt_size: "Taille de Tshirt"
+    is_eating: "Mange sur place"
   helpers:
     submit:
       create: "Envoyer"

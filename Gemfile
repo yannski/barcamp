@@ -1,18 +1,17 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0'
+gem 'rails', '3.0.5'
 
-gem 'bson_ext', '1.0.9'
-gem 'mongoid', '2.0.0.beta.19'
+gem 'bson_ext', '1.2.4'
+gem 'mongoid', '2.0.0.rc8'
 
-gem 'ruby_parser'
-gem 'hpricot'
 gem 'haml'
 gem 'devise'
 gem 'hoptoad_notifier'
 gem 'will_paginate', '3.0.pre2'
 gem 'mongoid_slug'
 gem 'dynamic_form'
+gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
 gem 'paperclip'
 gem 'mini_magick'
 gem 's3'
@@ -28,7 +27,6 @@ group :development do
 end
 
 group :test do
-  gem 'rspec-rails', '2.0.0.beta.22'
-  gem 'factory_girl_rails', '1.0'
-  gem 'rcov', '0.9.8'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
 end

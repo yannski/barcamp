@@ -9,19 +9,16 @@
     #HeaderBannerContainer{:class => I18n.locale}
       %ul.lang
         %li
-          - url = controller.controller_name == "welcome" ? "/" : request.path.gsub(/\/de|\/fr/, "")
+          - url = controller.controller_name == "welcome" ? "/en" : url_for(:locale => "en")
           %a.en{:href => url}
         %li
-          - url = controller.controller_name == "welcome" ? "/de" : url_for(:locale => "de")
-          %a.de{:href => url}
-        %li
-          - url = controller.controller_name == "welcome" ? "/fr" : url_for(:locale => "fr")
+          - url = controller.controller_name == "welcome" ? "/" : request.path.gsub(/\/en|\/fr/, "")
           %a.fr{:href => url}
     #GlobContainter
       #Menu
         %ul
           %li.Active
-            - url = I18n.locale == :en ? "/" : "/#{I18n.locale}"
+            - url = I18n.locale == :fr ? "/" : "/#{I18n.locale}"
             = link_to t(:nav_home), url
           %li
             = link_to t(:nav_attend_now), new_attendee_path
@@ -31,7 +28,7 @@
               %span
                 != "(#{Attendee.count})"
           %li.Right
-            != link_to t(:nav_to_barcamp), 'http://barcamp.org/BarCampEurodistrict'
+            != link_to t(:nav_to_barcamp), 'http://barcamp.org/RailsCampParis3'
 
       %div#Content.ClearFix
         != yield
@@ -39,11 +36,10 @@
       %div#Footer
         %ul
           %li.Logo
-            != link_to image_tag("LogoBarCampAlsace6.jpg"), 'http://barcamp.org/BarCampAlsace6'
+            != link_to image_tag("LogoRailsCampParis3.jpg"), 'http://barcamp.org/RailsCampParis3'
           %li.Date
             = t(:footer_line_1)
-            != link_to "CPPlex", "http://www.cpplex.org"
             %br
             = t(:footer_line_2)
             %br
-            != link_to "17 rue des magasins Strasbourg, France.", "http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=17+Rue+des+Magasins,+Strasbourg&sll=46.75984,1.738281&sspn=8.354699,23.269043&ie=UTF8&hq=&hnear=17+Rue+des+Magasins,+67000+Strasbourg,+Bas-Rhin,+Alsace&z=16"
+            != link_to "39 avenue des Champs Elysées 75018 Paris, France.", "http://maps.google.fr/maps?f=q&source=s_q&hl=fr&geocode=&q=17+Rue+des+Magasins,+Strasbourg&sll=46.75984,1.738281&sspn=8.354699,23.269043&ie=UTF8&hq=&hnear=17+Rue+des+Magasins,+67000+Strasbourg,+Bas-Rhin,+Alsace&z=16"

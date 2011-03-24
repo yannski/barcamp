@@ -1,6 +1,6 @@
 Transmediatic::Application.routes.draw do
   root :to => "welcome#index"
-  match '/:locale' => 'welcome#index', :locale => /fr|de/
+  match '/:locale' => 'welcome#index', :locale => /en/
 
   devise_for :users
 
@@ -10,7 +10,7 @@ Transmediatic::Application.routes.draw do
     end
   end
   
-  scope "(:locale)", :locale => /fr|de/ do
+  scope "(:locale)", :locale => /en/ do
     resources :attendees
   end
 

@@ -8,7 +8,7 @@ defaults: &defaults
 
 development:
   <<: *defaults
-  database: barcampeurodistrict_development
+  database: railscampparis3_development
 
 test:
   <<: *defaults

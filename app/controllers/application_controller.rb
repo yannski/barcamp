@@ -6,10 +6,10 @@ class ApplicationController < ActionController::Base
 protected
 
   def set_default_locale
-    params[:locale].present? ? I18n.locale = params[:locale] : I18n.locale = :en
+    params[:locale].present? ? I18n.locale = params[:locale] : I18n.locale = :fr
   end
 
   def default_url_options(options={})
-    I18n.locale == :en ? {} : { :locale => I18n.locale }
+    I18n.locale == :fr ? {} : { :locale => I18n.locale }
   end
 end
