@@ -4,21 +4,20 @@
 en:
   homepage_title: "Welcome to the RailsCampParis 3 !"
   homepage_body: "
-    Following the success of the two first BarCamp dedicated to Ruby and Rails, <a href='http://www.rubyfrance.org/evenements/railscamp-paris-en/'>RailsCampParis</a> and <a href='http://railscampparis3.heroku.com'>RailsCampParis2</a>, here is coming the third edition, RailsCampParis 3.
+    Following the success of the first two BarCamps dedicated to Ruby and Rails, <a href='http://www.rubyfrance.org/evenements/railscamp-paris-en/'>RailsCampParis</a> and <a href='http://railscampparis2.heroku.com'>RailsCampParis 2</a>, we are pleased to announce the third edition, RailsCampParis 3.
     <br/>
     <br/>
-    This RailsCampParis 3 will take place the <strong>saturday 9th of april</strong> at La Maison de l'Alsace, 39 avenue des Champs Elysées 75018 Paris, from 9AM to 6PM.
+    RailsCampParis 3 will take place on <strong>Saturday 9th of April</strong> at La Maison de l'Alsace, 39 avenue des Champs Elysées 75018 Paris, from 9am to 6pm.
     <br/>
     <br/>
-    The number of attendees will be limiter to 80 persons. If you don't want to be on the waiting list, please subscribe quickly ! If you subscribed and finally you won't be able to come, please send us a quick note so we can alert the next person in the waiting list.
+    The number of attendees will be limited to <strong>80</strong>. If you want to avoid the waiting list, please subscribe quickly ! (If you've subscribed but can't make it, please send us a quick note so we can alert the next person on the waiting list.)
     <br/>
     <br/>
-    Beginning at 9 AM, we will welcome you with warm coffee and some croissants at <b>La Maison de l'Alsace 39 avenue des Champs Elysées 75018 Paris</b>. Sessions will start at 10 AM and finish at 6 PM.
-    <br/>
-    Some food will be available for lunch (ham and potatoes salad). If you don't want/cannot eat this food, don't check the tickbox on the pre-registration form.
+    Starting at 9am, we will welcome you with warm coffee and croissants. Sessions will start at 10 AM and finish at 6 PM. Some food will be available for lunch (ham with potato salad). If you don't want/can't eat this food, don't check the tickbox on the pre-registration form.
     <br/>
     <br/>
-    If you have any questions, contact Yann Klis (yann [point] klis [at] gmail [point] com or on twitter @yannski) or ping #railscampparis on Twitter.
+    If you have any questions, contact Yann Klis (yann [dot] klis [at] gmail [dot] com or on twitter @yannski) or ping #railscampparis on Twitter.
+    <br/>
     <br/>
     If you don't know what a BarCamp is, we recommend you to read the <a href=\"http://en.wikipedia.org/wiki/BarCamp\">excellent Wikipedia article on BarCamp</a>.
     "
