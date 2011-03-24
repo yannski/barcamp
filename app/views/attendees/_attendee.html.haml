@@ -14,4 +14,3 @@
       - url = attendee.website =~ /http/ ? attendee.website : "http://#{attendee.website}"
       != link_to "lien", url
   %td!= attendee.tags
-  %td!= attendee.tshirt_size
