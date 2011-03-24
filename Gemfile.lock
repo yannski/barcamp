@@ -51,6 +51,7 @@ GEM
     fastercsv (1.5.4)
     fastthread (1.0.7)
     gem_plugin (0.2.3)
+    gravatar_image_tag (1.0.0)
     haml (3.0.25)
     haml-rails (0.3.4)
       actionpack (~> 3.0)
@@ -154,6 +155,7 @@ DEPENDENCIES
   dynamic_form
   factory_girl_rails
   fastercsv
+  gravatar_image_tag
   haml
   haml-rails
   hoptoad_notifier

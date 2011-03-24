@@ -17,6 +17,7 @@ gem 'mini_magick'
 gem 's3'
 gem 'RedCloth'
 gem 'fastercsv'
+gem 'gravatar_image_tag'
 
 group :development do
   gem 'mongrel'
