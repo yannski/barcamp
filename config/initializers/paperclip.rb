@@ -160,4 +160,4 @@ Paperclip::Attachment.default_options[:path] = ":class/:attachment/:id/:style/:f
 Paperclip::Attachment.default_options[:storage] = :s3
 Paperclip::Attachment.default_options[:s3_headers] = {'Expires' => 1.year.from_now.httpdate}
 Paperclip::Attachment.default_options[:s3_credentials] = "#{Rails.root}/config/amazon_s3.yml"
-Paperclip::Attachment.default_options[:s3_host_alias] = "barcampeurodistrict-#{Rails.env}.s3.amazonaws.com"
+Paperclip::Attachment.default_options[:s3_host_alias] = "railscampparis3-#{Rails.env}.s3.amazonaws.com"
