@@ -5,6 +5,7 @@
     = stylesheet_link_tag :all
     = javascript_include_tag :defaults
     = csrf_meta_tag
+    %link{:href => root_url[0..-2]+image_path("RailsCampParis3_fb.png"), :rel => 'image_src'}
   %body
     #HeaderBannerContainer{:class => I18n.locale}
       %ul.lang
