@@ -7,7 +7,7 @@ class AttendeesController < ApplicationController
       format.html
       format.csv {
         csv_string = FasterCSV.generate do |csv|
-          columns = %w(first_name last_name email organization website tshirt_size)
+          columns = %w(first_name last_name email organization website tshirt_size is_eating)
           # header row
           csv << columns
           
