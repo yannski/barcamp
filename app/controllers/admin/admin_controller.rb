@@ -7,7 +7,7 @@ class Admin::AdminController < ApplicationController
 private
 
   def verify_admin_rights
-    !!current_user.admin
+    !current_user.admin? && render(:text => "You're not authorized to view this page", :status => 301)
   end
 
 public
