@@ -5,16 +5,16 @@
   :preserve
     <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=39,+avenue+des+Champs+Elys%C3%A9es+75008+Paris&amp;sll=46.75984,1.738281&amp;sspn=8.370921,23.269043&amp;ie=UTF8&amp;hq=&amp;hnear=39+Avenue+des+Champs-Elys%C3%A9es,+75008+Paris,+Ile-de-France&amp;z=14&amp;ll=48.870136,2.306453&amp;output=embed"></iframe><br /><small><a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=39,+avenue+des+Champs+Elys%C3%A9es+75008+Paris&amp;sll=46.75984,1.738281&amp;sspn=8.370921,23.269043&amp;ie=UTF8&amp;hq=&amp;hnear=39+Avenue+des+Champs-Elys%C3%A9es,+75008+Paris,+Ile-de-France&amp;z=14&amp;ll=48.870136,2.306453" style="color:#0000FF;text-align:left">#{ t(:super_size) }</a></small>
   %br
-  %br
-  %h1 Sponsors
+.ColRight
+  %h2 Sponsors
   %div{:style => "margin-left:auto;margin-right:auto;text-align: center;padding-top:5px;"}
     = link_to image_tag("novelys.png"), "http://www.novelys.com"
   %div{:style => "margin-left:auto;margin-right:auto;text-align: center;padding-top:5px;"}
     = link_to image_tag("sociabliz.png"), "http://sociabliz.com/"
   %div{:style => "margin-left:auto;margin-right:auto;text-align: center;"}
     = link_to image_tag("quelleenergie.png"), "http://www.quelleenergie.fr/"
-.ColRight
-  %h2!= t(:homepage_some_photos)
+  %h2{:style => "margin-top:10px;"}!= t(:homepage_some_photos)
   %ul
-    - 1.upto(7) do |i|
+    - 1.upto(6) do |i|
       %li!= link_to image_tag("photo#{i}t.jpg"), "/images/photo#{i}.jpg", :rel => 'lightbox', :title => "Photo #{i}"
+  %div{:style => "width:250px;padding-top:10px;margin-top:10px;height:10px"}
