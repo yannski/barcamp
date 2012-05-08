@@ -11,13 +11,3 @@ Paperclip::Attachment.default_options[:fog_host] = "http://" + ENV['S3_BUCKET_NA
 Paperclip::Attachment.default_options[:fog_public] = true
 
 Paperclip::Attachment.default_options[:path] = ":class/:attachment/:id/:style/:filename"
-
-class String
-  def without_host
-    if Rails.env.development?
-      self
-    else
-      self.gsub /http:\/\/epra3-(.*).s3.amazonaws.com/, ""
-    end
-  end
-end
