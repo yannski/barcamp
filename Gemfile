@@ -1,33 +1,31 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem 'rails', '3.0.5'
+gem 'rails', '3.2.3'
 
-gem 'bson_ext', '1.2.4'
-gem 'mongoid', '2.0.0.rc8'
+# Gems used only for assets and not required
+# in production environments by default.
+group :assets do
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
 
-gem 'haml'
-gem 'devise'
-gem 'hoptoad_notifier'
-gem 'will_paginate', '3.0.pre2'
-gem 'mongoid_slug'
+  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  gem 'therubyracer', :platform => :ruby
+
+  gem 'uglifier', '>= 1.0.3'
+end
+
+gem 'rails-i18n'
 gem 'dynamic_form'
-gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
+gem 'jquery-rails'
+gem 'haml-rails'
 gem 'paperclip'
-gem 'mini_magick'
-gem 's3'
-gem 'RedCloth'
-gem 'fastercsv'
+gem 'bson_ext'
+gem 'mongoid'
+gem 'fog'
+gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
 gem 'gravatar_image_tag'
 
 group :development do
-  gem 'mongrel'
-  gem 'ruby-debug'
-  gem 'rails3-generators'
-  gem 'haml-rails'
-  gem 'web-app-theme', '>= 0.6.2'
-end
-
-group :test do
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
+  gem 'thin'
+  gem 'debugger'
 end

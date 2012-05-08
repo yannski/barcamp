@@ -2,6 +2,8 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
+  joins_us: "Join us by "
+  filling_form: "filling this form"
   homepage_title: "Welcome to the RailsCampParis 3 !"
   homepage_body: "
     Following the success of the first two BarCamps dedicated to Ruby and Rails, <a href='http://www.rubyfrance.org/evenements/railscamp-paris-en/'>RailsCampParis</a> and <a href='http://railscampparis2.heroku.com'>RailsCampParis 2</a>, <a href='http://www.rubyfrance.org'>Ruby France</a> is pleased to announce the third edition, RailsCampParis 3.
@@ -32,8 +34,6 @@ en:
   attending_form: "Subscribing form to attend the event"
   select_size: "Select a size..."
   form_note: "Your email won't appear anywhere publicly."
-  joins_us: "Join us by "
-  filling_form: "filling this form"
   attending_count: "Currently, <a href='%{link}'>(%{count})</a> persons are attending the event."
   super_size: "View Larger Map"
   attributes:

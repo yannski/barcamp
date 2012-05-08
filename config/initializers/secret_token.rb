@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Transmediatic::Application.config.secret_token = '666e42d486fbafc54d272e06fd3f9babc6fc92dadb88de58c5cfa5685dca088c411279650bb09c6435a22ad2de0278b2bf44cd39fd5685cbad4c41d343405746'
+Barcamp::Application.config.secret_token = '563b42c68cbdf3eebe2d8b01b1ead418f3a8c6ea2adaf558178b458bab6708f5c6ea0e5ed9f38205584285716f392f1b11a2d56a447c255e266ce765abfb0c93'

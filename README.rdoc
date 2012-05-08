@@ -1,0 +1,22 @@
+== Welcome
+
+The purpose of this simple rails application is to help you run a nonconference (think BarCamp) website hosted at heroku.
+
+== Features
+
+* welcome page
+* registration page (first name, last name, tshirt size, avatar, etc)
+* attendees list page
+* translation in multiple languages
+
+== Installation (development environment)
+
+
+== Installation (production environment)
+
+So now you're happy with the changes you made to your fork and you want to host your new shiny website somewhere.
+
+This application is built so you can easily host it at Heroku.
+
+Simply follow these steps :
+* create an account at heroku

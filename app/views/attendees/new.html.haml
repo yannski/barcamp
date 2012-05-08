@@ -3,7 +3,7 @@
 %h1 #{t(:attending_form)}
 %p
   != t(:attending_count, :count => Attendee.count, :link => attendees_path)
-- form_for @attendee, :html => {:multipart => true, :class => "SubScription"} do |f|
+= form_for @attendee, :html => {:multipart => true, :class => "SubScription"} do |f|
   != f.error_messages
   .ColLeft
     %fieldset.Separator

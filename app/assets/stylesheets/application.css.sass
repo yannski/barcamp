@@ -1,0 +1,374 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+/* Filename : Layout.css
+ * Redered form : Reset.sass
+ * Version : 1.0.0 (2009-05-25) YYYY-MM-DD
+ * Author : Novelys
+ * Author's Uri : www.novelys.com
+ * Description : Css file set global property for browser compatibility
+
+/* Apply reset to this property
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, t
+  margin: 0
+  padding: 0
+  border: 0
+  outline: 0
+  font-size: 100%
+  vertical-align: baseline
+  background: transparent
+
+body
+  line-height: 1
+
+ol, ul, dl
+  list-style: none
+  position: relative
+
+blockquote, q
+  quotes: none
+/* Filename : Layout.css
+ * Redered form : Layout.sass
+ * Version : 1.0.0 (2008-09-04) YYYY-MM-DD
+ * Author : Novelys
+ * Author's Uri : www.novelys.com
+ * Description : Css file define interface, div bloc and layout structure
+
+/* Summary by anchor (ALT+F for search in file) :
+ * 1)  _ConstantValues
+ * 2)  _GenColorConstantValues
+ * 3)  _GenSizeConstantValues
+ * 4)  _FontColorConstantValues
+ * 5)  _GeneralHtmlTags
+ * 6)  _LayoutContainers
+
+/* _GeneralHtmlTags
+
+body
+  font-family: "Trebuchet MS", tahoma, arial
+  letter-spacing: 1px
+  font-color: #000
+  font-size: 1em
+  background-image: image-url('BgPageEuro.png') !important
+  background-repeat: repeat!important
+  background-position: center 0px !important
+  background-attachment: fixed
+  background-color: #f1f1f1 !important
+  a
+    color: #1d1a1f
+    text-decoration: none
+    &:active, &:visited, &:hover, &:link
+      color: #1d1a1f
+      text-decoration: none
+
+/* _LayoutContainers
+
+#HeaderBannerContainer
+  z-index: -1
+  position: absolute
+  display: block
+  float: left!important
+  float: center
+  left: 50%
+  top: 0px
+  width: 1092px
+  height: 276px
+  margin-top: 0px
+  margin-left: -460px
+  background-repeat: no-repeat
+  background-image: image-url('BgHeader.png')
+  ul.lang
+    display: block
+    position: relative
+    float: right
+    right: 232px
+    top: 210px
+    width: 200px
+    height: 11px
+    li
+      display: block
+      position: relative
+      float: right
+      width: 16px
+      height: 11px
+      margin-right: 10px
+      background-color: green
+      a
+        display: block
+        position: relative
+        width: 16px
+        height: 11px
+        background-image: image-url('flags.png')
+        background-position: left 0px
+        &.fr
+          background-position: left 0px
+        &.de
+          background-position: left -11px
+        &.en
+          background-position: left -22px
+
+#GlobContainter
+  z-index: 0
+  position: absolute
+  display: block
+  float: left!important
+  float: center
+  left: 50%
+  top: 244px
+  width: 780px
+  margin-top: 0px
+  margin-left: -390px
+
+#Menu
+  position: relative
+  display: block
+  width: 780px
+  height: 33px
+  ul
+    width: 780px -22px
+    padding-left: 22px
+    li
+      display: block
+      position: relative
+      float: left
+      font-height: 16px
+      line-height: 18px
+      font-size: 16px
+      height: 26px
+      font-weight: bold
+      padding-top: 6px
+      padding-left: 15px
+      padding-right: 15px
+      a
+        color: #fff
+        span
+          color: #cccccc
+      &:hover
+        background-color: #7a170f
+        a
+          color: #fff
+          span
+            color: #fff
+      &.Active
+        a
+          color: #cccccc
+        &:hover a
+          color: #fff
+      &.Right
+        float: right
+        background-image: image-url('FlecheMenu.jpg')
+        background-repeat: no-repeat
+        background-position: top right
+        padding-left: 8px
+        padding-right: 43px
+
+#Content
+  position: relative
+  display: block
+  width: 780px -74px
+  padding: 37px
+  height: 100%
+  margin-top: 2px
+  background-color: white
+  .ColLeft, .ColRight
+    position: relative
+    display: block
+  .ColLeft
+    float: left
+    width: 420px
+    p
+      text-align: justify
+  .ColRight
+    float: right
+    width: 250px
+    ul li
+      display: block
+      position: relative
+      float: left
+      width: 120px
+      height: 80px
+      padding: 1px
+      font-height: 0px
+      line-height: 0px
+      img
+        width: 120px
+        height: 80px
+        padding: 0px
+        margin: 0px
+        &:hover
+          width: 112px
+          height: 72px
+          border-width: 4px
+          border-style: solid
+          border-color: #bf1719
+  a
+    color: #bf1719
+  form.SubScription
+    padding-top: 20px
+    .ColLeft, .ColRight
+      width: 350px
+    fieldset
+      padding-bottom: 10px
+      margin-bottom: 7px
+      label
+        display: block
+        font-size: 12px
+        font-weight: bolder
+        padding-bottom: 2px
+      input
+        width: 200px
+        padding: 4px
+        &.Long
+          width: 300px
+          padding: 6px
+          font-weight: bold
+          color: #bf1719
+        &.Black
+          border: 0px
+          padding: 6px
+          font-weight: bold
+          color: #000
+          background-color: #eeefef
+      &.Separator
+        border-bottom: 1px
+        border-style: dotted
+        border-color: #ccc
+    .ColRight p
+      font-size: 11px
+      padding-left: 2px
+      text-align: justify
+      color: #ccc
+  h1
+    font-size: 18px
+    padding-bottom: 15px
+  h2
+    font-size: 14px
+    padding-bottom: 15px
+  p
+    font-size: 12px
+    padding-bottom: 15px
+    line-height: 14px
+  #MemberListContainer
+    width: 780px -74px
+    .MemberList
+      display: block
+      width: 100%
+      tr
+        width: 100%
+        padding-top: 2px
+        padding-bottom: 2px
+        background-color: #f7f7f7
+        th
+          height: 24px
+          font-size: 14px
+          text-align: center
+          color: #fff
+          font-weight: bold
+          vertical-align: middle
+          background-color: #bf1719
+          &.Place, &.TShirtSize
+            width: 24px
+          &.Avatar
+            width: 48px
+          &.FirstName, &.LastName
+            width: 110px
+          &.Orgnisation
+            width: 100px
+          &.WebSite
+            width: 40px
+          &.TagsList
+            width: 250px
+        td
+          text-align: center
+          font-size: 11px
+          height: 48px
+          padding-top: 2px
+          padding-bottom: 2px
+          vertical-align: middle
+          img
+            display: block
+            padding: 0px
+            margin: 0px
+            height: 48px
+            weight: 48px
+        &.Col
+          background-color: #fff
+
+#Footer
+  position: relative
+  display: block
+  width: 780px -37px
+  padding-left: 37px
+  height: 68px
+  background-image: image-url('FooterBg.gif')
+  background-repeat: no-repeat
+  ul
+    width: 100%
+    height: 49px
+    padding-top: 16px
+    li
+      display: block
+      position: relative
+      float: left
+      left: 0px
+      font-size: 10px
+      color: #a5a5a5
+      font-weight: normal
+      &.Logo
+        width: 160px
+      &.Date
+        padding-top: 4px
+        width: 550px
+        a
+          color: #fff
+
+#Legals
+  position: relative
+  display: block
+  height: 26px
+  padding-top: 5px
+  width: 780px -37px
+  padding-left: 37px
+  a
+    color: #bf1719
+  ul
+    width: 100%
+    height: 26px
+    li
+      display: block
+      position: relative
+      float: left
+      &.Right
+        float: right
+        padding-right: 37px
+        padding-top: 8px
+        font-size: 11px
+        color: #a6a6a6
+
+/* _ClearFix
+
+html[xmlns] .ClearFix
+  display: block
+
+* .ClearFix
+  height: 1%
+
+.ClearFix
+  &:after
+    content: "."
+    display: block
+    clear: both
+    visibility: hidden
+    line-height: 0
+    height: 0
+  display: block
