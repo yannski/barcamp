@@ -1,8 +1,9 @@
 Paperclip::Attachment.default_options[:storage] = :fog
 Paperclip::Attachment.default_options[:fog_credentials] = {
   :aws_access_key_id => ENV['AWS_ACCESS_KEY_ID'],
-  :aws_secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
-  :provider => 'AWS'
+  :aws_secret_access_key => ENV['AWS_SECRET_ACCESS_KEY'],
+  :provider => 'AWS',
+  :region => 'eu-west-1'
 }
 Paperclip::Attachment.default_options[:fog_directory] = ENV['S3_BUCKET_NAME']
 Paperclip::Attachment.default_options[:fog_file] = {'Cache-Control' => 'max-age=315576000', 'Expires' => 1.years.from_now.httpdate}
