@@ -29,3 +29,7 @@ group :development do
   gem 'thin'
   gem 'debugger'
 end
+
+group :production do
+  gem 'thin'
+end
