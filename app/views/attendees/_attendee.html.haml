@@ -8,10 +8,8 @@
   %td
     - if attendee.avatar.file?
       = image_tag attendee.avatar.url(:small)
-    - elsif attendee.email.present?
-      = gravatar_image_tag attendee.email, :gravatar => { :size => 48 }
     - else
-      = image_tag attendee.avatar.url(:small)
+      = gravatar_image_tag attendee.email, :gravatar => { :size => 48 }
   %td!= attendee.first_name
   %td!= attendee.last_name
   %td!= attendee.organization
