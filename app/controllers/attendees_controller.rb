@@ -1,3 +1,5 @@
+require "csv"
+
 class AttendeesController < ApplicationController
 
   def index
@@ -6,7 +8,7 @@ class AttendeesController < ApplicationController
     respond_to do |format|
       format.html
       format.csv {
-        csv_string = FasterCSV.generate do |csv|
+        csv_string = CSV.generate do |csv|
           columns = %w(first_name last_name email organization website tshirt_size is_eating)
           # header row
           csv << columns
