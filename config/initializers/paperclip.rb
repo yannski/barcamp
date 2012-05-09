@@ -7,7 +7,7 @@ Paperclip::Attachment.default_options[:fog_credentials] = {
 }
 Paperclip::Attachment.default_options[:fog_directory] = ENV['S3_BUCKET_NAME']
 Paperclip::Attachment.default_options[:fog_file] = {'Cache-Control' => 'max-age=315576000', 'Expires' => 1.years.from_now.httpdate}
-Paperclip::Attachment.default_options[:fog_host] = "http://" + ENV['S3_BUCKET_NAME'] + ".s3.amazonaws.com"
+Paperclip::Attachment.default_options[:fog_host] = "http://#{ ENV['S3_BUCKET_NAME'] }.s3.amazonaws.com"
 Paperclip::Attachment.default_options[:fog_public] = true
 
 Paperclip::Attachment.default_options[:path] = ":class/:attachment/:id/:style/:filename"

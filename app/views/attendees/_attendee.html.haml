@@ -9,7 +9,7 @@
     - if attendee.avatar.file?
       = image_tag attendee.avatar.url(:small)
     - elsif attendee.email.present?
-      = gravatar_image_tag attendee.email
+      = gravatar_image_tag attendee.email, :gravatar => { :size => 48 }
     - else
       = image_tag attendee.avatar.url(:small)
   %td!= attendee.first_name

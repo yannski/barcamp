@@ -33,9 +33,6 @@
       != f.label :tshirt_size
       != f.select :tshirt_size, %w(XS S M L XL XXL), :prompt => t(:select_size)
     %fieldset
-      != f.label :is_eating
-      != f.check_box :is_eating
-    %fieldset
       != f.submit
     
       %p= t(:form_note)

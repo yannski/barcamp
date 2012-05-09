@@ -1,35 +1,59 @@
 fr:
   joins_us: "Rejoignez nous en "
   filling_form: "remplissant ce formulaire"
-  homepage_title: "Bienvenue au RailsCampParis 3 !"
+  homepage_title: "GameCampParis Rebirth"
   homepage_body: "
-    Après le succès des 2 premiers BarCamps dédiés à Ruby et Rails, <a href='http://www.rubyfrance.org/evenements/railscamp-paris-en/'>RailsCampParis</a> et <a href='http://railscampparis2.heroku.com'>RailsCampParis2</a>, l'association <a href='http://www.rubyfrance.org/'>Ruby France</a> organise une troisième édition.
+    La 2ème édition du GameCamp aura lieu le samedi 26 Mai 2012, dans l'immeuble Paris Region Innovation Nord-Express, 110 rue des poissonniers, voie 46 CI 18 75018 Paris, métro Simplon ou Marcadet-Poissonniers.
     <br/>
     <br/>
-    Ce RailsCampParis3 aura lieu <strong>samedi 9 avril</strong> à la Maison de l'Alsace, 39 avenue des Champs Elysées 75008 Paris, de 9h à 18h.
+    Ce BarCamp est sponsorisé par MotionTree  et par <a href='http://www.methodinthemadness.eu/'>Method in the Madness</a> (merci à toute l'équipe MotionTree et en particulier à Olivier Piasentin et Stéphane Becker).
     <br/>
     <br/>
-    Attention, la capacité d'accueil étant limitée, seules les <strong>80 premières personnes</strong> inscrites sur le site seront acceptées, les autres seront placées sur liste d'attente. Inscrivez-vous rapidement ! Si vous vous êtes inscrits mais que vous ne pouvez finalement pas venir, merci de nous le signaler afin de laisser la chance à quelqu'un d'autre de venir.
+    Pour tout autre renseignement, envoyez un mail à <a mailto='gamecamp@motiontree.net'>gamecamp@motiontree.net</a>. Si d'autres sociétés sont intéressées pour parrainer l'événement ou que vous voulez être volontaire pour aider le jour du gamecamp contacter directement <a mailto='gamecamp@motiontree.net'>gamecamp@motiontree.net</a>.
     <br/>
     <br/>
-    A partir de 9h du matin, nous vous accueillerons avec du café chaud et des croissants à la <b>Maison de l'Alsace 39 avenue des Champs Elysées 75008 Paris, France</b>. Les sessions commenceront à 10h et se termineront à 18h.
+    <h1>Planning de la journée</h1>
+    <table>
+      <tr>
+        <td style='width:70px'>9h</td>
+        <td><p>Accueil autour d'un petit déjeuner convivial et remise des t-shirts</p></td>
+      </tr>
+      <tr>
+        <td>9h30</td>
+        <td><p>Démarrage des sessions du matin</p></td>
+      </tr>
+      <tr>
+        <td>12h</td>
+        <td><p>Pause déjeûner</p></td>
+      </tr>
+      <tr>
+        <td>13h30</td>
+        <td><p>Café</td>
+      </tr>
+      <tr>
+        <td>14h</td>
+        <td><p>Reprise des sessions</p></td>
+      </tr>
+      <tr>
+        <td>18h</td>
+        <td><p>Fin des sessions - Cocktail pour décompresser</p></td>
+      </tr>
+      <tr>
+        <td>19h</td>
+        <td><p>Départ pour un dîner entre amis (After) pour ceux qui le souhaitent</p></td>
+      </tr>
+    </table>
     <br/>
-    Un repas <i>sur le pouce</i> sera servi sur place durant la pause déjeûner (jambon cuit à la choucroute, salade de pommes de terre). Si vous ne souhaitez pas manger sur place, merci de le signaler lors de votre inscription.
-    <br/>
-    <br/>
-    Si vous avez des questions, contactez Yann Klis (yann [point] klis [at] gmail [point] com ou @yannski sur twitter) ou essayez le hashtag #railscampparis3 sur Twitter.
-    <br/>
-    <br/>
-    Si vous ne savez pas ce qu'est un BarCamp, nous vous conseillons vivement la lecture de l'excellent <a href=\"http://fr.wikipedia.org/wiki/BarCamp\">article Wikipedia</a> sur la question.
+    <p>Si vous ne savez pas ce qu'est un BarCamp, nous vous conseillons vivement la lecture de l'excellent <a href=\"http://fr.wikipedia.org/wiki/BarCamp\">article Wikipedia</a> sur la question.</p>
     "
   nav_home: "Accueil"
   nav_attend_now: "S'inscrire maintenant"
   nav_attending: "Ils y seront"
-  nav_attending_long: "Ils participent au RailsCamp le 9 avril 2011"
+  nav_attending_long: "Ils participent au GameCampParis2 le 26 mai 2012"
   nav_to_barcamp: "Vers BarCamp.org"
-  homepage_some_photos: "Quelques photos des<br/>précédents RailsCamp"
-  footer_line_1: "Le RailsCampParis3 aura lieu à la Maison de l'Alsace"
-  footer_line_2: "samedi 9 avril 2011"
+  homepage_some_photos: "Quelques photos du<br/>précédent GameCampParis"
+  footer_line_1: "Le GameCampParis2 aura lieu dans l'immeuble Paris Region Innovation Nord-Express"
+  footer_line_2: "samedi 26 mai 2012"
   attending_form: "Formulaire d'inscription"
   select_size: "Sélectionnez une taille..."
   form_note: "Votre email ne sera en aucune manière divulgué."
