@@ -25,6 +25,7 @@ gem 'fog'
 gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
 gem 'gravatar_image_tag'
 gem 'rack-google-analytics', :require => 'rack/google-analytics'
+gem 'rails-i18n'
 
 group :development do
   gem 'thin'
