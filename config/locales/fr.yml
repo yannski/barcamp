@@ -1,28 +1,63 @@
 fr:
+  partners: "Partenaires"
+  sponsors: "Sponsors"
   joins_us: "Rejoignez nous en "
   filling_form: "remplissant ce formulaire"
-  homepage_title: "GameCampParis Rebirth"
+  homepage_title: "EdgeCamp"
   homepage_body: "
-    La 2ème édition du GameCamp aura lieu le samedi 26 Mai 2012, dans l'immeuble Paris Region Innovation Nord-Express, 110 rue des poissonniers, voie 46 CI 18 75018 Paris, métro Simplon ou Marcadet-Poissonniers.
+    Avec l’organisation de ce EdgeCamp, <a href='http://alsacedigitale.org'>Alsace Digitale</a> prolonge la rencontre des <a href='http://edgeryders.ppa.coe.int/'>Edgeryders</a> à Strasbourg. Sous l’égide du Conseil de l’Europe et de la Commission Européenne, les Edgeryders sont une communauté de jeunes européens qui contribuent à imaginer et influencer le futur grâce à une démarche de collaboration ouverte.
+    <br/>
+    Un BarCamp est non-conférence ouverte qui prend la forme d'ateliers-événements participatifs où le contenu est fourni par les participants qui doivent tous, à un titre ou à un autre, apporter quelque chose au Barcamp, c'est le principe :
+    <br/>
+    « Pas de spectateur, tous participants ».
+    <br/>
+    L'EdgeCamp aura lieu les samedi 17 et dimanche 17 juin 2012, au Centre de Culture Numérique de l'Université de Strasbourg, 16 rue René Descartes 67000 Strasbourg, France.
     <br/>
     <br/>
     L'événement est complètement <strong style='color:red;'>gratuit</strong>.
     <br/>
     <br/>
-    Ce BarCamp est sponsorisé par <a href='http://www.motiontree.net'>MotionTree</a> et par <a href='http://www.methodinthemadness.eu/'>Method in the Madness</a> (merci à toute l'équipe MotionTree et en particulier à Olivier Piasentin et Stéphane Becker).
+    Pour tout autre renseignement, pingez <a href='http://twitter.com/yannski'>@yannski</a> ou #EdgeCamp.
+    <br/>
+    Nous sommes à la recherche de sponsors !
     <br/>
     <br/>
-    Pour tout autre renseignement, envoyez un mail à <a mailto='gamecamp@motiontree.net'>gamecamp@motiontree.net</a>. Si d'autres sociétés sont intéressées pour parrainer l'événement ou que vous voulez être volontaire pour aider le jour du gamecamp contacter directement <a mailto='gamecamp@motiontree.net'>gamecamp@motiontree.net</a>.
-    <br/>
-    <br/>
-    <h1>Planning de la journée</h1>
+    <h1>Planning de la journée journée de samedi</h1>
     <table>
       <tr>
         <td style='width:70px'>9h</td>
         <td><p>Accueil autour d'un petit déjeuner convivial et remise des t-shirts</p></td>
       </tr>
       <tr>
-        <td>9h30</td>
+        <td>10h00</td>
+        <td><p>Présentation en 3 tags des participants</p></td>
+      </tr>
+      <tr>
+        <td>11h00</td>
+        <td><p>Démarrage des sessions du matin</p></td>
+      </tr>
+      <tr>
+        <td>13h</td>
+        <td><p>Pause déjeûner</p></td>
+      </tr>
+      <tr>
+        <td>14h30</td>
+        <td><p>Reprise des sessions</p></td>
+      </tr>
+      <tr>
+        <td>18h</td>
+        <td><p>Fin des sessions</p></td>
+      </tr>
+    </table>
+    <br/>
+    <h1>Planning de la journée journée de dimanche</h1>
+    <table>
+      <tr>
+        <td style='width:70px'>9h</td>
+        <td><p>Petit déjeuner</p></td>
+      </tr>
+      <tr>
+        <td>10h00</td>
         <td><p>Démarrage des sessions du matin</p></td>
       </tr>
       <tr>
@@ -30,20 +65,12 @@ fr:
         <td><p>Pause déjeûner</p></td>
       </tr>
       <tr>
-        <td>13h30</td>
-        <td><p>Café</td>
-      </tr>
-      <tr>
-        <td>14h</td>
+        <td>14h00</td>
         <td><p>Reprise des sessions</p></td>
       </tr>
       <tr>
-        <td>18h</td>
-        <td><p>Fin des sessions - Cocktail pour décompresser</p></td>
-      </tr>
-      <tr>
-        <td>19h</td>
-        <td><p>Départ pour un dîner entre amis (After) pour ceux qui le souhaitent</p></td>
+        <td>17h</td>
+        <td><p>Fin des sessions</p></td>
       </tr>
     </table>
     <br/>
@@ -52,11 +79,11 @@ fr:
   nav_home: "Accueil"
   nav_attend_now: "S'inscrire maintenant"
   nav_attending: "Ils y seront"
-  nav_attending_long: "Ils participent au GameCampParis2 le 26 mai 2012"
+  nav_attending_long: "Ils participent au EdgeCamp les 16 et 17 juin 2012"
   nav_to_barcamp: "Vers BarCamp.org"
-  homepage_some_photos: "Quelques photos du<br/>précédent GameCampParis"
-  footer_line_1: "Le GameCampParis2 aura lieu dans l'immeuble Paris Region Innovation Nord-Express"
-  footer_line_2: "samedi 26 mai 2012"
+  homepage_some_photos: "Quelques photos des<br/>précédents BarCampAlsace"
+  footer_line_1: "L'EdgeCamp aura lieu au Centre de Culture Numérique de l'Université de Strasbourg"
+  footer_line_2: "samedi 16 et dimanche 17 juin 2012"
   attending_form: "Formulaire d'inscription"
   select_size: "Sélectionnez une taille..."
   form_note: "Votre email ne sera en aucune manière divulgué."

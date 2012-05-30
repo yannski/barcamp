@@ -2,35 +2,91 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
+  partners: "Partners"
+  sponsors: "Sponsors"
   joins_us: "Join us by "
   filling_form: "filling this form"
-  homepage_title: "Welcome to the RailsCampParis 3 !"
+  homepage_title: "Welcome to the EdgeCamp !"
   homepage_body: "
-    Following the success of the first two BarCamps dedicated to Ruby and Rails, <a href='http://www.rubyfrance.org/evenements/railscamp-paris-en/'>RailsCampParis</a> and <a href='http://railscampparis2.heroku.com'>RailsCampParis 2</a>, <a href='http://www.rubyfrance.org'>Ruby France</a> is pleased to announce the third edition, RailsCampParis 3.
+    Avec l’organisation de ce EdgeCamp, <a href='http://alsacedigitale.org'>Alsace Digitale</a> prolonge la rencontre des <a href='http://edgeryders.ppa.coe.int/'>Edgeryders</a> à Strasbourg. Sous l’égide du Conseil de l’Europe et de la Commission Européenne, les Edgeryders sont une communauté de jeunes européens qui contribuent à imaginer et influencer le futur grâce à une démarche de collaboration ouverte.
+    <br/>
+    Un BarCamp est non-conférence ouverte qui prend la forme d'ateliers-événements participatifs où le contenu est fourni par les participants qui doivent tous, à un titre ou à un autre, apporter quelque chose au Barcamp, c'est le principe :
+    <br/>
+    « Pas de spectateur, tous participants ».
+    <br/>
+    L'EdgeCamp aura lieu les samedi 17 et dimanche 17 juin 2012, au Centre de Culture Numérique de l'Université de Strasbourg, 16 rue René Descartes 67000 Strasbourg, France.
     <br/>
     <br/>
-    RailsCampParis 3 will take place on <strong>Saturday 9th of April</strong> at La Maison de l'Alsace, 39 avenue des Champs Elysées 75008 Paris, from 9am to 6pm.
+    L'événement est complètement <strong style='color:red;'>gratuit</strong>.
     <br/>
     <br/>
-    The number of attendees will be limited to <strong>80</strong>. If you want to avoid the waiting list, please subscribe quickly ! (If you've subscribed but can't make it, please send us a quick note so we can alert the next person on the waiting list.)
+    Pour tout autre renseignement, pingez <a href='http://twitter.com/yannski'>@yannski</a> ou #EdgeCamp.
+    <br/>
+    Nous sommes à la recherche de sponsors !
     <br/>
     <br/>
-    Starting at 9am, we will welcome you with warm coffee and croissants. Sessions will start at 10 AM and finish at 6 PM. Some food will be available for lunch (ham with potato salad). If you don't want/can't eat this food, don't check the tickbox on the pre-registration form.
+    <h1>Planning de la journée journée de samedi</h1>
+    <table>
+      <tr>
+        <td style='width:70px'>9h</td>
+        <td><p>Accueil autour d'un petit déjeuner convivial et remise des t-shirts</p></td>
+      </tr>
+      <tr>
+        <td>10h00</td>
+        <td><p>Présentation en 3 tags des participants</p></td>
+      </tr>
+      <tr>
+        <td>11h00</td>
+        <td><p>Démarrage des sessions du matin</p></td>
+      </tr>
+      <tr>
+        <td>13h</td>
+        <td><p>Pause déjeûner</p></td>
+      </tr>
+      <tr>
+        <td>14h30</td>
+        <td><p>Reprise des sessions</p></td>
+      </tr>
+      <tr>
+        <td>18h</td>
+        <td><p>Fin des sessions</p></td>
+      </tr>
+    </table>
     <br/>
+    <h1>Planning de la journée journée de dimanche</h1>
+    <table>
+      <tr>
+        <td style='width:70px'>9h</td>
+        <td><p>Petit déjeuner</p></td>
+      </tr>
+      <tr>
+        <td>10h00</td>
+        <td><p>Démarrage des sessions du matin</p></td>
+      </tr>
+      <tr>
+        <td>12h</td>
+        <td><p>Pause déjeûner</p></td>
+      </tr>
+      <tr>
+        <td>14h00</td>
+        <td><p>Reprise des sessions</p></td>
+      </tr>
+      <tr>
+        <td>17h</td>
+        <td><p>Fin des sessions</p></td>
+      </tr>
+    </table>
     <br/>
-    If you have any questions, contact Yann Klis (yann [dot] klis [at] gmail [dot] com or on twitter @yannski) or ping #railscampparis on Twitter.
-    <br/>
-    <br/>
-    If you don't know what a BarCamp is, we recommend you to read the <a href=\"http://en.wikipedia.org/wiki/BarCamp\">excellent Wikipedia article on BarCamp</a>.
+    <p>Si vous ne savez pas ce qu'est un BarCamp, nous vous conseillons vivement la lecture de l'excellent <a href=\"http://fr.wikipedia.org/wiki/BarCamp\">article Wikipedia</a> sur la question.</p>
     "
   nav_home: "Home"
   nav_attend_now: "Subscribe now"
   nav_attending: "They're attending"
-  nav_attending_long: "They're attending the event the 9th of april 2011"
+  nav_attending_long: "They're attending the event the 16th and 17th of june 2012"
   nav_to_barcamp: "To BarCamp.org"
-  homepage_some_photos: "Some photos of<br/>past RailsCamp"
-  footer_line_1: "The RailsCampParis 3 will take place  the"
-  footer_line_2: "saturday 9th of april 2011"
+  homepage_some_photos: "Some photos of<br/>past BarCampAlsace"
+  footer_line_1: "The EdgeCamp will take place the"
+  footer_line_2: "saturday 16th and sunday 17th of june 2012"
   attending_form: "Subscribing form to attend the event"
   select_size: "Select a size..."
   form_note: "Your email won't appear anywhere publicly."

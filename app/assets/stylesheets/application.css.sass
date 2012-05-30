@@ -59,10 +59,7 @@ body
   letter-spacing: 1px
   font-color: #000
   font-size: 1em
-  background-image: image-url('BgPage.jpg')
-  background-repeat: repeat-x
-  background-color: #eff0f0
-  background-position: top center
+  background-color: #34b8d0
   a
     color: #1d1a1f
     text-decoration: none
@@ -84,8 +81,37 @@ body
   height: 276px
   margin-top: 0px
   margin-left: -460px
-  background-image: image-url('BgHeader.jpg')
+  background-image: image-url('BgHeader.png')
   background-repeat: no-repeat
+  ul.lang
+    display: block
+    position: relative
+    float: right
+    right: 242px
+    top: 40px
+    width: 200px
+    height: 11px
+
+    li
+      display: block
+      position: relative
+      float: right
+      width: 16px
+      height: 11px
+      margin-right: 10px
+      a
+        display: block
+        position: relative
+        width: 16px
+        height: 11px
+        background-image: image-url('flags.png')
+        background-position: left 0px
+      a.fr
+        background-position: left 0px
+      a.de
+        background-position: left -11px
+      a.en
+        background-position: left -22px
 
 #GlobContainter
   z-index: 0
@@ -122,16 +148,16 @@ body
       a
         color: #fff
         span
-          color: #a8ce3a
+          color: #34b8d0
       &:hover
-        background-color: #a8ce3a
+        background-color: #448E9C
         a
           color: #fff
           span
             color: #fff
       &.Active
         a
-          color: #a8ce3a
+        font-size: 20px
         &:hover a
           color: #fff
       &.Right
@@ -180,9 +206,9 @@ body
           height: 72px
           border-width: 4px
           border-style: solid
-          border-color: #a8ce3a
+          border-color: #34b8d0
   a
-    color: #a8ce3a
+    color: #34b8d0
   form.SubScription
     padding-top: 20px
     .ColLeft, .ColRight
@@ -202,7 +228,7 @@ body
           width: 300px
           padding: 6px
           font-weight: bold
-          color: #a8ce3a
+          color: #34b8d0
         &.Black
           border: 0px
           padding: 6px
@@ -245,7 +271,7 @@ body
           color: #fff
           font-weight: bold
           vertical-align: middle
-          background-color: #a8ce3a
+          background-color: #34b8d0
           &.Place, &.TShirtSize
             width: 24px
           &.Avatar
@@ -300,7 +326,7 @@ body
         padding-top: 4px
         width: 550px
         a
-          color: #a8ce3a
+          color: #34b8d0
 
 #Legals
   position: relative
@@ -310,7 +336,7 @@ body
   width: 780px -37px
   padding-left: 37px
   a
-    color: #a8ce3a
+    color: #34b8d0
   ul
     width: 100%
     height: 26px

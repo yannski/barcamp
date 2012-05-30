@@ -1,14 +1,16 @@
 !!!
 %html
   %head
-    %title GameCampParis Rebirth :: #{@page_title}
+    %title EdgeCamp :: #{@page_title}
     = stylesheet_link_tag :application
     = javascript_include_tag :application
     = csrf_meta_tag
-    %link{:href => root_url[0..-2]+image_path("RailsCampParis3_fb.png"), :rel => 'image_src'}
   %body
     #HeaderBannerContainer{:class => I18n.locale}
       %ul.lang
+        %li
+          - url = controller.controller_name == "welcome" ? "/de" : url_for(:locale => "de")
+          %a.de{:href => url}
         %li
           - url = controller.controller_name == "welcome" ? "/en" : url_for(:locale => "en")
           %a.en{:href => url}
@@ -29,7 +31,7 @@
               %span
                 != "(#{Attendee.count})"
           %li.Right
-            != link_to t(:nav_to_barcamp), 'http://barcamp.org/w/page/53524438/GameCamp%20Paris%20Rebirth'
+            != link_to t(:nav_to_barcamp), 'http://barcamp.org/EdgeCamp'
 
       %div#Content.ClearFix
         != yield
@@ -41,4 +43,4 @@
             %br
             = t(:footer_line_2)
             %br
-            != link_to "110 rue des poissonniers, Paris, France.", "http://maps.google.fr/maps?q=110+rue+des+poissonniers+paris&hl=fr&ie=UTF8&sll=48.894688,2.346139&sspn=0.016618,0.045447&hnear=110+Rue+des+Poissonniers,+75018+Paris,+%C3%8Ele-de-France&t=m&z=16"
+            != link_to "16 rue René Descartes, Strasbourg, France.", "https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=centre+de+culture+num%C3%A9rique+strasbourg&amp;sll=46.75984,1.738281&amp;sspn=8.86664,23.269043&amp;ie=UTF8&amp;hq=centre+de+culture+num%C3%A9rique&amp;hnear=Strasbourg,+Bas-Rhin,+Alsace&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=3520954289054219327&amp;ll=48.578488,7.763772"

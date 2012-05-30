@@ -3,16 +3,21 @@
   %p!= t(:homepage_body)
   %h1 Plan
   :preserve
-    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=110+rue+des+poissonniers+paris&amp;aq=&amp;sll=48.894688,2.346139&amp;sspn=0.016618,0.045447&amp;ie=UTF8&amp;hq=&amp;hnear=110+Rue+des+Poissonniers,+75018+Paris,+%C3%8Ele-de-France&amp;t=m&amp;z=14&amp;ll=48.894154,2.352884&amp;output=embed"></iframe><br /><small>Afficher <a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=110+rue+des+poissonniers+paris&amp;aq=&amp;sll=48.894688,2.346139&amp;sspn=0.016618,0.045447&amp;ie=UTF8&amp;hq=&amp;hnear=110+Rue+des+Poissonniers,+75018+Paris,+%C3%8Ele-de-France&amp;t=m&amp;z=14&amp;ll=48.894154,2.352884" style="color:#0000FF;text-align:left">110 Rue des Poissonniers</a> sur une carte plus grande</small>
+    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=centre+de+culture+num%C3%A9rique+strasbourg&amp;sll=46.75984,1.738281&amp;sspn=8.86664,23.269043&amp;ie=UTF8&amp;hq=centre+de+culture+num%C3%A9rique&amp;hnear=Strasbourg,+Bas-Rhin,+Alsace&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=3520954289054219327&amp;ll=48.578488,7.763772&amp;output=embed"></iframe><br /><small><a href="https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=centre+de+culture+num%C3%A9rique+strasbourg&amp;sll=46.75984,1.738281&amp;sspn=8.86664,23.269043&amp;ie=UTF8&amp;hq=centre+de+culture+num%C3%A9rique&amp;hnear=Strasbourg,+Bas-Rhin,+Alsace&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=3520954289054219327&amp;ll=48.578488,7.763772" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
   %br
 .ColRight
-  %h2 Sponsors
-  %div{:style => "margin-left:auto;margin-right:auto;text-align: center;padding-top:5px;"}
-    = link_to image_tag("motiontree.png"), "http://www.motiontree.net"
-  %div{:style => "margin-left:auto;margin-right:auto;text-align: center;padding-top:5px;"}
-    = link_to image_tag("method_in_the_madness.jpg"), "http://www.methodinthemadness.eu/"
+  %h2= t("partners")
+  - hsh = {laplagedigitale: "laplagedigitale.eu", strasbourgtheeuroptimist: "strasbourg.eu", ccn: "services-numeriques.unistra.fr/culture-numerique/centre-de-culture-numerique.html", uds: "unistra.fr"}
+  - hsh.each do |k,v|
+    %div{:style => "margin-left:auto;margin-right:auto;text-align: center;padding-top:5px;"}
+      = link_to image_tag("#{k}.png"), "http://#{v}"
+  %h2= t("sponsors")
+  - hsh = {sfr: "sfr.fr"}
+  - hsh.each do |k,v|
+    %div{:style => "margin-left:auto;margin-right:auto;text-align: center;padding-top:5px;"}
+      = link_to image_tag("#{k}.png"), "http://#{v}"
   %h2{:style => "margin-top:10px;"}!= t(:homepage_some_photos)
   %ul
-    - 1.upto(3) do |i|
+    - 1.upto(7) do |i|
       %li!= link_to image_tag("photo#{i}t.jpg"), asset_path("photo#{i}.jpg"), :rel => 'lightbox', :title => "Photo #{i}"
   %div{:style => "width:250px;padding-top:10px;margin-top:10px;height:10px"}
