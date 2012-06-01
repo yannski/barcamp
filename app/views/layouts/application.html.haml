@@ -20,12 +20,12 @@
     #GlobContainter
       #Menu
         %ul
-          %li.Active
+          %li{:class => controller.controller_name == "welcome" && "Active"}
             - url = I18n.locale == :en ? "/" : "/#{I18n.locale}"
             = link_to t(:nav_home), url
-          %li
+          %li{:class => controller.controller_name == "attendees" && controller.action_name == "new" && "Active"}
             = link_to t(:nav_attend_now), new_attendee_path
-          %li
+          %li{:class => controller.controller_name == "attendees" && controller.action_name == "index" && "Active"}
             %a{ :href => attendees_path }
               = t(:nav_attending)
               %span
