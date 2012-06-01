@@ -4,82 +4,83 @@
 de:
   homepage_title: "Willkommen zum EdgeCamp!"
   homepage_body: "
-    Dans le cadre du festival <a href='http://edgefest.laplagedigitale.eu'>EdgeFest</a>, festival d'inauguration de <a href=''>La Plage Digitale</a>, premier espace de coworking à Strasbourg, <a href='http://alsacedigitale.org'>Alsace Digitale</a> prolonge la rencontre des <a href='http://edgeryders.ppa.coe.int/'>Edgeryders</a> à Strasbourg au travers du EdgeCamp.
+    <span style='font-size:10px;'><em>If you're german we need your help<br/>to translate this welcome text in german !</em></span>
     <br/>
     <br/>
-    Sous l’égide du Conseil de l’Europe et de la Commission Européenne, les Edgeryders sont une communauté de jeunes européens qui contribuent à imaginer et influencer le futur grâce à une démarche de collaboration ouverte.
+    <a href='http://alsacedigitale.org'>Alsace Digitale</a> is pleased to welcome the <a href='http://edgeryders.ppa.coe.int/'>Edgeryders</a> community in Strasbourg by organizing the EdgeCamp, a 2 days BarCamp full of interactivity between the local and remote creative/digital/maker communities.
     <br/>
     <br/>
-    Un BarCamp est non-conférence ouverte qui prend la forme d'ateliers-événements participatifs où le contenu est fourni par les participants qui doivent tous, à un titre ou à un autre, apporter quelque chose au Barcamp, c'est le principe :
+    Under the umbrella of the Council of Europe and the European Commission, the <a href='http://edgeryders.ppa.coe.int/'>Edgeryders</a> is a community of european youngsters imagining and influencing the futur of Europe using open collaboration techniques.
     <br/>
     <br/>
-    « Pas de spectateur, tous participants ».
+    A BarCamp is an unconference, or user-generated conference, made of open and participatory workshop sessions the content of which is provided by participants. All attendees are encouraged to present or facilitate a session. The principle which governs all Barcamp is : « No spectator, all participants. »
     <br/>
     <br/>
-    L'EdgeCamp aura lieu les samedi 16 et dimanche 17 juin 2012, au Centre de Culture Numérique de l'Université de Strasbourg, 16 rue René Descartes 67000 Strasbourg, France.
+    The EdgeCamp will take place saturday 16 and sunday 17 june 2012, at the Centre de Culture Numérique de l'Université de Strasbourg, 16 rue René Descartes 67000 Strasbourg, France.
     <br/>
     <br/>
-    L'événement est complètement <strong style='color:red;'>gratuit</strong>.
+    The event is completely <strong style='color:red;'>free</strong>.
     <br/>
     <br/>
-    Pour tout autre renseignement, pingez <a href='http://twitter.com/yannski'>@yannski</a> ou #EdgeCamp.
-    <br/>
-    Nous sommes à la recherche de sponsors !
+    Need more information? Ping <a href='http://twitter.com/yannski'>@yannski</a> or #EdgeCamp on Twitter.
     <br/>
     <br/>
-    <h1>Planning de la journée journée de samedi</h1>
+    We're looking for sponsors !
+    <br/>
+    <br/>
+    <h1>Day 1</h1>
     <table>
       <tr>
         <td style='width:70px'>9h</td>
-        <td><p>Accueil autour d'un petit déjeuner convivial et remise des t-shirts</p></td>
+        <td><p>Welcome breakfast around croissants<br/>and warm coffee :)</p></td>
       </tr>
       <tr>
         <td>10h00</td>
-        <td><p>Présentation en 3 tags des participants</p></td>
+        <td><p>3 tags presentation of all attendees</p></td>
       </tr>
       <tr>
         <td>11h00</td>
-        <td><p>Démarrage des sessions du matin</p></td>
+        <td><p>Morning sessions starts</p></td>
       </tr>
       <tr>
         <td>13h</td>
-        <td><p>Pause déjeûner</p></td>
+        <td><p>Lunch break</p></td>
       </tr>
       <tr>
         <td>14h30</td>
-        <td><p>Reprise des sessions</p></td>
+        <td><p>Afternoon sessions starts</p></td>
       </tr>
       <tr>
         <td>18h</td>
-        <td><p>Fin des sessions</p></td>
+        <td><p>End...</p></td>
       </tr>
     </table>
     <br/>
-    <h1>Planning de la journée journée de dimanche</h1>
+    <h1>Day 2</h1>
     <table>
       <tr>
         <td style='width:70px'>9h</td>
-        <td><p>Petit déjeuner</p></td>
+        <td><p>Breakfast</p></td>
       </tr>
       <tr>
         <td>10h00</td>
-        <td><p>Démarrage des sessions du matin</p></td>
+        <td><p>Morning sessions starts</p></td>
       </tr>
       <tr>
         <td>12h</td>
-        <td><p>Pause déjeûner</p></td>
+        <td><p>Lunch break</p></td>
       </tr>
       <tr>
         <td>14h00</td>
-        <td><p>Reprise des sessions</p></td>
+        <td><p>Afternoon sessions starts</p></td>
       </tr>
       <tr>
         <td>17h</td>
-        <td><p>Fin des sessions</p></td>
+        <td><p>End</p></td>
       </tr>
     </table>
     <br/>
-    <p>Si vous ne savez pas ce qu'est un BarCamp, nous vous conseillons vivement la lecture de l'excellent <a href=\"http://fr.wikipedia.org/wiki/BarCamp\">article Wikipedia</a> sur la question.</p>
+    <p>If you don't know what a BarCamp is, you can read the excellent <a href='http://en.wikipedia.org/wiki/BarCamp'>wikipedia article</a>.</p>
     "
   nav_home: "Start"
   nav_attend_now: "Jetzt anmelden"
