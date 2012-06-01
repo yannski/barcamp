@@ -12,16 +12,16 @@
           - url = controller.controller_name == "welcome" ? "/de" : url_for(:locale => "de")
           %a.de{:href => url}
         %li
-          - url = controller.controller_name == "welcome" ? "/en" : url_for(:locale => "en")
-          %a.en{:href => url}
-        %li
-          - url = controller.controller_name == "welcome" ? "/" : request.path.gsub(/\/en|\/fr/, "")
+          - url = controller.controller_name == "welcome" ? "/fr" : url_for(:locale => "fr")
           %a.fr{:href => url}
+        %li
+          - url = controller.controller_name == "welcome" ? "/" : request.path.gsub(/\/fr|\/de/, "")
+          %a.en{:href => url}
     #GlobContainter
       #Menu
         %ul
           %li.Active
-            - url = I18n.locale == :fr ? "/" : "/#{I18n.locale}"
+            - url = I18n.locale == :en ? "/" : "/#{I18n.locale}"
             = link_to t(:nav_home), url
           %li
             = link_to t(:nav_attend_now), new_attendee_path
