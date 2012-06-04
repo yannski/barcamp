@@ -16,6 +16,11 @@ en:
     Under the umbrella of the Council of Europe and the European Commission, the <a href='http://edgeryders.ppa.coe.int/'>Edgeryders</a> is a community of european youngsters imagining and influencing the futur of Europe using open collaboration techniques.
     <br/>
     <br/>
+    <br/>
+    <a href='/attendees' style='color:red;font-size:140%;'>Coming to the Unconference? Register now!</a>
+    <br/>
+    <br/>
+    <br/>
     A BarCamp is an unconference, or user-generated conference, made of open and participatory workshop sessions the content of which is provided by participants. All attendees are encouraged to present or facilitate a session. The principle which governs all Barcamp is : « No spectator, all participants. »
     <br/>
     <br/>
@@ -86,14 +91,14 @@ en:
     <p>If you don't know what a BarCamp is, you can read the excellent <a href='http://en.wikipedia.org/wiki/BarCamp'>wikipedia article</a>.</p>
     "
   nav_home: "Home"
-  nav_attend_now: "Subscribe now"
+  nav_attend_now: "Register now!"
   nav_attending: "They're attending"
   nav_attending_long: "They're attending the event the 16th and 17th of june 2012"
   nav_to_barcamp: "To BarCamp.org"
   homepage_some_photos: "Some photos of<br/>past BarCampAlsace"
   footer_line_1: "The EdgeCamp will take place the"
   footer_line_2: "saturday 16th and sunday 17th of june 2012"
-  attending_form: "Subscribing form to attend the event"
+  attending_form: "Registering form"
   select_size: "Select a size..."
   form_note: "Your email won't appear anywhere publicly."
   attending_count: "Currently, <a href='%{link}'>(%{count})</a> persons are attending the event."
