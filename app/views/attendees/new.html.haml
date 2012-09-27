@@ -15,23 +15,20 @@
     %fieldset.Separator
       != f.label :last_name
       != f.text_field :last_name, :class => 'Black Long'
-    %fieldset.Separator
-      != f.label :organization
-      != f.text_field :organization, :class => 'Black Long'
     %fieldset
       != f.label :email
       != f.text_field :email, :class => 'Black Long'
 
   .ColRight
     %fieldset.Separator
+      != f.label :organization
+      != f.text_field :organization, :class => 'Black Long'
+    %fieldset.Separator
       != f.label :website
       != f.text_field :website, :class => 'Black'
     %fieldset.Separator
       != f.label :tags
       != f.text_field :tags, :class => 'Black Long'
-    %fieldset
-      != f.label :tshirt_size
-      != f.select :tshirt_size, %w(XS S M L XL XXL), :prompt => t(:select_size)
     %fieldset
       != f.submit
     

@@ -3,95 +3,136 @@ fr:
   sponsors: "Sponsors"
   joins_us: "Rejoignez nous en "
   filling_form: "remplissant ce formulaire"
-  homepage_title: "EdgeCamp"
+  homepage_title: "Social Good Day Strasbourg"
   homepage_body: "
-    Dans le cadre du festival <a href='http://www.edgefest.fr'>EdgeFest</a>, festival d'inauguration de <a href=''>La Plage Digitale</a>, premier espace de coworking à Strasbourg, <a href='http://alsacedigitale.org'>Alsace Digitale</a> prolonge la rencontre des <a href='http://edgeryders.ppa.coe.int/'>Edgeryders</a> à Strasbourg au travers du EdgeCamp.
-    <br/>
-    <br/>
-    Sous l’égide du Conseil de l’Europe et de la Commission Européenne, les Edgeryders sont une communauté de jeunes européens qui contribuent à imaginer et influencer le futur grâce à une démarche de collaboration ouverte.
-    <br/>
-    <br/>
-    Un BarCamp est non-conférence ouverte qui prend la forme d'ateliers-événements participatifs où le contenu est fourni par les participants qui doivent tous, à un titre ou à un autre, apporter quelque chose au Barcamp, c'est le principe :
-    <br/>
-    <br/>
-    « Pas de spectateur, tous participants ».
-    <br/>
-    <br/>
-    L'EdgeCamp aura lieu les samedi 16 et dimanche 17 juin 2012, au Centre de Culture Numérique de l'Université de Strasbourg, 16 rue René Descartes 67000 Strasbourg, France.
-    <br/>
-    <br/>
-    L'événement est complètement <strong style='color:red;'>gratuit</strong>.
-    <br/>
-    <br/>
-    Pour tout autre renseignement, pingez <a href='http://twitter.com/yannski'>@yannski</a> ou #EdgeCamp.
-    <br/>
-    Nous sommes à la recherche de sponsors !
-    <br/>
-    <br/>
-    <h1>Planning de la journée journée de samedi</h1>
+    <h2>« Technologies et réseaux au service de l’aménagement social et solidaire du territoire »</h2>
     <table>
       <tr>
-        <td style='width:70px'>9h</td>
-        <td><p>Accueil autour d'un petit déjeuner convivial et remise des t-shirts</p></td>
+        <td style='width:90px'>Quand ?</td>
+        <td><p>Le 2 Octobre de 18h à 21h</p></td>
       </tr>
       <tr>
-        <td>10h00</td>
-        <td><p>Présentation en 3 tags des participants</p></td>
+        <td>Où ?</td>
+        <td><p>Au Centre de Culture Numérique de l’Université de Strasbourg</p></td>
       </tr>
       <tr>
-        <td>11h00</td>
-        <td><p>Démarrage des sessions du matin</p></td>
-      </tr>
-      <tr>
-        <td>13h</td>
-        <td><p>Pause déjeûner</p></td>
-      </tr>
-      <tr>
-        <td>14h30</td>
-        <td><p>Reprise des sessions</p></td>
-      </tr>
-      <tr>
-        <td>18h</td>
-        <td><p>Fin des sessions</p></td>
+        <td>Qui ?</td>
+        <td><p>Ouvert à tous, entrée libre, merci de vous pré-inscrire <a href='/attendees/new'>ici</a> !</p></td>
       </tr>
     </table>
     <br/>
-    <h1>Planning de la journée journée de dimanche</h1>
+    <h1>Programme</h1>
     <table>
       <tr>
-        <td style='width:70px'>9h</td>
-        <td><p>Petit déjeuner</p></td>
+        <td style='width:90px'>18h</td>
+        <td><p>Accueil</p></td>
       </tr>
       <tr>
-        <td>10h00</td>
-        <td><p>Démarrage des sessions du matin</p></td>
+        <td>18h15</td>
+        <td><p>Présentation Social Good Week</p></td>
       </tr>
       <tr>
-        <td>12h</td>
-        <td><p>Pause déjeûner</p></td>
+        <td>18h30</td>
+        <td><p>Présentations des projets et interactions</p></td>
       </tr>
       <tr>
-        <td>14h00</td>
-        <td><p>Reprise des sessions</p></td>
+        <td>19h15</td>
+        <td><p>Table Ronde</p></td>
       </tr>
       <tr>
-        <td>17h</td>
-        <td><p>Fin des sessions</p></td>
+        <td>20h00</td>
+        <td><p>Conclusion de la soirée par les partenaires</p></td>
+      </tr>
+      <tr>
+        <td>20h15</td>
+        <td><p>Echanges et networking autour d’un cocktail</p></td>
       </tr>
     </table>
     <br/>
-    <p>Si vous ne savez pas ce qu'est un BarCamp, nous vous conseillons vivement la lecture de l'excellent <a href=\"http://fr.wikipedia.org/wiki/BarCamp\">article Wikipedia</a> sur la question.</p>
+    <h1>Table Ronde</h1>
+    <h2>« Comment les nouvelles technologies permettent de résoudre des
+problématiques sociales »</h2>
+    <p>E-learning, accessibilité, solidarité embarquée, économie collaborative, etc. comment le numérique et l’innovation au service d’un monde meilleur peuvent changer la société de demain. Avec la présence de Fabienne Rakitic, responsable de la mission handicap de l’Université de Strasbourg.</p>
+    <br/>
+    <h1>Les Projets</h1>
+    <ul>
+
+      <li style='padding-bottom:20px;'>
+        <ul>
+          <li style='float:left;padding-right:20px;width:200px;'>
+            LOGO
+          </li>
+          <li style='float:left;width:320px;'>
+            <p><strong>Auto'trement</strong></p>
+            <p>Auto'trement initiative citoyenne d'autopartage en Alsace : 120 voitures en libre-service dans 60 stations sur 14 villes d'Alsace partagées par 3000 abonnés. Avec un abonnement, je dispose d'une voiture accessible en libre-service, pour une heure ou plus. Je règle mes utilisations en fin de mois (heures et kilomètres parcourus). Tout est inclus : carburant, assurance, entretien... Avec Auto'trement, j'ai une voiture sans avoir de voiture</p>
+            <p style='padding-bottom:40px;'><a href='http://www.autotrement.com'>www.autotrement.com</a></p>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <ul>
+          <li style='float:left;padding-right:20px;width:200px;'>
+            LOGO
+          </li>
+          <li style='float:left;width:320px;'>
+            <p><strong>BrainCity by Novelys</strong></p>
+            <p>Plateforme de citoyenneté participative. BrainCity permet aux citoyens de rapporter des incidents survenus dans leur ville et aux services municipaux de travailler ensemble avec plus d'efficacité.</p>
+            <p style='padding-bottom:40px;'><a href='http://www.braincity.com'>www.braincity.com</a></p>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <ul>
+          <li style='float:left;padding-right:20px;width:200px;'>
+            LOGO
+          </li>
+          <li style='float:left;width:320px;'>
+            <p><strong>Craftstudio by Sparklin Labs</strong></p>
+            <p>Plateforme pour inventer ses propres jeux vidéo 3D, en coopération temps-réel avec d'autres joueurs. Construisez, peignez et animez vos propres personnages et environnements à partir de simples blocs puis donnez leur vie en définissant vous-même les règles du jeu.</p>
+            <p style='padding-bottom:40px;'><a href='http://craftstud.io'>craftstud.io</a></p>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <ul>
+          <li style='float:left;padding-right:20px;width:200px;'>
+            LOGO
+          </li>
+          <li style='float:left;width:320px;'>
+            <p><strong>Htp40 / Htp3D by Horizome</strong></p>
+            <p>htp3d, maquette web3d d'un quartier populaire. Plus qu'une simple représentation urbaine, un outil de création et d'expression des imaginaires, par les habitants et les chercheurs du projet HTP40 (transdisciplinaires art/anthropologie/urbanisme), dans le cadre d'un projet de rénovation urbaine.</p>
+            <p style='padding-bottom:40px;'><a href='http://www.htp40.org/htp3d/'>www.htp40.org/htp3d/</a></p>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <ul>
+          <li style='float:left;padding-right:20px;width:200px;'>
+            LOGO
+          </li>
+          <li style='float:left;width:320px;'>
+            <p><strong>Strasmap by Communauté Urbaine de Strasbourg</strong></p>
+            <p>Avec StrasMap, la Ville et la Communauté urbaine de Strasbourg (CUS) proposent une application destinée à faciliter la vie des usagers dans leurs déplacements sur toute l'agglomération.</p>
+            <p style='padding-bottom:40px;'><a href='http://www.strasmap.eu'>strasmap.eu</a></p>
+          </li>
+        </ul>
+      </li>
+
+    </ul>
     "
   nav_home: "Accueil"
   nav_attend_now: "S'inscrire maintenant"
   nav_attending: "Ils y seront"
-  nav_attending_long: "Ils participent au EdgeCamp les 16 et 17 juin 2012"
-  nav_to_barcamp: "Vers BarCamp.org"
+  nav_attending_long: "Ils participent au Social Good Day Strasbourg le 3 octobre 2012"
+  nav_to_barcamp: "SocialGoodWeek.com »"
   homepage_some_photos: "Quelques photos des<br/>précédents BarCampAlsace"
-  footer_line_1: "L'EdgeCamp aura lieu au Centre de Culture Numérique de l'Université de Strasbourg"
-  footer_line_2: "samedi 16 et dimanche 17 juin 2012"
+  footer_line_1: "Le Social Good Day Strasbourg aura lieu au Centre de Culture Numérique de l'Université de Strasbourg"
+  footer_line_2: "mardi 2 octobre 2012"
   attending_form: "Formulaire d'inscription"
-  select_size: "Sélectionnez une taille..."
   form_note: "Votre email ne sera en aucune manière divulgué."
   attending_count: "Actuellement <a href='%{link}'>(%{count})</a> personnes participent à l'évènement"
   super_size: "Agrandir Le Plan"
@@ -103,8 +144,6 @@ fr:
     email: "Email (n'apparaitra nulle part)"
     website: "Site web"
     tags: "Description en 3 tags (séparés par des virgules)"
-    tshirt_size: "Taille de Tshirt"
-    is_eating: "Mange sur place"
   helpers:
     submit:
       create: "Envoyer"

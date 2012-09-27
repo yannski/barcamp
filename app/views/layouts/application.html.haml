@@ -1,27 +1,17 @@
 !!!
 %html
   %head
-    %title EdgeCamp :: #{@page_title}
+    %title Social Good Day Strasbourg 2012 :: #{@page_title}
     = stylesheet_link_tag :application
     = javascript_include_tag :application
     = csrf_meta_tag
   %body
     #HeaderBannerContainer{:class => I18n.locale}
-      %ul.lang
-        %li
-          - url = controller.controller_name == "welcome" ? "/de" : url_for(:locale => "de")
-          %a.de{:href => url}
-        %li
-          - url = controller.controller_name == "welcome" ? "/fr" : url_for(:locale => "fr")
-          %a.fr{:href => url}
-        %li
-          - url = controller.controller_name == "welcome" ? "/" : request.path.gsub(/\/fr|\/de/, "")
-          %a.en{:href => url}
     #GlobContainter
       #Menu
         %ul
           %li{:class => controller.controller_name == "welcome" && "Active"}
-            - url = I18n.locale == :en ? "/" : "/#{I18n.locale}"
+            - url = I18n.locale == :fr ? "/" : "/#{I18n.locale}"
             = link_to t(:nav_home), url
           %li{:class => controller.controller_name == "attendees" && controller.action_name == "new" && "Active"}
             = link_to t(:nav_attend_now), new_attendee_path
@@ -31,7 +21,7 @@
               %span
                 != "(#{Attendee.count})"
           %li.Right
-            != link_to t(:nav_to_barcamp), 'http://barcamp.org/EdgeCamp'
+            != link_to t(:nav_to_barcamp), 'http://www.socialgoodweek.com'
 
       %div#Content.ClearFix
         != yield
