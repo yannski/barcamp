@@ -1,15 +1,17 @@
 .ColLeft
-  %h1= t(:homepage_title)
-  - ary = %w(autotrement braincity craftstudio htp3d strasmap)
-  %p!= t(:homepage_body).gsub(/LOGO/){|x| image_tag("#{ary.shift}.png")}.html_safe
-  %div{:style => "clear:both;"}
-  %h1{:style => "margin-top:40px;"} Plan
+  %h1= t(:homepage_title).html_safe
+  %p!= t(:homepage_body)
+  %h1 Sponsors
+  = image_tag "audiorama.jpg"
+  = image_tag "auge.jpg"
+  = image_tag "strasbourg.jpg"
+  %br
+  %br
+  %h1 Plan
   :preserve
-    <iframe width="540" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=centre+de+culture+num%C3%A9rique+strasbourg&amp;sll=46.75984,1.738281&amp;sspn=8.86664,23.269043&amp;ie=UTF8&amp;hq=centre+de+culture+num%C3%A9rique&amp;hnear=Strasbourg,+Bas-Rhin,+Alsace&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=3520954289054219327&amp;ll=48.578488,7.763772&amp;output=embed"></iframe><br /><small><a href="https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=centre+de+culture+num%C3%A9rique+strasbourg&amp;sll=46.75984,1.738281&amp;sspn=8.86664,23.269043&amp;ie=UTF8&amp;hq=centre+de+culture+num%C3%A9rique&amp;hnear=Strasbourg,+Bas-Rhin,+Alsace&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=3520954289054219327&amp;ll=48.578488,7.763772" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
+    <iframe width="540" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=La+Plage+Digitale,+Route+du+Rhin,+Strasbourg&amp;aq=0&amp;oq=La+Plage+Di&amp;sll=46.75984,1.738281&amp;sspn=9.197907,23.269043&amp;ie=UTF8&amp;hq=La+Plage+Digitale,&amp;hnear=Route+du+Rhin,+Strasbourg,+Bas-Rhin,+Alsace&amp;t=m&amp;cid=11052197075058803715&amp;ll=48.573086,7.760296&amp;spn=0.019877,0.046349&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=La+Plage+Digitale,+Route+du+Rhin,+Strasbourg&amp;aq=0&amp;oq=La+Plage+Di&amp;sll=46.75984,1.738281&amp;sspn=9.197907,23.269043&amp;ie=UTF8&amp;hq=La+Plage+Digitale,&amp;hnear=Route+du+Rhin,+Strasbourg,+Bas-Rhin,+Alsace&amp;t=m&amp;cid=11052197075058803715&amp;ll=48.573086,7.760296&amp;spn=0.019877,0.046349&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
   %br
 .ColRight
-  %h2= t("partners")
-  - hsh = {sfr: "sfr.fr", ccn: "services-numeriques.unistra.fr/culture-numerique/centre-de-culture-numerique.html", laplagedigitale: "laplagedigitale.eu", strasbourgtheeuroptimist: "strasbourg.eu", uds: "unistra.fr", mailforgood: "www.mailforgood.com"}
-  - hsh.each do |k,v|
+  - 1.upto(4).each do |i|
     %div{:style => "margin-left:auto;margin-right:auto;text-align: center;padding-top:5px;"}
-      = link_to image_tag("#{k}.png"), "http://#{v}"
+      = image_tag "#{i}t.jpg"

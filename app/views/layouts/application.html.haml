@@ -1,12 +1,19 @@
 !!!
 %html
   %head
-    %title Social Good Day Strasbourg 2012 :: #{@page_title}
+    %title Hack The Culture Strasbourg 2012 :: #{@page_title}
     = stylesheet_link_tag :application
     = javascript_include_tag :application
     = csrf_meta_tag
   %body
     #HeaderBannerContainer{:class => I18n.locale}
+      %ul.lang
+        %li
+          - url = controller.controller_name == "welcome" ? "/de" : url_for(:locale => "de")
+          %a.de{:href => url}
+        %li
+          - url = controller.controller_name == "welcome" ? "/" : request.path.gsub(/\/de|\/fr/, "")
+          %a.fr{:href => url}
     #GlobContainter
       #Menu
         %ul
@@ -20,8 +27,6 @@
               = t(:nav_attending)
               %span
                 != "(#{Attendee.count})"
-          %li.Right
-            != link_to t(:nav_to_barcamp), 'http://www.socialgoodweek.com'
 
       %div#Content.ClearFix
         != yield
@@ -33,4 +38,4 @@
             %br
             = t(:footer_line_2)
             %br
-            != link_to "16 rue René Descartes, Strasbourg, France.", "https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=centre+de+culture+num%C3%A9rique+strasbourg&amp;sll=46.75984,1.738281&amp;sspn=8.86664,23.269043&amp;ie=UTF8&amp;hq=centre+de+culture+num%C3%A9rique&amp;hnear=Strasbourg,+Bas-Rhin,+Alsace&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=3520954289054219327&amp;ll=48.578488,7.763772"
+            != link_to "La Plage Digitale 15 route du Rhin 67000 Strasbourg, France.", "http://goo.gl/maps/myx1l"

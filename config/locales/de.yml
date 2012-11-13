@@ -2,96 +2,58 @@
 # by Clemens Kofler (clemens@railway.at)
 
 de:
-  homepage_title: "Willkommen zum EdgeCamp!"
+  homepage_title: "BarCamp Hack The Culture"
   homepage_body: "
-    <span style='font-size:10px;'><em>If you're german we need your help<br/>to translate this welcome text in german !</em></span>
+    <h2>« Elektronische Künste und digitale Unternehmen, Tools/Projekte/Orte/Kreativität »</h2>
+    <p>Ein Tag um Brücken zu überwinden. Für Begegnungen und Transfers zwischen Künstlern, Programmierern, Hackern, Designern, Unternehmern aus dem Bereich der digitalenKultur von den drei Seiten des Rheins: aus Frankreich, der Schweiz und Deutschland.</p>
+    <p>Kommen Sie und berichten Sie von Ihren Werken, Ihrer Forschung und Ihren Träumen, und vor allem begegnen sie einander um die unterschiedlichen Zugänge der neuen Tools auszutauschen.</p>
+    <p>Kultur Hack ist ein offenes Forum und wird angeboten von Audiorama und La Plage im Rahmen der digitalen interaktiven Ausstellung \"Auge und Ohr\" auf der Halbinsel Malraux in Straßburg, als Vorbereitung auf \"Pôle Culturel\" und \"Créatif Seegmuller\".</p>
+    <p>Sie möchten teilnehmen ? Melden Sie sich gleich jetzt an!</p>
+    <p>Was ist ein offenes Forum?  Es basiert auf dem gleichen Prinzip wie BarCamp. Es ist keine Konferenz , sondern ein offener Workshop zum Mitmachen, dh die Teilnehmer einigen sich über und gestalten gemeinsam den Inhalt. Jeder ist eingeladen ein Projekt , eine Idee, ein Werk, ... zu präsentieren. Das Grundprinzip eines offenen Forums ist gleich dem aller BarCamps : \"keine Zuschauer , nur Teilnehmer\".</p>
+    <p>Am Ende der Veranstaltung erhält jeder Teilnehmer eine Zusammenfassung der einzelnen Arbeitsgruppen.</p>
+    <p>BarCamp Hack The Culture findet statt am Sonntag 2. Dezember 2012; Ort: La Plage Digitale, 15 route du Rhin 67000 Strasbourg France.</p>
+    <p>Diese Veranstaltung , sowie die interaktive, digitale Ausstellung \"Auge und Ohr\" sind <strong>völlig kostenlos</strong>.</p>
     <br/>
-    <br/>
-    <a href='http://alsacedigitale.org'>Alsace Digitale</a> is pleased to welcome the <a href='http://edgeryders.ppa.coe.int/'>Edgeryders</a> community in Strasbourg by organizing the EdgeCamp, a 2 days BarCamp, full of interactivity between the local and remote creative/digital/maker communities accross Europe.
-    <br/>
-    The EdgeCamp will happen during the <a href='http://www.edgefest.fr'>EdgeFest</a> festival celebrating the inauguration of <a href='http://www.laplagedigitale.eu/'>La Plage Digitale</a> coworking space in Strasbourg.
-    <br/>
-    <br/>
-    Under the umbrella of the Council of Europe and the European Commission, the <a href='http://edgeryders.ppa.coe.int/'>Edgeryders</a> is a community of european youngsters imagining and influencing the futur of Europe using open collaboration techniques.
-    <br/>
-    <br/>
-    A BarCamp is an unconference, or user-generated conference, made of open and participatory workshop sessions the content of which is provided by participants. All attendees are encouraged to present or facilitate a session. The principle which governs all Barcamp is : « No spectator, all participants. »
-    <br/>
-    <br/>
-    The EdgeCamp will take place saturday 16 and sunday 17 june 2012, at the Centre de Culture Numérique de l'Université de Strasbourg, 16 rue René Descartes 67000 Strasbourg, France.
-    <br/>
-    <br/>
-    The event is completely <strong style='color:red;'>free</strong>.
-    <br/>
-    <br/>
-    Need more information? Ping <a href='http://twitter.com/yannski'>@yannski</a> or #EdgeCamp on Twitter.
-    <br/>
-    <br/>
-    We're looking for sponsors !
-    <br/>
-    <br/>
-    <h1>Day 1</h1>
+    <h1>Programm</h1>
     <table>
       <tr>
-        <td style='width:70px'>9h</td>
-        <td><p>Welcome breakfast around croissants<br/>and warm coffee :)</p></td>
+        <td>9h00</td>
+        <td><p>Guten Morgen : warmer Kaffee :-) und Croissants zum Früstück</p></td>
+      </tr>
+      <tr>
+        <td>9h30</td>
+        <td><p>3 Tags - Vorstellung der Teilnehmer</p></td>
       </tr>
       <tr>
         <td>10h00</td>
-        <td><p>3 tags presentation of all attendees</p></td>
+        <td><p>Beginn der Vormittagseinheit</p></td>
       </tr>
       <tr>
-        <td>11h00</td>
-        <td><p>Morning sessions starts</p></td>
-      </tr>
-      <tr>
-        <td>13h</td>
-        <td><p>Lunch break</p></td>
-      </tr>
-      <tr>
-        <td>14h30</td>
-        <td><p>Afternoon sessions starts</p></td>
-      </tr>
-      <tr>
-        <td>18h</td>
-        <td><p>End...</p></td>
-      </tr>
-    </table>
-    <br/>
-    <h1>Day 2</h1>
-    <table>
-      <tr>
-        <td style='width:70px'>9h</td>
-        <td><p>Breakfast</p></td>
-      </tr>
-      <tr>
-        <td>10h00</td>
-        <td><p>Morning sessions starts</p></td>
-      </tr>
-      <tr>
-        <td>12h</td>
-        <td><p>Lunch break</p></td>
+        <td>13h00</td>
+        <td><p>Mittagspause</p></td>
       </tr>
       <tr>
         <td>14h00</td>
-        <td><p>Afternoon sessions starts</p></td>
+        <td><p>Beginn der Nachmittagseinheit</p></td>
       </tr>
       <tr>
-        <td>17h</td>
-        <td><p>End</p></td>
+        <td>16h30</td>
+        <td><p>Ende , Brainstorming für die Zusammenfassung</p></td>
+      </tr>
+      <tr>
+        <td>17h00</td>
+        <td><p>Ende des Tages mit Zusammenfassung</p></td>
       </tr>
     </table>
-    <br/>
-    <p>If you don't know what a BarCamp is, you can read the excellent <a href='http://en.wikipedia.org/wiki/BarCamp'>wikipedia article</a>.</p>
     "
   nav_home: "Start"
   nav_attend_now: "Jetzt anmelden"
   nav_attending: "Teilnehmer"
-  nav_attending_long: "teilnehmer am Event am 16. und 17. Juni 2012"
+  nav_attending_long: "teilnehmer am Event am 2. Dezember 2012"
   nav_to_barcamp: "Zu BarCamp.org"
   homepage_some_photos: "Einige Fotos vom <br/>letzten BarCampAlsace"
-  footer_line_1: "Das EdgeCamp findet statt am"
-  footer_line_2: "Samstag, den 16. und Sonntag den 17. Juni 2012"
+  footer_line_1: "Hack The Culture Strasbourg 2012 findet statt am La Plage Digitale"
+  footer_line_2: "Sonntag, den 2. Dezember 2012"
   attending_form: "Anmeldeformular für Teilnehmer"
   select_size: "Größe wählen..."
   form_note: "Ihre Email wird nirgendwo öffentlich angezeigt."
