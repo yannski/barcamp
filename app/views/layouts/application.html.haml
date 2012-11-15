@@ -1,13 +1,13 @@
 !!!
 %html
   %head
-    %title Hack The Culture Strasbourg 2012 :: #{@page_title}
+    %title #{t(:homepage_title).html_safe} :: #{@page_title}
     = stylesheet_link_tag :application
     = javascript_include_tag :application
     = csrf_meta_tag
   %body
     #HeaderBannerContainer{:class => I18n.locale}
-      %ul.lang
+      %ul.lang{style: "display:none;"}
         %li
           - url = controller.controller_name == "welcome" ? "/de" : url_for(:locale => "de")
           %a.de{:href => url}
@@ -38,4 +38,4 @@
             %br
             = t(:footer_line_2)
             %br
-            != link_to "La Plage Digitale 15 route du Rhin 67000 Strasbourg, France.", "http://goo.gl/maps/myx1l"
+            != link_to "Centre de Culture Numérique, Bâtiment Atrium, 16 rue René Descartes 67000 Strasbourg, France.", "http://goo.gl/maps/wHdAN"

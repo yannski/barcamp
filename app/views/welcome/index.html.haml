@@ -1,17 +1,15 @@
 .ColLeft
   %h1= t(:homepage_title).html_safe
   %p!= t(:homepage_body)
-  %h1 Sponsors
-  = image_tag "audiorama.jpg"
-  = image_tag "auge.jpg"
-  = image_tag "strasbourg.jpg"
-  %br
-  %br
   %h1 Plan
   :preserve
-    <iframe width="540" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=La+Plage+Digitale,+Route+du+Rhin,+Strasbourg&amp;aq=0&amp;oq=La+Plage+Di&amp;sll=46.75984,1.738281&amp;sspn=9.197907,23.269043&amp;ie=UTF8&amp;hq=La+Plage+Digitale,&amp;hnear=Route+du+Rhin,+Strasbourg,+Bas-Rhin,+Alsace&amp;t=m&amp;cid=11052197075058803715&amp;ll=48.573086,7.760296&amp;spn=0.019877,0.046349&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=La+Plage+Digitale,+Route+du+Rhin,+Strasbourg&amp;aq=0&amp;oq=La+Plage+Di&amp;sll=46.75984,1.738281&amp;sspn=9.197907,23.269043&amp;ie=UTF8&amp;hq=La+Plage+Digitale,&amp;hnear=Route+du+Rhin,+Strasbourg,+Bas-Rhin,+Alsace&amp;t=m&amp;cid=11052197075058803715&amp;ll=48.573086,7.760296&amp;spn=0.019877,0.046349&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
+    <iframe width="540" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=Centre+de+Culture+Num%C3%A9rique,+Rue+Ren%C3%A9+Descartes,+Strasbourg&amp;aq=0&amp;oq=centre+de+culture+n&amp;sll=48.569114,7.762094&amp;sspn=0.277614,0.727158&amp;ie=UTF8&amp;hq=Centre+de+Culture+Num%C3%A9rique,+Rue+Ren%C3%A9+Descartes,+Strasbourg&amp;t=m&amp;cid=3520954289054219327&amp;hnear=&amp;ll=48.578481,7.763729&amp;spn=0.019875,0.046349&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=Centre+de+Culture+Num%C3%A9rique,+Rue+Ren%C3%A9+Descartes,+Strasbourg&amp;aq=0&amp;oq=centre+de+culture+n&amp;sll=48.569114,7.762094&amp;sspn=0.277614,0.727158&amp;ie=UTF8&amp;hq=Centre+de+Culture+Num%C3%A9rique,+Rue+Ren%C3%A9+Descartes,+Strasbourg&amp;t=m&amp;cid=3520954289054219327&amp;hnear=&amp;ll=48.578481,7.763729&amp;spn=0.019875,0.046349&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
   %br
 .ColRight
-  - 1.upto(4).each do |i|
+  :preserve
+    <iframe width="251" height="141" src="http://www.youtube.com/embed/aHxv_2BMJfw" frameborder="0" allowfullscreen></iframe>
+  %br
+  %br
+  - 1.upto(3).each do |i|
     %div{:style => "margin-left:auto;margin-right:auto;text-align: center;padding-top:5px;"}
       = image_tag "#{i}t.jpg"
