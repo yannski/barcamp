@@ -3,7 +3,7 @@ fr:
   sponsors: "Sponsors"
   joins_us: "Rejoignez nous en "
   filling_form: "remplissant ce formulaire"
-  homepage_title: "BarCamp Hack The Culture"
+  homepage_title: "BarCamp Hack The Culture 2"
   homepage_body: "
     <h2>« Arts et entreprises numériques, outils/projets/lieux/créativité »</h2>
     <p>
@@ -13,7 +13,7 @@ fr:
     Venez partager vos réalisations, vos recherches et vos rêves, et surtout croiser et échanger les diverses approches des nouveaux outils.
     </p>
     <p>
-    Hack The Culture est un BarCamp proposé par <a href='http://www.audiorama.org/'>Audiorama</a> et <a href='http://www.laplagedigitale.eu/'>La Plage</a>, dans le cadre du projet <a href='http://www.audiorama.org/oeiloreille/oeil-et-oreille'>Oeil et Oreille</a>, exposition numérique interactive sur la presqu'île Malraux, en préfiguration du Pôle Culturel et Créatif Seegmuller.
+    Hack The Culture est un BarCamp proposé par <a href='http://www.audiorama.org/'>Audiorama</a> et <a href='http://www.laplagedigitale.eu/'>La Plage</a>.
     </p>
     <p>
     Vous voulez participer ? Enregistrez vous maintenant !
@@ -25,7 +25,7 @@ fr:
     A la fin de la journée une synthèse de chacun des groupes de travail sera donnée à l'ensemble des participants.
     </p>
     <p>
-    Hack The Culture aura lieu le dimanche 2 décembre 2012 à La Plage Digitale - 15 route du Rhin 67000 Strasbourg.
+    Hack The Culture 2 aura lieu le dimanche 10 Mars 2013 à La Plage Digitale - 15 route du Rhin 67100 Strasbourg.
     </p>
     <p>
     Cet événement ainsi que l'ensemble du projet Oeil et Oreille est <strong>entièrement gratuit</strong>.
@@ -66,9 +66,9 @@ fr:
   nav_home: "Accueil"
   nav_attend_now: "S'inscrire maintenant"
   nav_attending: "Ils y seront"
-  nav_attending_long: "Ils participent au BarCamp Hack The Culture Strasbourg le 2 décembre 2012"
-  footer_line_1: "Hack The Culture Strasbourg 2012 aura lieu à La Plage Digitale"
-  footer_line_2: "Dimanche 2 décembre 2012"
+  nav_attending_long: "Ils participent au BarCamp Hack The Culture 2 Strasbourg le 10 Mars 2013"
+  footer_line_1: "Hack The Culture 2 Strasbourg 2013 aura lieu à La Plage Digitale"
+  footer_line_2: "Dimanche 10 Mars 2013"
   attending_form: "Formulaire d'inscription"
   form_note: "Votre email ne sera en aucune manière divulgué."
   attending_count: "Actuellement <a href='%{link}'>(%{count})</a> personnes participent à l'évènement"

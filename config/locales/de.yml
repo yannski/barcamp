@@ -2,16 +2,16 @@
 # by Clemens Kofler (clemens@railway.at)
 
 de:
-  homepage_title: "BarCamp Hack The Culture"
+  homepage_title: "BarCamp Hack The Culture 2"
   homepage_body: "
     <h2>« Elektronische Künste und digitale Unternehmen, Tools/Projekte/Orte/Kreativität »</h2>
     <p>Ein Tag um Brücken zu überwinden. Für Begegnungen und Transfers zwischen Künstlern, Programmierern, Hackern, Designern, Unternehmern aus dem Bereich der digitalen Kultur von den drei Seiten des Rheins: aus Frankreich, der Schweiz und Deutschland.</p>
     <p>Kommen Sie und berichten Sie von Ihren Werken, Ihrer Forschung und Ihren Träumen, und vor allem begegnen sie einander um die unterschiedlichen Zugänge der neuen Tools auszutauschen.</p>
-    <p>Kultur Hack ist ein offenes Forum und wird angeboten von <a href='http://www.audiorama.org/'>Audiorama</a> und <a href='http://www.laplagedigitale.eu/'>La Plage</a> im Rahmen der digitalen interaktiven Ausstellung <a href='http://www.audiorama.org/oeiloreille/oeil-et-oreille'>\"Auge und Ohr\"</a> auf der Halbinsel Malraux in Straßburg, als Vorbereitung auf \"Pôle Culturel\" und \"Créatif Seegmuller\".</p>
+    <p>Kultur Hack ist ein offenes Forum und wird angeboten von <a href='http://www.audiorama.org/'>Audiorama</a> und <a href='http://www.laplagedigitale.eu/'>La Plage</a>.</p>
     <p>Sie möchten teilnehmen ? Melden Sie sich gleich jetzt an!</p>
     <p>Was ist ein offenes Forum?  Es basiert auf dem gleichen Prinzip wie BarCamp. Es ist keine Konferenz , sondern ein offener Workshop zum Mitmachen, dh die Teilnehmer einigen sich über und gestalten gemeinsam den Inhalt. Jeder ist eingeladen ein Projekt , eine Idee, ein Werk, ... zu präsentieren. Das Grundprinzip eines offenen Forums ist gleich dem aller BarCamps : \"keine Zuschauer , nur Teilnehmer\".</p>
     <p>Am Ende der Veranstaltung erhält jeder Teilnehmer eine Zusammenfassung der einzelnen Arbeitsgruppen.</p>
-    <p>BarCamp Hack The Culture findet statt am Sonntag 2. Dezember 2012; Ort: La Plage Digitale, 15 route du Rhin 67000 Strasbourg France.</p>
+    <p>BarCamp Hack The Culture findet statt am Sonntag 10. März 2013; Ort: La Plage Digitale, 15 route du Rhin 67100 Strasbourg France.</p>
     <p>Diese Veranstaltung , sowie die interaktive, digitale Ausstellung \"Auge und Ohr\" sind <strong>völlig kostenlos</strong>.</p>
     <br/>
     <h1>Programm</h1>
@@ -49,11 +49,11 @@ de:
   nav_home: "Start"
   nav_attend_now: "Jetzt anmelden"
   nav_attending: "Teilnehmer"
-  nav_attending_long: "teilnehmer am Event am 2. Dezember 2012"
+  nav_attending_long: "teilnehmer am Event am 10. März 2013"
   nav_to_barcamp: "Zu BarCamp.org"
   homepage_some_photos: "Einige Fotos vom <br/>letzten BarCampAlsace"
-  footer_line_1: "Hack The Culture Strasbourg 2012 findet statt am La Plage Digitale"
-  footer_line_2: "Sonntag, den 2. Dezember 2012"
+  footer_line_1: "Hack The Culture 2 Strasbourg 2013 findet statt am La Plage Digitale"
+  footer_line_2: "Sonntag, den 10. März 2013"
   attending_form: "Anmeldeformular für Teilnehmer"
   select_size: "Größe wählen..."
   form_note: "Ihre Email wird nirgendwo öffentlich angezeigt."
