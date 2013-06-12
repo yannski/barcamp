@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
 
-ruby '1.9.3'
-gem 'rails', '3.2.3'
-gem "eventmachine", "1.0.0.rc.1"
+ruby '2.0.0'
+gem 'rails', '~> 3.2.13'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -12,7 +11,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  gem 'therubyracer', :platform => :ruby
+  # gem 'therubyracer', :platform => :ruby
 
   gem 'uglifier', '>= 1.0.3'
 end
@@ -32,7 +31,7 @@ gem 'rails-i18n'
 
 group :development do
   gem 'thin'
-  gem 'debugger'
+  gem 'pry-rails'
 end
 
 group :production do
