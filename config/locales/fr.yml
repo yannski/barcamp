@@ -6,8 +6,10 @@ fr:
   homepage_title: "BarCamp Alsace X"
   homepage_body: "
     <p><a href='http://www.laplagedigitale.eu' target='_blank'>La Plage Digitale</a>, l'<a href='http://www.unistra.fr' target='_blank'>Université de Strasbourg</a>,
-    la <a href='http://www.strasbourg.eu/' target='_blank'>Ville et la Communauté urbaine de Strasbourg</a> ont le plaisir de vous inviter à participer au Barcamp Alsace 10 le :
-    <strong>Samedi 6 Juillet 2013</strong>, de 9h00 à 18h00 au Centre de Culture Numérique, Bâtiment Atrium, 16 rue René Descartes, 67000 Strasbourg, France.
+    la <a href='http://www.strasbourg.eu/' target='_blank'>Ville et la Communauté urbaine de Strasbourg</a> ont le plaisir de vous inviter à participer au Barcamp Alsace 10 le <strong>Samedi 6 Juillet 2013</strong>, de 9h00 à 18h00 à <a href='http://www.laplagedigitale.eu'>La Plage Digitale</a>, 15 route du Rhin 67000 Strasbourg, France.
+    </p>
+    <p>
+      Ce BarCamp a lieu durant le festival <a href='http://www.edgefest.fr'>EdgeFest</a>.
     </p>
     <p>Le <a href='http://fr.wikipedia.org/wiki/BarCamp'>BarCamp</a> a une longue histoire en Alsace où le premier fut organisé en 2006. En Alsace son goût est particulier,
      il ne s'agit pas que d'un évènement centré sur la technologie, on y parle volontiers d'économie, de création d'entreprise, de développement durable et bien plus. Au final
@@ -24,7 +26,7 @@ fr:
   nav_attend_now: "S'inscrire maintenant"
   nav_attending: "Ils y seront"
   nav_attending_long: "Ils participent au BarCamp Alsace 10 le 6 Juillet 2013"
-  footer_line_1: "BarCamp Alsace 10 aura lieu dans un lieu encore tenu secret."
+  footer_line_1: "BarCamp Alsace 10 aura lieu à La Plage Digitale, 15 route du Rhin 67000 STRASBOURG."
   footer_line_2: "Samedi 6 Juillet 2013"
   attending_form: "Formulaire d'inscription"
   form_note: "Votre email ne sera en aucune manière divulgué."
