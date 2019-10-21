@@ -20,7 +20,9 @@ GEM
     fastercsv (1.5.3)
     fastthread (1.0.7)
     gem_plugin (0.2.3)
-    haml (3.0.17)
+    haml (5.0.0)
+      temple (>= 0.8.0)
+      tilt
     hoptoad_notifier (2.3.5)
       activesupport
     htmlentities (4.2.1)
@@ -52,6 +54,8 @@ GEM
       trollop
     searchlogic (2.4.23)
       activerecord (>= 2.0.0)
+    temple (0.8.2)
+    tilt (2.0.10)
     trollop (1.16.2)
     unicode (0.3.1)
     will_paginate (2.3.14)
